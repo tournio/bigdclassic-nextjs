@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Navigation from './navigation';
 import SiteHeader from './siteHeader';
 
 // import utilClasses from '../styles/utils.module.scss';
@@ -10,9 +11,7 @@ const layout = ({children, home}) => {
     <Container className="md-container">
       <SiteHeader />
       <header>
-        <h1>
-          This comes from the layout...
-        </h1>
+        <Navigation />
       </header>
       <main>
         {children}
