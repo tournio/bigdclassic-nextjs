@@ -1,0 +1,37 @@
+.JumbotronImage {
+  padding-bottom: 0;
+  margin-bottom: 0.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('/images/dallas_skyline.jpg');
+  background-position: 0 5%;
+  min-height: 12rem;
+
+  h1 {
+    font-weight: 300;
+    line-height: 1.1;
+    text-shadow: -1px 1px 30px black, 0 0 20px black;
+  }
+}
+@media (min-width: 576px) {
+  .JumbotronImage {
+    min-height: 16rem;
+  }
+}
+@media (min-width: 768px) {
+  .JumbotronImage {
+    min-height: 32rem;
+  }
+}
+//@media (min-width: 992px) {
+//  .JumbotronImage {
+//    min-height: 36rem;
+//  }
+//}
+
+.Title {
+  color: white;
+}
+.Year {
+  color: #E16E37;
+}

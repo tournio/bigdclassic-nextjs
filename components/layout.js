@@ -2,6 +2,7 @@ import React from 'react';
 
 import Navigation from './navigation';
 import SiteHeader from './siteHeader';
+import SiteFooter from './siteFooter';
 
 // import utilClasses from '../styles/utils.module.scss';
 import {Container} from "react-bootstrap";
@@ -26,7 +27,7 @@ const layout = ({children, home}) => {
         </>
       )
       }
-      {/* footer */}
+      <SiteFooter />
     </Container>
   );
 }

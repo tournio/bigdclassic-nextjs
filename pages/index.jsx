@@ -1,92 +1,116 @@
-import Head from 'next/head'
-import { Container, Row, Card, Button } from 'react-bootstrap'
+import {Jumbotron, Row, Card, Col} from 'react-bootstrap'
+import Image from 'next/image';
 
 import Layout from '../components/layout';
+import Spotlight from '../components/spotlight';
+
+import styles from './index.module.scss';
 
 const index = () => {
+  const registrationOpen = false;
+  const tournamentDates = 'August 13-15, 2021';
+
+  const jumbotronClasses = ['d-flex', 'flex-column-reverse', 'align-items-end'];
+  jumbotronClasses.push(styles.JumbotronImage);
+
+  let registerText = '';
+  if (registrationOpen) {
+    registerText = (
+      <Card.Text>
+        <a className="btn btn-primary"
+           href="/"
+           role="button">
+          Register Online
+        </a>
+      </Card.Text>
+    );
+  }
+
   return (
     <Layout home={true}>
-      <Container>
 
-        {/*
-        <h1>
-          Let's do this.
+      <Jumbotron className={jumbotronClasses.join(' ')}>
+        <h1 className="display-1">
+          <span className={styles.Title}>
+            Big D Classic
+          </span>
+          <span className={styles.Year}>
+            2021
+          </span>
         </h1>
-        <p>
-          We are on the index, contained in a layout. Eek!
+      </Jumbotron>
+      <Row>
+        <p className="photo_credit col-12">
+          Photo credit:{' '}
+          <a href="https://www.flickr.com/photos/daxis/18378516600">
+            Daxis
+          </a>
         </p>
-        <Container>
-          <Row className="justify-content-md-between">
-            <Card className="sml-card">
-              <Card.Body>
-                <Card.Title>Documentation</Card.Title>
-                <Card.Text>
-                  Find in-depth information about Next.js features and API.
-                </Card.Text>
-                <Button variant="primary" href="https://nextjs.org/docs">
-                  More &rarr;
-                </Button>
-              </Card.Body>
-            </Card>
-            <Card className="sml-card">
-              <Card.Body>
-                <Card.Title>Learn</Card.Title>
-                <Card.Text>
-                  Learn about Next.js in an interactive course with quizzes!
-                </Card.Text>
-                <Button variant="primary" href="https://nextjs.org/learn">
-                  More &rarr;
-                </Button>
-              </Card.Body>
-            </Card>
-          </Row>
-          <Row className="justify-content-md-between">
-            <Card className="sml-card">
-              <Card.Body>
-                <Card.Title>Examples</Card.Title>
-                <Card.Text>
-                  Discover and deploy boilerplate example Next.js projects.
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  href="https://github.com/vercel/next.js/tree/master/examples"
-                >
-                  More &rarr;
-                </Button>
-              </Card.Body>
-            </Card>
-            <Card className="sml-card">
-              <Card.Body>
-                <Card.Title>Deploy</Card.Title>
-                <Card.Text>
-                  Instantly deploy your Next.js site to a public URL with
-                  Vercel.
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  href="https://vercel.com/new?utm_source=github&utm_medium=example&utm_campaign=next-example"
-                >
-                  More &rarr;
-                </Button>
-              </Card.Body>
-            </Card>
-          </Row>
-        </Container>
-        */}
-      </Container>
+      </Row>
 
-      <footer className="cntr-footer">
-        <a
-          href="https://vercel.com?filter=next.js&utm_source=github&utm_medium=example&utm_campaign=next-example"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="sml-logo" />
-        </a>
-      </footer>
+      <Row>
+        <Col xs={12} md={8} lg={4}>
+          <Card>
+            <Card.Header>
+              <h4>
+                {tournamentDates}
+              </h4>
+              <h6 className="text-muted">
+                Plano, TX
+              </h6>
+            </Card.Header>
+            <Card.Body>
+              <div className="d-lg-none">
+                <Image
+                  className="float-right img-fluid"
+                  priority
+                  src="/images/logo.jpg"
+                  alt="Big D Classic logo"
+                  layout="fill"
+                  objectFit="contain"
+                />
+              </div>
+              <Card.Text>
+                In a tradition dating back very nearly to the 20th century, bowlers from all around the country descend
+                upon Dallas, Texas in the middle of August to beat the heat and engage in a little friendly competition,
+                all while raising money for a good cause.
+              </Card.Text>
+              <Card.Text>
+                Can you believe we've already put on sixteen tournaments? Before we know it, we'll be asking our parents
+                for the keys to the car and a later curfew.
+              </Card.Text>
+              {registerText}
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col lg={4} className="d-none d-lg-block">
+          <Image
+            className="img-fluid"
+            priority
+            src="/images/logo.jpg"
+            alt="Big D Classic logo"
+            layout="fill"
+            objectFit="contain"
+          />
+        </Col>
+
+        <Spotlight />
+      </Row>
+
     </Layout>
   )
 }
 
 export default index;
+
+//   .d-none.d-lg-block.col-4
+//     %img.img-fluid{ src: "/images/logo.jpg", alt:"Big D Classic" }
+//
+//   .col-12.col-md-4
+//     .card.mb-2
+//       .card-header.bg-light
+//         %h4.card-title.mb-0
+//           Spotlight
+//       .card-body.pb-4
+//         {% include 'spotlight.html.twig' %}
