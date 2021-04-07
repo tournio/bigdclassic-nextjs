@@ -10,9 +10,6 @@ const index = () => {
   const registrationOpen = false;
   const tournamentDates = 'August 13-15, 2021';
 
-  const jumbotronClasses = ['d-flex', 'flex-column-reverse', 'align-items-end'];
-  jumbotronClasses.push(styles.JumbotronImage);
-
   let registerText = '';
   if (registrationOpen) {
     registerText = (
@@ -25,6 +22,9 @@ const index = () => {
       </Card.Text>
     );
   }
+
+  const jumbotronClasses = ['d-flex', 'flex-column-reverse', 'align-items-end'];
+  jumbotronClasses.push(styles.JumbotronImage);
 
   return (
     <Layout home={true}>
@@ -61,13 +61,9 @@ const index = () => {
             </Card.Header>
             <Card.Body>
               <div className="d-lg-none">
-                <Image
-                  className="float-right img-fluid"
-                  priority
+                <img className="float-right img-fluid col-6 p-0"
                   src="/images/logo.jpg"
                   alt="Big D Classic logo"
-                  layout="fill"
-                  objectFit="contain"
                 />
               </div>
               <Card.Text>
