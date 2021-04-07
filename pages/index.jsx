@@ -52,12 +52,14 @@ const index = () => {
         <Col xs={12} md={8} lg={4}>
           <Card>
             <Card.Header>
-              <h4>
-                {tournamentDates}
-              </h4>
-              <h6 className="text-muted">
+              <Card.Title>
+                {/*<h4>*/}
+                  {tournamentDates}
+                {/*</h4>*/}
+              </Card.Title>
+              <Card.Subtitle className="text-muted">
                 Plano, TX
-              </h6>
+              </Card.Subtitle>
             </Card.Header>
             <Card.Body>
               <div className="d-lg-none">
@@ -81,13 +83,9 @@ const index = () => {
         </Col>
 
         <Col lg={4} className="d-none d-lg-block">
-          <Image
-            className="img-fluid"
-            priority
-            src="/images/logo.jpg"
-            alt="Big D Classic logo"
-            layout="fill"
-            objectFit="contain"
+          <img className="img-fluid"
+               src="/images/logo.jpg"
+               alt="Big D Classic logo"
           />
         </Col>
 

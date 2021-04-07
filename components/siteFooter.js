@@ -3,10 +3,10 @@ import Card from "react-bootstrap/Card";
 
 const siteFooter = () => {
   return (
-    <div className="mt-4">
+    <div className="footer">
       <Card bg="light">
         <Card.Body>
-          <p className="mb-2 d-none d-md-block">
+          <p className="d-none d-md-block">
             This website is designed to work with all modern browsers, but for the best, most secure browser experience,
             we recommend using{' '}
             <a href="https://www.mozilla.org/en-US/firefox/new/?redirect_source=getfirefox-com">
@@ -14,7 +14,7 @@ const siteFooter = () => {
             </a>
             .
           </p>
-          <p className="mb-0">
+          <p className="privacy">
             <strong>
               Privacy Policy:{' '}
             </strong>

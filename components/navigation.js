@@ -11,7 +11,7 @@ const navigation = ({active}) => {
       <NavbarBrand href="/" className={styles.Brand}>
         Big D Classic
       </NavbarBrand>
-      <NavbarToggle ariaControls="navbarText"/>
+      <NavbarToggle aria-controls="navbarText"/>
       <NavbarCollapse id="navbarText">
         <Nav className="mr-auto">
           <NavLink href="/">
