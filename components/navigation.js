@@ -14,7 +14,7 @@ const navigation = ({active}) => {
       <NavbarToggle aria-controls="navbarText"/>
       <NavbarCollapse id="navbarText">
         <Nav className="mr-auto">
-          <NavLink href="/">
+          <NavLink href="/schedule">
             Schedule
           </NavLink>
           <NavLink href="/">

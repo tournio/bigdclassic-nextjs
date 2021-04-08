@@ -1,5 +1,4 @@
 import {Jumbotron, Row, Card, Col} from 'react-bootstrap'
-import Image from 'next/image';
 
 import Layout from '../components/layout';
 import Spotlight from '../components/spotlight';
