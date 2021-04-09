@@ -17,10 +17,10 @@ const navigation = ({active}) => {
           <NavLink href="/schedule">
             Schedule
           </NavLink>
-          <NavLink href="/">
+          <NavLink href="/center">
             Bowling Center
           </NavLink>
-          <NavLink href="/">
+          <NavLink href="/hotel">
             Host Hotel
           </NavLink>
           <NavLink href="/">
