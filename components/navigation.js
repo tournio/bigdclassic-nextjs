@@ -23,17 +23,17 @@ const navigation = ({active}) => {
           <NavLink href="/hotel">
             Host Hotel
           </NavLink>
-          <NavLink href="/">
+          <NavLink href="/results">
             Results
           </NavLink>
-          <NavLink href="/">
+          <NavLink href="/links">
             Links
           </NavLink>
           <NavDropdown id="navbar-dropdown" title="More">
-            <NavDropdown.Item href="/">
+            <NavDropdown.Item href="/rules">
               Rules
             </NavDropdown.Item>
-            <NavDropdown.Item href="/">
+            <NavDropdown.Item href="/contact">
               Contact
             </NavDropdown.Item>
           </NavDropdown>

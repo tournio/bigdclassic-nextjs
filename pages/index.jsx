@@ -39,7 +39,7 @@ const index = () => {
         </h1>
       </Jumbotron>
       <Row>
-        <p className="photo_credit col-12">
+        <p className={styles.PhotoCredit + " col-12"}>
           Photo credit:{' '}
           <a href="https://www.flickr.com/photos/daxis/18378516600">
             Daxis
