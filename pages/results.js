@@ -11,6 +11,11 @@ const results = () => {
         <h1 className="display-4">
           Tournament Results
         </h1>
+
+        <h5 className="text-muted">
+          Results will be posted here when they're available.
+        </h5>
+
       </div>
     </Layout>
   );
