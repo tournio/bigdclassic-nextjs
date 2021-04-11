@@ -64,9 +64,8 @@ h6 { font-size: 1.5rem; }
   }
 }
 
-.md-container {
-  max-width: 920px;
-  padding-top: 2rem;
+.lg-container {
+  max-width: 1020px;
 }
 
 .footer {

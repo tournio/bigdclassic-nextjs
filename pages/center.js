@@ -32,7 +32,7 @@ const center = () => {
         </h1>
 
         <Row>
-          <Col xs={12} sm={6}>
+          <Col xs={12} sm={5}>
             <p className="lead">
               The Big D Classic takes place at{' '}
               <a href={centerUrl}>
@@ -50,7 +50,7 @@ const center = () => {
               })}
             </ul>
           </Col>
-          <Col xs={12} sm={6}>
+          <Col xs={12} sm={7}>
             <h4 className="d-none d-md-block">
               Getting There
             </h4>
