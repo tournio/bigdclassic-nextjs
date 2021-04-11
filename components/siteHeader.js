@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React from "react";
 
-export const siteTitle = 'Big D Classic - What\'s Next?';
+export const siteTitle = 'Big D Classic - an IGBO bowling tournament';
 
 const siteHeader = () => {
   return (

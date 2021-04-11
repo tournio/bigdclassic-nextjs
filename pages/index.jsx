@@ -96,14 +96,3 @@ const index = () => {
 }
 
 export default index;
-
-//   .d-none.d-lg-block.col-4
-//     %img.img-fluid{ src: "/images/logo.jpg", alt:"Big D Classic" }
-//
-//   .col-12.col-md-4
-//     .card.mb-2
-//       .card-header.bg-light
-//         %h4.card-title.mb-0
-//           Spotlight
-//       .card-body.pb-4
-//         {% include 'spotlight.html.twig' %}
