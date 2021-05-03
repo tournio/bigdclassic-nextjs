@@ -98,7 +98,7 @@ const rules = () => {
             <ol>
               <li>Completed Online Entry Form on <a href="http://www.bigdclassic.com">www.bigdclassic.com</a>.</li>
               <li>Appropriate fees paid online in U.S. funds via the Paypal link provided online after the registration form is submitted.</li>
-              <li>If required, any additional average verification information must be submitted.  This is the case when <a href="http://www.bowl.com">www.bowl.com</a> has incomplete information for one or more leagues, or is incorrect in some way.  Please scan documents and email to <a href="mailto:directors@bigdclassic.com">director@bigdclassic.com</a>.</li>
+              <li>If required, any additional average verification information must be submitted.  This is the case when <a href="http://www.bowl.com">www.bowl.com</a> has incomplete information for one or more leagues, or is incorrect in some way.  Please scan documents and email to <a href="mailto:directors@bigdclassic.com">directors@bigdclassic.com</a>.</li>
             </ol>
           </li>
           <li>Each event has its own Prize List. There will be 100% cash return on all prize fees. The payout ratio will be 1:8, except for Individual All Events, which only the top three (3) positions will be paid. Payouts will occur within thirty (30) days of tournament completion through a mailed check to the winner’s registration address.</li>
