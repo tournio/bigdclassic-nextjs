@@ -6,21 +6,7 @@ import Spotlight from '../components/spotlight';
 import styles from './index.module.scss';
 
 const index = () => {
-  const registrationOpen = false;
   const tournamentDates = 'August 13-15, 2021';
-
-  let registerText = '';
-  if (registrationOpen) {
-    registerText = (
-      <Card.Text>
-        <a className="btn btn-primary"
-           href="/"
-           role="button">
-          Register Online
-        </a>
-      </Card.Text>
-    );
-  }
 
   const jumbotronClasses = ['d-flex', 'flex-column-reverse', 'align-items-end'];
   jumbotronClasses.push(styles.JumbotronImage);
@@ -76,7 +62,6 @@ const index = () => {
                 Can you believe we've already put on sixteen tournaments? Before we know it, we'll be asking our parents
                 for the keys to the car and a later curfew.
               </Card.Text>
-              {registerText}
             </Card.Body>
           </Card>
         </Col>
