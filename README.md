@@ -1,21 +1,6 @@
-# Next.js with react-bootstrap example
+# Big D Classic website
 
-This example shows how to use Next.js along with [react-bootstrap](https://react-bootstrap.github.io/).
+This is the informational website for the Big D Classic, an IGBO-affiliated bowling tournament. The site is available at [www.bigdclassic.com](http://www.bigdclassic.com).
 
-## Deploy your own
+It's built as a static website using the [Next.js](https://nextjs.org/) framework. It uses [React-Bootstrap](https://react-bootstrap.github.io/) for its spine. 
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-react-bootstrap&project-name=with-react-bootstrap&repository-name=with-react-bootstrap)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-react-bootstrap with-react-bootstrap-app
-# or
-yarn create next-app --example with-react-bootstrap with-react-bootstrap-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
