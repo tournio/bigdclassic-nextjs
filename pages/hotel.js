@@ -44,11 +44,11 @@ const hotel = () => {
 
         <div className="d-flex flex-column flex-nowrap">
           <Row className="justify-content-center">
-            <Col xs={6} sm={5} md={4} xl={3}>
+            <Col xs={6} sm={5} md={4}>
               <p>
                 <a href={hotelUrl} className={styles.Logo}>
                   <img className="img-fluid"
-                       src="/images/hotel/logo.png"
+                       src="/images/hotel/logo.jpg"
                        alt={hotelName + ' Logo'}/>
                 </a>
               </p>
