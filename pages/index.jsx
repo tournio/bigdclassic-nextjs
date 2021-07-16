@@ -15,7 +15,7 @@ const index = () => {
     <Layout home={true}>
 
       <Jumbotron className={jumbotronClasses.join(' ')}>
-        <h1 className="display-1">
+{/*        <h1 className="display-1">
           <span className={styles.Title}>
             Big D Classic
           </span>
@@ -23,7 +23,7 @@ const index = () => {
             2021
           </span>
         </h1>
-      </Jumbotron>
+*/}      </Jumbotron>
       <Row>
         <p className={styles.PhotoCredit + " col-12"}>
           Photo credit:{' '}
