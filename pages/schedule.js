@@ -48,19 +48,35 @@ const schedule = () => {
       ]
     );
     days.set('2021-08-15', [
+      {
+        type: 'social',
+        start: '09:00:00',
+        end: '10:30:00',
+        name: 'Bowler Breakfast, Awards, Raffles',
+        where: 'Plano Super Bowl',
+        additional: 'Join us for delicious breakfast tacos starting at 9:00 am, with awards from Saturday, Rainbow Raffle and tournament free entry giveaways to start at 9:30 am.  Seating will be with your team on your assigned lane.',
+      },
         {
           type: 'bowling',
-          start: '10:00:00',
-          end: '13:00:00',
+          start: '10:30:00',
+          end: '13:30:00',
           name: 'Team Event',
           where: 'Plano Super Bowl',
           additional: null,
         },
+      {
+        type: 'awards',
+        start: '13:45:00',
+        end: '14:00:00',
+        name: 'Team and Special Awards',
+        where: 'Plano Super Bowl',
+        additional: null,
+      },
         {
           type: 'bowling',
-          start: '13:30:00',
-          end: '16:00:00',
-          name: 'Scratch Shootout',
+          start: '14:00:00',
+          end: '16:30:00',
+          name: 'Scratch Shootout Competition',
           where: 'Plano Super Bowl',
           additional: null,
         },
