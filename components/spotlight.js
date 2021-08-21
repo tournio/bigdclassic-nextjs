@@ -33,9 +33,22 @@ const spotlight = () => {
   //   </Card.Text>
   // )
 
+  // const text = (
+  //   <Card.Text>
+  //     Registration is now closed. We can't wait to see everyone at the tournament!
+  //   </Card.Text>
+  // );
+
   const text = (
     <Card.Text>
-      Registration is now closed. We can't wait to see everyone at the tournament!
+      <p>
+        Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look forward to seeing everyone again next year.
+      </p>
+      <p>
+        <a href='/results'>
+          Results
+        </a>
+      </p>
     </Card.Text>
   );
 
