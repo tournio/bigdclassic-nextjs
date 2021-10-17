@@ -51,10 +51,10 @@ const links = () => {
 
   const tournaments = [
     {
-      headline:  'NV',
-      long: 'IGBO Annual 2021',
-      url: 'http://igbo2021.org/',
-      location: 'Las Vegas, NV',
+      headline:  'NY',
+      long: 'IGBO Annual 2022',
+      url: 'http://igbo2022.org/',
+      location: 'Rochester, NY',
     },
     {
       headline:  'CA',

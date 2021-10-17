@@ -6,7 +6,7 @@ import Spotlight from '../components/spotlight';
 import styles from './index.module.scss';
 
 const index = () => {
-  const tournamentDates = 'August 13-15, 2021';
+  const tournamentDates = 'August 12-14, 2022';
 
   const jumbotronClasses = ['d-flex', 'flex-column-reverse', 'align-items-end'];
   jumbotronClasses.push(styles.JumbotronImage);

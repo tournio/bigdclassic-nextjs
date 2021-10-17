@@ -9,7 +9,7 @@ import styles from './schedule.module.scss';
 
 const schedule = () => {
     const days = new Map();
-    days.set('2021-08-13', [
+    days.set('2022-08-12', [
         {
           type: 'register',
           start: '18:00:00',
@@ -28,7 +28,7 @@ const schedule = () => {
         },
       ]
     );
-    days.set('2021-08-14', [
+    days.set('2022-08-13', [
         {
           type: 'register',
           start: '10:00:00',
@@ -47,7 +47,7 @@ const schedule = () => {
         },
       ]
     );
-    days.set('2021-08-15', [
+    days.set('2022-08-14', [
       {
         type: 'social',
         start: '09:00:00',
@@ -92,50 +92,54 @@ const schedule = () => {
             Schedule of Events
           </h1>
 
-          {daysAndEvents.map((entry, d) => {
-            return (
-              <div className={styles.EventDay} key={d}>
-                <h2>
-                  {format(parseISO(entry[0]), 'EEEE, d MMMM')}
-                </h2>
-                {entry[1].map((event, i) => {
-                  let eventAdditional = '';
-                  if (event.additional) {
-                    eventAdditional = (
-                      <p className={styles.Additional}>
-                        {event.additional}
-                      </p>
-                    );
-                  }
-                  const parsedStartTime = parseISO(entry[0] + ' ' + event.start);
-                  const parsedEndTime = parseISO(entry[0] + ' ' + event.end);
-                  return (
-                    // add event type styling to the row
-                    <Row className={styles.Event} key={i}>
-                      <Col xs={3} className="d-flex align-items-center justify-content-center">
-                        <p className={styles.StartTime}>
-                          {format(parsedStartTime, 'h:mm')}
-                          <small>{' '}{format(parsedStartTime, 'a')}</small>
-                        </p>
-                      </Col>
-                      <Col xs={9} className={styles.Details}>
-                        <p className={styles.Name + " lead"}>
-                          {event.name}
-                        </p>
-                        <p className={styles.Location}>
-                          {event.where}
-                        </p>
-                        <p className={styles.FullTime}>
-                          {format(parsedStartTime, 'h:mmaaa')} - {format(parsedEndTime, 'h:mmaaa')}
-                        </p>
-                        {eventAdditional}
-                      </Col>
-                    </Row>
-                  );
-                })}
-              </div>
-            );
-          })}
+          <h5 className="text-muted">
+            To be confirmed...
+          </h5>
+
+          {/*{daysAndEvents.map((entry, d) => {*/}
+          {/*  return (*/}
+          {/*    <div className={styles.EventDay} key={d}>*/}
+          {/*      <h2>*/}
+          {/*        {format(parseISO(entry[0]), 'EEEE, d MMMM')}*/}
+          {/*      </h2>*/}
+          {/*      {entry[1].map((event, i) => {*/}
+          {/*        let eventAdditional = '';*/}
+          {/*        if (event.additional) {*/}
+          {/*          eventAdditional = (*/}
+          {/*            <p className={styles.Additional}>*/}
+          {/*              {event.additional}*/}
+          {/*            </p>*/}
+          {/*          );*/}
+          {/*        }*/}
+          {/*        const parsedStartTime = parseISO(entry[0] + ' ' + event.start);*/}
+          {/*        const parsedEndTime = parseISO(entry[0] + ' ' + event.end);*/}
+          {/*        return (*/}
+          {/*          // add event type styling to the row*/}
+          {/*          <Row className={styles.Event} key={i}>*/}
+          {/*            <Col xs={3} className="d-flex align-items-center justify-content-center">*/}
+          {/*              <p className={styles.StartTime}>*/}
+          {/*                {format(parsedStartTime, 'h:mm')}*/}
+          {/*                <small>{' '}{format(parsedStartTime, 'a')}</small>*/}
+          {/*              </p>*/}
+          {/*            </Col>*/}
+          {/*            <Col xs={9} className={styles.Details}>*/}
+          {/*              <p className={styles.Name + " lead"}>*/}
+          {/*                {event.name}*/}
+          {/*              </p>*/}
+          {/*              <p className={styles.Location}>*/}
+          {/*                {event.where}*/}
+          {/*              </p>*/}
+          {/*              <p className={styles.FullTime}>*/}
+          {/*                {format(parsedStartTime, 'h:mmaaa')} - {format(parsedEndTime, 'h:mmaaa')}*/}
+          {/*              </p>*/}
+          {/*              {eventAdditional}*/}
+          {/*            </Col>*/}
+          {/*          </Row>*/}
+          {/*        );*/}
+          {/*      })}*/}
+          {/*    </div>*/}
+          {/*  );*/}
+          {/*})}*/}
         </div>
       </Layout>
     );
