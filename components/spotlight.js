@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
+import FormGroup from "react-bootstrap/FormGroup";
 
 import styles from './spotlight.module.scss';
 
@@ -39,16 +40,48 @@ const spotlight = () => {
   //   </Card.Text>
   // );
 
+  // const text = (
+  //   <Card.Text>
+  //     <p>
+  //       Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look forward to seeing everyone again next year.
+  //     </p>
+  //     <p>
+  //       <a href='/results'>
+  //         Results
+  //       </a>
+  //     </p>
+  //   </Card.Text>
+  // );
+
   const text = (
     <Card.Text>
       <p>
-        Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look forward to seeing everyone again next year.
+        We're hosting a match play trio tournament on December 18, at Plano Super Bowl. Join us, won't you?
       </p>
       <p>
-        <a href='/results'>
-          Results
+        <a href="/images/december_match_play_flyer.jpg">
+          Full details
         </a>
       </p>
+      <h5>
+        Reserve your team's spot now for $90.
+      </h5>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick"/>
+        <input type="hidden" name="hosted_button_id" value="QLQMTBUM7KW7J"/>
+        <input type="hidden" name="on0" value="Who else is on your team?"/>
+        <FormGroup className="mb-2">
+          <label for='os0'>
+            Who else is on your team?
+          </label>
+          <input type="text" id='os0' name="os0" maxlength="200" className="form-control" />
+        </FormGroup>
+        <p className="text-center m-0 p-0">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit"
+                 alt="PayPal - The safer, easier way to pay online!"/>
+        </p>
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+      </form>
     </Card.Text>
   );
 
