@@ -6,7 +6,7 @@ import FormGroup from "react-bootstrap/FormGroup";
 import styles from './spotlight.module.scss';
 
 const spotlight = () => {
-  const registrationUrl = "https://www.igbo-reg.com/tournaments/big-d-classic-2021";
+  const registrationUrl = "https://www.igbo-reg.com/tournaments/big-d-classic-2022";
   // const text = (
   //   <Card.Text>
   //     We're working hard putting together this year's tournament, in a way that will be both fun and safe for everyone. Keep your eyes peeled!
@@ -56,10 +56,10 @@ const spotlight = () => {
   const text = (
     <Card.Text>
       <p>
-        We're hosting a match play trio tournament on December 18, at Plano Super Bowl. Join us, won't you?
+        We're hosting a match play trio tournament on March 26, at Plano Super Bowl. Join us, won't you?
       </p>
       <p>
-        <a href="/images/december_match_play_flyer.jpg">
+        <a href="/images/march_match_play_flyer.jpg">
           Full details
         </a>
       </p>
