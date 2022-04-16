@@ -14,7 +14,7 @@ const sponsors = ({home}) => {
     },
     {
       alt: 'The Oak Lawn Bowling Association',
-      href: 'http://www.oaklawnbowling.com/',
+      href: 'https://www.facebook.com/oaklawnbowlingassociation',
       title: 'The Oak Lawn Bowling Association',
       src: 'olba.gif',
     },

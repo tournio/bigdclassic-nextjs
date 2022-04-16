@@ -9,11 +9,11 @@ import Card from "react-bootstrap/Card";
 
 const links = () => {
   const leagues = [
-    // {
-    //   short: 'OLBA',
-    //   long: 'Oak Lawn Bowling Association',
-    //   url: 'http://www.oaklawnbowling.com',
-    // },
+    {
+      short: 'OLBA',
+      long: 'Oak Lawn Bowling Association',
+      url: 'https://www.facebook.com/oaklawnbowlingassociation',
+    },
     {
       short: 'MBA',
       long: 'Metroplex Bowling Association',
@@ -57,15 +57,15 @@ const links = () => {
       location: 'Rochester, NY',
     },
     {
-      headline:  'CA',
-      long: 'IGBO Mid-year 2021',
-      url: 'https://igbomy2021.org/',
-      location: 'Los Angeles, CA',
+      headline:  'DC',
+      long: 'IGBO Mid-year 2022',
+      url: 'http://igbomy2022.org/',
+      location: 'Washington, DC',
     },
     {
       headline:  'TX',
       long: 'Texas Roll-Off Tournament',
-      url: 'http://www.texasrolloff.com',
+      url: 'http://trotbowling.com/',
       location: 'Grand Prairie, TX',
     },
     {
@@ -77,7 +77,7 @@ const links = () => {
     {
       headline:  'TX',
       long: 'Alamo City Tournament',
-      url: 'http://www.actbowl.com',
+      url: 'http://www.actbowl.org',
       location: 'San Antonio, TX',
     },
     {
@@ -101,7 +101,7 @@ const links = () => {
     {
       headline:  'KS',
       long: 'MAKIT-KC',
-      url: 'https://www.makitkc.org',
+      url: 'http://www.makitkc.org',
       location: 'Kansas City, KS',
     },
     {
