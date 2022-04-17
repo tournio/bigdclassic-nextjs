@@ -54,27 +54,29 @@ const spotlight = () => {
   // );
 
   const text = (
-    <Card.Text>
-      <p>
-        We're hosting a match play trio tournament on March 26, at Plano Super Bowl. Join us, won't you?
-      </p>
-      <p>
-        <a href="/images/march_match_play_flyer.jpg">
-          Full details
-        </a>
-      </p>
-      <h5>
-        Reserve your team's spot now for $90.
-      </h5>
+    <Card.Body>
+      <Card.Text>
+          We're hosting a match play trio tournament on July 16, at Plano Super Bowl. Join us, won't you?
+      </Card.Text>
+      <Card.Text>
+          <a href="/images/match_play_flyer_july_2022.jpg">
+            Full details
+          </a>
+      </Card.Text>
+      <Card.Subtitle>
+        <h5>
+          Reserve your team's spot now for $90.
+        </h5>
+      </Card.Subtitle>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick"/>
         <input type="hidden" name="hosted_button_id" value="QLQMTBUM7KW7J"/>
         <input type="hidden" name="on0" value="Who else is on your team?"/>
         <FormGroup className="mb-2">
-          <label for='os0'>
+          <label htmlFor='os0'>
             Who else is on your team?
           </label>
-          <input type="text" id='os0' name="os0" maxlength="200" className="form-control" />
+          <input type="text" id='os0' name="os0" maxLength="200" className="form-control" />
         </FormGroup>
         <p className="text-center m-0 p-0">
           <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit"
@@ -82,7 +84,7 @@ const spotlight = () => {
         </p>
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
       </form>
-    </Card.Text>
+    </Card.Body>
   );
 
   return (
@@ -93,9 +95,7 @@ const spotlight = () => {
             Spotlight
           </Card.Title>
         </Card.Header>
-        <Card.Body>
-          {text}
-        </Card.Body>
+        {text}
       </Card>
     </Col>
   );
