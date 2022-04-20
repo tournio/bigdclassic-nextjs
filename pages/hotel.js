@@ -9,11 +9,11 @@ import Button from "react-bootstrap/Button";
 import {Carousel} from "react-bootstrap";
 
 const hotel = () => {
-  const hotelUrl = 'https://www.marriott.com/events/start.mi?id=1615404570058&key=GRP';
+  const hotelUrl = 'https://www.marriott.com/events/start.mi?id=1650480736368&key=GRP';
   const hotelName = 'Sheraton Dallas Hotel by the Galleria';
   const features = [
     'King or Double guest rooms',
-    'Room rate: $95/night, must book by July 31',
+    'Room rate: $99/night, must book by July 15',
     'Complimentary WiFi, breakfast, and parking',
     'Outdoor pool',
     'Fitness center',
