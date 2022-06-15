@@ -47,17 +47,17 @@ const spotlight = () => {
 
   const text = (
     <Card.Body>
-      <Card.Text>
-        Registration is now open! The deadline is August 3, so what are you waiting for?
-      </Card.Text>
-      <Card.Text className={'text-center'}>
-        <a href="https://www.igbo-reg.com/tournaments/big-d-classic-2022"
-           className="btn btn-primary">
-          Register Online
-          {' '}<i className="bi bi-arrow-right" aria-hidden={true} />
-        </a>
-      </Card.Text>
-      <hr />
+      {/*<Card.Text>*/}
+      {/*  Registration is now open! The deadline is August 3, so what are you waiting for?*/}
+      {/*</Card.Text>*/}
+      {/*<Card.Text className={'text-center'}>*/}
+      {/*  <a href="https://www.igbo-reg.com/tournaments/big-d-classic-2022"*/}
+      {/*     className="btn btn-primary">*/}
+      {/*    Register Online*/}
+      {/*    {' '}<i className="bi bi-arrow-right" aria-hidden={true} />*/}
+      {/*  </a>*/}
+      {/*</Card.Text>*/}
+      {/*<hr />*/}
       <Card.Text>
           We're hosting a match play trio tournament on July 16, at Plano Super Bowl. Join us, won't you?
       </Card.Text>
@@ -91,16 +91,14 @@ const spotlight = () => {
   );
 
   return (
-    <Col xs={12} md={4}>
-      <Card>
-        <Card.Header bg="light">
-          <Card.Title className={styles.Title}>
-            Spotlight
-          </Card.Title>
-        </Card.Header>
-        {text}
-      </Card>
-    </Col>
+    <Card>
+      <Card.Header bg="light">
+        <Card.Title className={styles.Title}>
+          Spotlight
+        </Card.Title>
+      </Card.Header>
+      {text}
+    </Card>
   );
 };
 

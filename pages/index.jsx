@@ -4,9 +4,9 @@ import Layout from '../components/layout';
 import Spotlight from '../components/spotlight';
 
 import styles from './index.module.scss';
+import Front from "../components/front";
 
 const index = () => {
-  const tournamentDates = 'August 12-14, 2022';
 
   return (
     <Layout home={true}>
@@ -23,40 +23,20 @@ const index = () => {
       </Row>
 
       <Row>
-        <Col xs={12} md={8} lg={4}>
-          <Card>
-            <Card.Header>
-              <Card.Title>
-                {tournamentDates}
-              </Card.Title>
-              <Card.Subtitle className="text-muted">
-                Plano, TX
-              </Card.Subtitle>
-            </Card.Header>
-            <Card.Body>
-              <div className="d-lg-none">
-                <img className="float-end img-fluid col-6 p-0"
-                  src="/images/logo.jpg"
-                  alt="Big D Classic logo"
-                />
-              </div>
-              <Card.Text>
-                In a tradition dating back very nearly to the 20th century, bowlers from all around the country descend
-                upon north Texas in the middle of August to beat the heat and engage in a little friendly competition,
-                all while raising money for a good cause.
-              </Card.Text>
-            </Card.Body>
-          </Card>
+        <Col xs={12} md={8} className={'mb-3'}>
+          <Front />
         </Col>
 
-        <Col lg={4} className="d-none d-lg-block">
-          <img className="img-fluid"
-               src="/images/logo.jpg"
-               alt="Big D Classic logo"
-          />
-        </Col>
+        {/*<Col lg={4} className="d-none d-lg-block">*/}
+        {/*  <img className="img-fluid"*/}
+        {/*       src="/images/logo.jpg"*/}
+        {/*       alt="Big D Classic logo"*/}
+        {/*  />*/}
+        {/*</Col>*/}
 
-        <Spotlight />
+        <Col xs={12} md={4}>
+          <Spotlight />
+        </Col>
       </Row>
 
     </Layout>
