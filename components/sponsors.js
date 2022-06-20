@@ -7,6 +7,12 @@ import Col from "react-bootstrap/Col";
 const sponsors = ({home}) => {
   const sponsorDetails = [
     {
+      alt: 'The International Gay Bowling Organization',
+      href: 'http://www.igbo.org/',
+      title: 'The International Gay Bowling Organization',
+      src: 'igbo.png',
+    },
+    {
       alt: 'Storm Bowling Products',
       href: 'http://www.stormbowling.com/',
       title: 'Storm Bowling Products',
@@ -17,12 +23,6 @@ const sponsors = ({home}) => {
       href: 'https://www.facebook.com/oaklawnbowlingassociation',
       title: 'The Oak Lawn Bowling Association',
       src: 'olba.gif',
-    },
-    {
-      alt: 'The International Gay Bowling Organization',
-      href: 'http://www.igbo.org/',
-      title: 'The International Gay Bowling Organization',
-      src: 'igbo.jpg',
     },
     {
       alt: 'The United States Bowling Congress',
