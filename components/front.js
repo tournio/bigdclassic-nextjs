@@ -55,17 +55,6 @@ const Front = () => {
             </a>
           </Card.Text>
         </div>
-        <hr />
-        <Card.Text>
-          Registration is sold out! Thank you to everyone who signed up so quickly!
-        </Card.Text>
-        <Card.Text className={'text-center'}>
-          <a href="https://www.igbo-reg.com/tournaments/big-d-classic-2022"
-             className="btn btn-primary">
-            Online Registration
-            {' '}<i className="bi bi-arrow-right" aria-hidden={true}/>
-          </a>
-        </Card.Text>
       </Card.Body>
     </Card>
   );
