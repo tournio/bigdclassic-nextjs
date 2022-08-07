@@ -92,8 +92,8 @@ const rules = () => {
               </li>
               <li>
                 <p>Scratch Shoot Out. The entry fee for this optional event is based on Division as follows: Division A - $50, Division B - $40, Division C - $40, Division D - $30, Division E - $30.</p>
-                <p>Scratch Shoot Out qualifiers are determined based on the 9-game scratch total pins bowled in singles, doubles, and team. With a minimum of 20 entries in the division, the top 8 bowlers in each Division will advance to the Scratch Shoot Out competition on Sunday after team event. If there is a tie for the last qualifying position, a 9th and 10th frame roll off will be held for bowlers that tied. The Shoot Out will consist of four separate cuts. All 8 competitors in each Division will bowl one game on the same pair of lanes, and bowlers with the lowest 2 scores will be eliminated from competition. The remaining 6 bowlers will bowl one game moving one pair of lanes to the right, and bowlers with the lowest 2 scores will be eliminated. The remaining 4 bowlers will bowl one game moving one pair of lanes to the right, and bowlers with the lowest 2 scores will be eliminated.   Final round will be a one game match to determine the Champion and 2nd place winner.</p>
-                <p>If there are 14-19 entries in a division, the top 6 bowlers will qualify for the Scratch Shoot Out; 8-13 entries, the top 4 bowlers will qualify for the Scratch Shootout; 4-7 entries, the top 2 bowlers will qualify for the Scratch Shootout.  Format remains the same as above with 2 bowlers eliminated after each game.</p>
+                <p>Scratch Shoot Out qualifiers are determined based on the 9-game scratch total pins bowled in singles, doubles, and team. With a minimum of 20 entries in the division, the top 8 bowlers in each Division will advance to the Scratch Shoot Out competition on Sunday after team event. If there is a tie for the last qualifying position, a 9th and 10th frame roll off will be held for bowlers that tied. The Shoot Out will consist of four separate cuts. All 8 competitors in each Division will bowl two games on two pairs of lanes, switching pairs after game one, and the 4 bowlers with the lowest 2-game total pins will be eliminated from competition. The remaining 4 bowlers will bowl one game on the left pair of lanes, and bowlers with the lowest 2 scores will be eliminated. The remaining 2 bowlers will bowl one game on the right pair of lanes to determine the Champion and 2nd place winner.</p>
+                <p>If there are 14-19 entries in a division, the top 6 bowlers will qualify for the Scratch Shoot Out (cutting to 4 the first round); 8-13 entries, the top 4 bowlers will qualify for the Scratch Shootout (cutting to 2 the first round and eliminating the second round); 4-7 entries, the top 2 bowlers will qualify for the Scratch Shootout (eliminating the last two rounds, 2-game total pins to determine winner).</p>
               </li>
             </ol>
           </li>
@@ -109,7 +109,7 @@ const rules = () => {
           <li>Tournament Dates: August 12th, 13th, and 14th 2022. All events will be held at Plano Super Bowl, 2521 K Ave, Plano, TX 75074. Phone: 972-881-0242.</li>
           <li>Entry Fee Break Down: $105 per bowler (Prize Fund $57, Lineage $27, IGBO Donation $1, Awards/Food/Expenses $20).</li>
           <li>Rules subject to change upon 2022 USBC sanction approval. Any rule changes will be posted at registration.</li>
-          <li>Equipment Rule: Bowling balls must be USBC approved and drilled meeting all USBC requirements.</li>
+          <li>Equipment Rule: Bowling balls must be USBC approved and drilled meeting all USBC requirements. Any bowling balls banned by USBC from National events, but are still sanctioned/approved for league and other tournaments, are allowed to be used in this tournament.</li>
         </ol>
       </div>
     </Layout>
