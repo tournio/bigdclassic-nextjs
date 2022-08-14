@@ -32,32 +32,35 @@ const spotlight = () => {
   //   </Card.Text>
   // );
 
-  // const text = (
-  //   <Card.Text>
-  //     <p>
-  //       Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look forward to seeing everyone again next year.
-  //     </p>
-  //     <p>
-  //       <a href='/results'>
-  //         Results
-  //       </a>
-  //     </p>
-  //   </Card.Text>
-  // );
-
   const text = (
     <Card.Body>
+      <Card.Subtitle className={'mb-2'} as={'h5'}>
+        That's a wrap!
+      </Card.Subtitle>
       <Card.Text>
-        Registration is sold out! Thank you to everyone who signed up so quickly! You can still
-        use it to pay your fees, though.
+        <p>
+          Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look forward to seeing everyone again next year.
+        </p>
+        <p className={'mb-0'}>
+          We&apos;ll post results here as soon as they're available.
+          {/*<a href='/results'>*/}
+          {/*  Results*/}
+          {/*</a>*/}
+        </p>
       </Card.Text>
-      <Card.Text className={'text-center'}>
-        <a href="https://www.igbo-reg.com/tournaments/big-d-classic-2022"
-           className="btn btn-primary">
-          Online Registration
-          {' '}<i className="bi bi-arrow-right" aria-hidden={true}/>
-        </a>
-      </Card.Text>
+
+
+      {/*<Card.Text>*/}
+      {/*  Registration is sold out! Thank you to everyone who signed up so quickly! You can still*/}
+      {/*  use it to pay your fees, though.*/}
+      {/*</Card.Text>*/}
+      {/*<Card.Text className={'text-center'}>*/}
+      {/*  <a href="https://www.igbo-reg.com/tournaments/big-d-classic-2022"*/}
+      {/*     className="btn btn-primary">*/}
+      {/*    Online Registration*/}
+      {/*    {' '}<i className="bi bi-arrow-right" aria-hidden={true}/>*/}
+      {/*  </a>*/}
+      {/*</Card.Text>*/}
 
       {/*<Card.Text>*/}
       {/*  Registration is now open! The deadline is August 3, so what are you waiting for?*/}
