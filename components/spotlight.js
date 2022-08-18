@@ -42,13 +42,12 @@ const spotlight = () => {
           Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look forward to seeing everyone again next year.
         </p>
         <p className={'mb-0'}>
-          We&apos;ll post results here as soon as they're available.
-          {/*<a href='/results'>*/}
-          {/*  Results*/}
-          {/*</a>*/}
+          {/*We&apos;ll post results here as soon as they're available.*/}
+          <a href='/results'>
+            Results
+          </a>
         </p>
       </Card.Text>
-
 
       {/*<Card.Text>*/}
       {/*  Registration is sold out! Thank you to everyone who signed up so quickly! You can still*/}

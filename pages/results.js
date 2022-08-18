@@ -30,6 +30,32 @@ const results = () => {
         {/*</h5>*/}
 
         <h5>
+          2022 Tournament Results
+        </h5>
+
+        <Row className={'mb-3'}>
+          <Col lg={6}>
+            <Card className='mb-2'>
+              <ListGroup variant='flush'>
+                { available.map((result, i) => {
+                  return (
+                    <ListGroup.Item key={i}>
+                      <Button variant='outline-secondary' href={`/results/2022/${result.id}.pdf`} title='Download PDF'>
+                        <i className="bi bi-file-pdf-fill" aria-hidden={true}></i>
+                      </Button>
+                      {' '}
+                      <a href={`/results/2022/${result.id}.pdf`} className={styles.TextLink}>
+                        {`${result.name}`}
+                      </a>
+                    </ListGroup.Item>
+                  );
+                }) }
+              </ListGroup>
+            </Card>
+          </Col>
+        </Row>
+
+        <h5>
           2021 Tournament Results
         </h5>
 
@@ -40,11 +66,11 @@ const results = () => {
                 { available.map((result, i) => {
                   return (
                     <ListGroup.Item key={i}>
-                      <Button variant='outline-secondary' href={`/results/${result.id}.pdf`} title='Download PDF'>
+                      <Button variant='outline-secondary' href={`/results/2021/${result.id}.pdf`} title='Download PDF'>
                         <i className="bi bi-file-pdf-fill" aria-hidden={true}></i>
                       </Button>
                       {' '}
-                      <a href={`/results/${result.id}.pdf`} className={styles.TextLink}>
+                      <a href={`/results/2021/${result.id}.pdf`} className={styles.TextLink}>
                         {`${result.name}`}
                       </a>
                     </ListGroup.Item>
