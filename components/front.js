@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import styles from './front.module.scss';
 
 const Front = () => {
-  const tournamentDates = 'August 12-14, 2022';
+  const tournamentDates = 'August 2023';
 
   return (
     <Card className={styles.Front}>
@@ -38,16 +38,16 @@ const Front = () => {
             />
           </a>
           <Card.Text>
-            This year, our tournament is raising funds for the{' '}
+            This year, our tournament raised funds for the{' '}
             <a href={'https://www.cfa.lgbt/'}
               target={'_new'}>
               Coalition for Aging LGBT
             </a>
             . Their mission is to improve and protect the quality of life of older LGBT adults in North Texas through coordination and collaborations for health, housing, advocacy, financial security and social services.
           </Card.Text>
-          <Card.Text>
-            Volunteers from this organization will be at the tournament selling raffle tickets and raising awareness, so be sure to bring plenty of cash and support them!
-          </Card.Text>
+          {/*<Card.Text>*/}
+          {/*  Volunteers from this organization will be at the tournament selling raffle tickets and raising awareness, so be sure to bring plenty of cash and support them!*/}
+          {/*</Card.Text>*/}
           <Card.Text>
             <a href={'https://www.cfa.lgbt/'}
                target={"_new"}>
