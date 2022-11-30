@@ -82,25 +82,27 @@ const spotlight = () => {
       </Card.Text>
       <Card.Subtitle>
         <h5>
-          Reserve your team's spot now for $90.
+          {/*<strike>Reserve your team's spot now for $90.</strike>*/}
+          {/*<br />*/}
+          We&apos;re SOLD OUT! See you there!
         </h5>
       </Card.Subtitle>
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick"/>
-        <input type="hidden" name="hosted_button_id" value="QLQMTBUM7KW7J"/>
-        <input type="hidden" name="on0" value="Who else is on your team?"/>
-        <FormGroup className="mb-2">
-          <label htmlFor='os0'>
-            Who else is on your team?
-          </label>
-          <input type="text" id='os0' name="os0" maxLength="200" className="form-control" />
-        </FormGroup>
-        <p className="text-center m-0 p-0">
-          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit"
-                 alt="PayPal - The safer, easier way to pay online!"/>
-        </p>
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-      </form>
+      {/*<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">*/}
+      {/*  <input type="hidden" name="cmd" value="_s-xclick"/>*/}
+      {/*  <input type="hidden" name="hosted_button_id" value="QLQMTBUM7KW7J"/>*/}
+      {/*  <input type="hidden" name="on0" value="Who else is on your team?"/>*/}
+      {/*  <FormGroup className="mb-2">*/}
+      {/*    <label htmlFor='os0'>*/}
+      {/*      Who else is on your team?*/}
+      {/*    </label>*/}
+      {/*    <input type="text" id='os0' name="os0" maxLength="200" className="form-control" />*/}
+      {/*  </FormGroup>*/}
+      {/*  <p className="text-center m-0 p-0">*/}
+      {/*    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit"*/}
+      {/*           alt="PayPal - The safer, easier way to pay online!"/>*/}
+      {/*  </p>*/}
+      {/*  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>*/}
+      {/*</form>*/}
 
     </Card.Body>
   );
