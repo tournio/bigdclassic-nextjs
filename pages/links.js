@@ -51,17 +51,17 @@ const links = () => {
 
   const tournaments = [
     {
-      headline:  'NY',
-      long: 'IGBO Annual 2022',
-      url: 'http://igbo2022.org/',
-      location: 'Rochester, NY',
+      headline:  'WA',
+      long: 'IGBO Annual 2023',
+      url: 'https://igbo2023.org/',
+      location: 'Seattle, WA',
     },
-    {
-      headline:  'DC',
-      long: 'IGBO Mid-year 2022',
-      url: 'http://igbomy2022.org/',
-      location: 'Washington, DC',
-    },
+    // {
+    //   headline:  'DC',
+    //   long: 'IGBO Mid-year 2022',
+    //   url: 'http://igbomy2022.org/',
+    //   location: 'Washington, DC',
+    // },
     {
       headline:  'TX',
       long: 'Texas Roll-Off Tournament',
@@ -86,12 +86,12 @@ const links = () => {
       url: 'http://www.okclassic.com',
       location: 'Oklahoma City, OK',
     },
-    {
-      headline:  'OK',
-      long: 'JOLT',
-      url: 'http://www.jolttulsa.com/',
-      location: 'Tulsa, OK',
-    },
+    // {
+    //   headline:  'OK',
+    //   long: 'JOLT',
+    //   url: 'http://www.jolttulsa.com/',
+    //   location: 'Tulsa, OK',
+    // },
     {
       headline:  'MO',
       long: 'Show Me Classic',

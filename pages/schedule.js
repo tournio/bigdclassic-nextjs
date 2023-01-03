@@ -9,7 +9,7 @@ import styles from './schedule.module.scss';
 
 const schedule = () => {
     const days = new Map();
-    days.set('2022-08-12', [
+    days.set('2023-08-11', [
         {
           type: 'register',
           start: '18:00:00',
@@ -28,7 +28,7 @@ const schedule = () => {
         },
       ]
     );
-    days.set('2022-08-13', [
+    days.set('2023-08-12', [
         {
           type: 'register',
           start: '10:00:00',
@@ -47,7 +47,7 @@ const schedule = () => {
         },
       ]
     );
-    days.set('2022-08-14', [
+    days.set('2023-08-13', [
         {
           type: 'bowling',
           start: '10:00:00',
