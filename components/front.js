@@ -38,7 +38,7 @@ const Front = () => {
             />
           </a>
           <Card.Text>
-            This year, our tournament raised funds for the{' '}
+            Our tournament raises funds for the{' '}
             <a href={'https://www.cfa.lgbt/'}
               target={'_new'}>
               Coalition for Aging LGBT
