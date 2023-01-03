@@ -51,7 +51,7 @@ const links = () => {
 
   const tournaments = [
     {
-      headline:  'WA',
+      headline:  'IGBO',
       long: 'IGBO Annual 2023',
       url: 'https://igbo2023.org/',
       location: 'Seattle, WA',
@@ -63,25 +63,25 @@ const links = () => {
     //   location: 'Washington, DC',
     // },
     {
-      headline:  'TX',
+      headline:  'TROT',
       long: 'Texas Roll-Off Tournament',
       url: 'http://trotbowling.com/',
       location: 'Grand Prairie, TX',
     },
     {
-      headline:  'TX',
+      headline:  'HIT',
       long: 'Houston Invitational Tournament',
       url: 'http://www.houstoninvite.com',
       location: 'Houston, TX',
     },
     {
-      headline:  'TX',
+      headline:  'ACT',
       long: 'Alamo City Tournament',
       url: 'http://www.actbowl.org',
       location: 'San Antonio, TX',
     },
     {
-      headline:  'OK',
+      headline:  'OKC',
       long: 'OKClassic',
       url: 'http://www.okclassic.com',
       location: 'Oklahoma City, OK',
@@ -93,13 +93,13 @@ const links = () => {
     //   location: 'Tulsa, OK',
     // },
     {
-      headline:  'MO',
+      headline:  'SMC',
       long: 'Show Me Classic',
       url: 'http://showmeclassic.com',
       location: 'St. Louis, MO',
     },
     {
-      headline:  'KS',
+      headline:  'MAKIT',
       long: 'MAKIT-KC',
       url: 'http://www.makitkc.org',
       location: 'Kansas City, KS',
@@ -111,13 +111,13 @@ const links = () => {
       location: 'San Francisco, CA',
     },
     {
-      headline:  'CA',
+      headline:  'PSDIC',
       long: 'Palm Springs Desert Invitational Classic',
       url: 'http://psdic.org',
       location: 'Palm Springs, CA',
     },
     {
-      headline:  'CO',
+      headline:  'DIGLIT',
       long: 'DIGLIT',
       url: 'http://www.bowldiglit.org/',
       location: 'Denver, CO',
