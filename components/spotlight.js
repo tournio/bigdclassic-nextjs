@@ -76,7 +76,7 @@ const spotlight = () => {
           We're hosting a match play trio tournament on March 4, at Plano Super Bowl. Join us, won't you?
       </Card.Text>
       <Card.Text>
-        <a href="/images/match_play_flyer_dec_2022.jpg">
+        <a href="/images/match_play_march_2023.jpg">
           Full details
         </a>
       </Card.Text>
