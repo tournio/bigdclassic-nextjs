@@ -3,6 +3,13 @@ import React from 'react';
 import styles from './sponsors.module.scss';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Image from "next/image";
+
+import igbo from '../public/images/sponsors/igbo.png';
+import storm from '../public/images/sponsors/storm_logo.jpg';
+import olba from '../public/images/sponsors/olba.gif';
+import usbc from '../public/images/sponsors/usbc.jpg';
+import woodys from '../public/images/sponsors/woodys.jpg';
 
 const sponsors = ({home}) => {
   const sponsorDetails = [
@@ -11,30 +18,35 @@ const sponsors = ({home}) => {
       href: 'http://www.igbo.org/',
       title: 'The International Gay Bowling Organization',
       src: 'igbo.png',
+      file: igbo,
     },
     {
       alt: 'Storm Bowling Products',
       href: 'http://www.stormbowling.com/',
       title: 'Storm Bowling Products',
       src: 'storm_logo.jpg',
+      file: storm,
     },
     {
       alt: 'The Oak Lawn Bowling Association',
       href: 'https://www.facebook.com/oaklawnbowlingassociation',
       title: 'The Oak Lawn Bowling Association',
       src: 'olba.gif',
+      file: olba,
     },
     {
       alt: 'The United States Bowling Congress',
       href: 'http://www.bowl.com/',
       title: 'The United States Bowling Congress',
       src: 'usbc.jpg',
+      file: usbc,
     },
     {
       alt: "Woody's Dallas",
       href: 'http://dallaswoodys.com/',
       title: "Woody's Dallas",
       src: 'woodys.jpg',
+      file: woodys,
     },
   ];
 
@@ -49,8 +61,7 @@ const sponsors = ({home}) => {
                  alt={s.alt}
                  href={s.href}
                  title={s.title}>
-                <img className="img-fluid"
-                     src={"/images/sponsors/" + s.src} />
+                <Image src={s.file} alt={s.alt} />
               </a>
             );
           })}
