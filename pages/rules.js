@@ -17,7 +17,7 @@ const rules = () => {
           <li>Bowlers will hold harmless Big D Classic and Plano Super Bowl from anything resulting from potential exposure to COVID-19.  All bowlers must sign and agree to abide by the tournament rules on their registration form before participating.</li>
           <li>Averages, Handicap, &amp; Scores:
             <ol>
-              <li>Handicap for the Tournament shall be based on 90% of the difference between the bowler’s scratch average and 235. Negative handicap will not apply.</li>
+              <li>Handicap for the Tournament shall be based on 90% of the difference between the bowler’s scratch average and 230. Negative handicap will not apply.</li>
               <li>Only 10-pin averages can be used.</li>
             </ol>
           </li>
