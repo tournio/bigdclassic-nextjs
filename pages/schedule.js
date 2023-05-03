@@ -31,16 +31,16 @@ const schedule = () => {
     days.set('2023-08-12', [
         {
           type: 'register',
-          start: '10:00:00',
-          end: '11:45:00',
+          start: '08:00:00',
+          end: '09:45:00',
           name: 'Tournament Registration (required)',
           where: 'Plano Super Bowl',
           additional: 'Event Room - behind lanes 1-6',
         },
         {
           type: 'bowling',
-          start: '12:00:00',
-          end: '18:00:00',
+          start: '10:00:00',
+          end: '16:00:00',
           name: 'Singles and Doubles Events',
           where: 'Plano Super Bowl',
           additional: '30-minute break between events',
