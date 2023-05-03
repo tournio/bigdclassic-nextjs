@@ -15,19 +15,6 @@ const spotlight = () => {
 
   // const text = (
   //   <Card.Text>
-  //     <p>
-  //       Registration is now open! The deadline is August 4, so what are you waiting for?
-  //     </p>
-  //     <a href="https://www.igbo-reg.com/tournaments/big-d-classic-2021"
-  //        className="btn btn-primary">
-  //       Register Online
-  //       {' '}<i className="bi bi-arrow-right" aria-hidden={true} />
-  //     </a>
-  //   </Card.Text>
-  // )
-
-  // const text = (
-  //   <Card.Text>
   //     Registration is now closed. We can't wait to see everyone at the tournament!
   //   </Card.Text>
   // );
@@ -61,17 +48,17 @@ const spotlight = () => {
       {/*  </a>*/}
       {/*</Card.Text>*/}
 
-      {/*<Card.Text>*/}
-      {/*  Registration is now open! The deadline is August 3, so what are you waiting for?*/}
-      {/*</Card.Text>*/}
-      {/*<Card.Text className={'text-center'}>*/}
-      {/*  <a href="https://www.igbo-reg.com/tournaments/big-d-classic-2022"*/}
-      {/*     className="btn btn-primary">*/}
-      {/*    Register Online*/}
-      {/*    {' '}<i className="bi bi-arrow-right" aria-hidden={true} />*/}
-      {/*  </a>*/}
-      {/*</Card.Text>*/}
-      {/*<hr />*/}
+      <Card.Text>
+        Registration is now open! The deadline is August 2, so what are you waiting for?
+      </Card.Text>
+      <Card.Text className={'text-center'}>
+        <a href="https://www.tourn.io/tournaments/big-d-2023"
+           className="btn btn-primary">
+          Register Online
+          {' '}<i className="bi bi-arrow-right" aria-hidden={true} />
+        </a>
+      </Card.Text>
+      <hr />
       <Card.Text>
           We're hosting a match play trio tournament on June 24, at Plano Super Bowl. Join us, won't you?
       </Card.Text>

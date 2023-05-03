@@ -9,11 +9,11 @@ import Button from "react-bootstrap/Button";
 import {Carousel} from "react-bootstrap";
 
 const hotel = () => {
-  const hotelUrl = 'https://www.marriott.com/events/start.mi?id=1650480736368&key=GRP';
+  const hotelUrl = 'https://www.marriott.com/events/start.mi?id=1683048222529&key=GRP';
   const hotelName = 'Sheraton Dallas Hotel by the Galleria';
   const features = [
     'King or Double guest rooms',
-    'Room rate: $99/night, must book by July 15',
+    'Room rate: $119/night, must book by July 14',
     'Complimentary WiFi, breakfast, and parking',
     'Outdoor pool',
     'Fitness center',
@@ -74,7 +74,11 @@ const hotel = () => {
                 <span className="line">4801 Lyndon B. Johnson Freeway</span>
                 <span className="line">Dallas, TX 75244</span>
                 <span className="line">United States</span>
-                <span className="line">Tel:{' '}
+                <span className="line">
+                  <span className={'bi-telephone-fill pe-2'} aria-hidden={true} />
+                  <span className={'visually-hidden'}>
+                    Telephone number
+                  </span>
                   <a href="tel:972-661-3600">972-661-3600</a>
                 </span>
               </address>
