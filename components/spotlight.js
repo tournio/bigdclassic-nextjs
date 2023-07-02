@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import FormGroup from "react-bootstrap/FormGroup";
+
+import StripeBuyButton from "./StripeBuyButton";
 
 import styles from './spotlight.module.scss';
 
@@ -36,28 +36,28 @@ const spotlight = () => {
       {/*  </p>*/}
       {/*</Card.Text>*/}
 
-      {/*<Card.Text>*/}
-      {/*  Registration is sold out! Thank you to everyone who signed up so quickly! You can still*/}
-      {/*  use it to pay your fees, though.*/}
-      {/*</Card.Text>*/}
-      {/*<Card.Text className={'text-center'}>*/}
-      {/*  <a href="https://www.igbo-reg.com/tournaments/big-d-classic-2022"*/}
-      {/*     className="btn btn-primary">*/}
-      {/*    Online Registration*/}
-      {/*    {' '}<i className="bi bi-arrow-right" aria-hidden={true}/>*/}
-      {/*  </a>*/}
-      {/*</Card.Text>*/}
-
       <Card.Text>
-        Registration is open and spots are filling up fast! The deadline is August 2, so what are you waiting for?
+        Registration is sold out! Thank you to everyone who signed up so quickly! You can still
+        use it to pay your fees, though.
       </Card.Text>
       <Card.Text className={'text-center'}>
         <a href="https://www.tourn.io/tournaments/big-d-2023"
-           className="btn btn-primary">
-          Register Online
-          {' '}<i className="bi bi-arrow-right" aria-hidden={true} />
+           className="btn btn-success">
+          Pay Fees
+          {' '}<i className="bi bi-arrow-right" aria-hidden={true}/>
         </a>
       </Card.Text>
+
+      {/*<Card.Text>*/}
+      {/*  Registration is open and spots are filling up fast! The deadline is August 2, so what are you waiting for?*/}
+      {/*</Card.Text>*/}
+      {/*<Card.Text className={'text-center'}>*/}
+      {/*  <a href="https://www.tourn.io/tournaments/big-d-2023"*/}
+      {/*     className="btn btn-primary">*/}
+      {/*    Register Online*/}
+      {/*    {' '}<i className="bi bi-arrow-right" aria-hidden={true} />*/}
+      {/*  </a>*/}
+      {/*</Card.Text>*/}
       {/*<hr />*/}
       {/*<Card.Text>*/}
       {/*    We're hosting a match play trio tournament on June 24, at Plano Super Bowl. Join us, won't you?*/}
@@ -91,6 +91,17 @@ const spotlight = () => {
       {/*  </p>*/}
       {/*  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>*/}
       {/*</form>*/}
+      <Card.Text>
+        We&apos;re hosting a Match Play Trios tournament to benefit DAMIT, on September 9. Reserve your team&apos;s spot today!
+      </Card.Text>
+      <Card.Text>
+        <a href="/images/match_play_sept_2023.jpg">
+          Full details
+        </a>
+      </Card.Text>
+      <Card.Text>
+        <StripeBuyButton buttonId={process.env.NEXT_PUBLIC_TRIOS_BUTTON_ID}/>
+      </Card.Text>
 
     </Card.Body>
   );
