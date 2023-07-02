@@ -49,6 +49,14 @@ const schedule = () => {
     );
     days.set('2023-08-13', [
         {
+          type: 'social',
+          start: '09:00:00',
+          end: '09:45:00',
+          name: 'Singles/Doubles Awards Breakfast',
+          where: 'Plano Super Bowl',
+          additional: 'Plus raffle giveaways!',
+        },
+        {
           type: 'bowling',
           start: '10:00:00',
           end: '13:00:00',
@@ -57,18 +65,18 @@ const schedule = () => {
           additional: null,
         },
         {
-          type: 'social',
-          start: '13:00:00',
-          end: '14:30:00',
-          name: 'Brunch and Awards Party',
+          type: 'register',
+          start: '13:15:00',
+          end: '13:30:00',
+          name: 'Announcements',
           where: 'Plano Super Bowl',
-          additional: null,
+          additional: 'Team & All Events winners, Scratch Shootout qualifiers',
         },
         {
           type: 'bowling',
-          start: '14:30:00',
-          end: '17:00:00',
-          name: 'Scratch Shootout Competition',
+          start: '13:30:00',
+          end: '16:00:00',
+          name: 'Scratch Shootout Event',
           where: 'Plano Super Bowl',
           additional: null,
         },
