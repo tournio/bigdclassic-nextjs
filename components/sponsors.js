@@ -53,40 +53,50 @@ const sponsors = ({home}) => {
   let sponsorText = '';
   if (home) {
     sponsorText = (
-      <Row className={styles.Home}>
-        <Col className="d-flex justify-content-between align-items-center">
-          {sponsorDetails.map((s, i) => {
-            return (
-              <a key={i}
-                 alt={s.alt}
+      <Row className={`${styles.Home} d-flex justify-content-center align-items-center`}>
+        {sponsorDetails.map((s, i) => {
+          return (
+            <Col key={i}
+                 xs={6}
+                 sm={4}
+                 lg={2}>
+              <a alt={s.alt}
                  href={s.href}
                  title={s.title}>
-                <Image src={s.file} alt={s.alt} />
+                <Image className={'img-fluid'}
+                       src={s.file}
+                       alt={s.alt}
+                />
               </a>
-            );
-          })}
-        </Col>
+            </Col>
+          );
+        })}
       </Row>
     );
   } else {
     sponsorText = (
       <div className={styles.Sponsors}>
-        <Row className="d-lg-none my-2">
-          <Col className="d-flex justify-content-between">
-            {sponsorDetails.map((s, i) => {
-              return (
-                <a key={i}
-                   alt={s.alt}
+
+        <Row className="d-flex justify-content-center d-lg-none my-2">
+          {sponsorDetails.map((s, i) => {
+            return (
+              <Col key={i}
+                   xs={6}
+                   sm={4}>
+                <a alt={s.alt}
                    href={s.href}
                    title={s.title}>
-                  <img className="img-fluid"
-                       src={"/images/sponsors/" + s.src} />
+                  <Image className="img-fluid"
+                         src={s.file}
+                         alt={s.alt}
+                  />
                 </a>
-              );
-            })}
-          </Col>
+              </Col>
+            );
+          })}
         </Row>
-        <Row className="d-none d-lg-block">
+        <Row className="d-none d-lg-flex flex-column">
+        {/*<Row className="d-none d-lg-block">*/}
           {sponsorDetails.map((s, i) => {
             return (
               <a key={i}
@@ -94,8 +104,10 @@ const sponsors = ({home}) => {
                  alt={s.alt}
                  href={s.href}
                  title={s.title}>
-                <img className="img-fluid"
-                     src={"/images/sponsors/" + s.src} />
+                <Image className="img-fluid"
+                       src={s.file}
+                       alt={s.alt}
+                />
               </a>
             );
           })}
