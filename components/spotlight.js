@@ -21,14 +21,14 @@ const spotlight = () => {
 
   const text = (
     <Card.Body>
-      <Card.Subtitle className={'mb-2'} as={'h5'}>
-        That's a wrap!
-      </Card.Subtitle>
-      <Card.Text>
-        Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look forward to seeing everyone again next year.
-      </Card.Text>
+      {/*<Card.Subtitle className={'mb-2'} as={'h5'}>*/}
+      {/*  That's a wrap!*/}
+      {/*</Card.Subtitle>*/}
+      {/*<Card.Text>*/}
+      {/*  Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look forward to seeing everyone again next year.*/}
+      {/*</Card.Text>*/}
 
-      <hr/>
+      {/*<hr/>*/}
 
       {/*  <p className={'mb-0'}>*/}
       {/*    /!*We&apos;ll post results here as soon as they're available.*!/*/}
@@ -38,17 +38,17 @@ const spotlight = () => {
       {/*  </p>*/}
       {/*</Card.Text>*/}
 
-      {/*<Card.Text>*/}
-      {/*  Registration is sold out! Thank you to everyone who signed up so quickly! You can still*/}
-      {/*  use it to pay your fees, though.*/}
-      {/*</Card.Text>*/}
-      {/*<Card.Text className={'text-center'}>*/}
-      {/*  <a href="https://www.tourn.io/tournaments/big-d-2023"*/}
-      {/*     className="btn btn-success">*/}
-      {/*    Pay Fees*/}
-      {/*    {' '}<i className="bi bi-arrow-right" aria-hidden={true}/>*/}
-      {/*  </a>*/}
-      {/*</Card.Text>*/}
+      <Card.Text>
+        Registration is sold out! Thank you to everyone who signed up so quickly! You can still
+        use it to pay your fees, though.
+      </Card.Text>
+      <Card.Text className={'text-center'}>
+        <a href="https://www.tourn.io/tournaments/big-d-2023"
+           className="btn btn-success">
+          Pay Fees
+          {' '}<i className="bi bi-arrow-right" aria-hidden={true}/>
+        </a>
+      </Card.Text>
 
       {/*<Card.Text>*/}
       {/*  Registration is open and spots are filling up fast! The deadline is August 2, so what are you waiting for?*/}
@@ -60,7 +60,8 @@ const spotlight = () => {
       {/*    {' '}<i className="bi bi-arrow-right" aria-hidden={true} />*/}
       {/*  </a>*/}
       {/*</Card.Text>*/}
-      {/*<hr />*/}
+
+      <hr />
 
       <Card.Text>
         We&apos;re hosting a Match Play Trios tournament to benefit DAMIT, on September 9. Reserve your team&apos;s spot today!
