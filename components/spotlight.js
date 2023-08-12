@@ -21,6 +21,15 @@ const spotlight = () => {
 
   const text = (
     <Card.Body>
+      <Card.Subtitle className={'mb-2'} as={'h5'}>
+        It's tournament weekend!
+      </Card.Subtitle>
+      <Card.Text>
+        Welcome to Dallas! We wish everyone good luck, high scores, and cool drinks!
+      </Card.Text>
+
+      {/*<hr/>*/}
+
       {/*<Card.Subtitle className={'mb-2'} as={'h5'}>*/}
       {/*  That's a wrap!*/}
       {/*</Card.Subtitle>*/}
@@ -38,17 +47,17 @@ const spotlight = () => {
       {/*  </p>*/}
       {/*</Card.Text>*/}
 
-      <Card.Text>
-        Registration is sold out! Thank you to everyone who signed up so quickly! You can still
-        use it to pay your fees, though.
-      </Card.Text>
-      <Card.Text className={'text-center'}>
-        <a href="https://www.tourn.io/tournaments/big-d-2023"
-           className="btn btn-success">
-          Pay Fees
-          {' '}<i className="bi bi-arrow-right" aria-hidden={true}/>
-        </a>
-      </Card.Text>
+      {/*<Card.Text>*/}
+      {/*  Registration is sold out! Thank you to everyone who signed up so quickly! You can still*/}
+      {/*  use it to pay your fees, though.*/}
+      {/*</Card.Text>*/}
+      {/*<Card.Text className={'text-center'}>*/}
+      {/*  <a href="https://www.tourn.io/tournaments/big-d-2023"*/}
+      {/*     className="btn btn-success">*/}
+      {/*    Pay Fees*/}
+      {/*    {' '}<i className="bi bi-arrow-right" aria-hidden={true}/>*/}
+      {/*  </a>*/}
+      {/*</Card.Text>*/}
 
       {/*<Card.Text>*/}
       {/*  Registration is open and spots are filling up fast! The deadline is August 2, so what are you waiting for?*/}
