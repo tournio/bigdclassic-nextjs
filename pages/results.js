@@ -15,7 +15,8 @@ const results = () => {
     { id: 'doubles', name: 'Doubles Event' },
     { id: 'singles', name: 'Singles Event' },
     { id: 'all_events', name: 'All Events' },
-    { id: 'prize_list', name: 'Prize List' },
+    { id: 'optional_scratch', name: 'Optional Scratch' },
+    // { id: 'prize_list', name: 'Prize List' },
   ];
 
   return (
@@ -25,12 +26,12 @@ const results = () => {
           Tournament Results
         </h1>
 
-        {/*<h5 className="text-muted">*/}
-        {/*  Results will be posted here when they're available.*/}
-        {/*</h5>*/}
+        <h5 className="text-muted">
+          Payouts list will be posted as soon as it&apos;s finalized!
+        </h5>
 
         <h5>
-          2022 Tournament Results
+          2023 Tournament Results
         </h5>
 
         <Row className={'mb-3'}>
@@ -40,37 +41,11 @@ const results = () => {
                 { available.map((result, i) => {
                   return (
                     <ListGroup.Item key={i}>
-                      <Button variant='outline-secondary' href={`/results/2022/${result.id}.pdf`} title='Download PDF'>
+                      <Button variant='outline-secondary' href={`/results/2023/${result.id}.pdf`} title='Download PDF'>
                         <i className="bi bi-file-pdf-fill" aria-hidden={true}></i>
                       </Button>
                       {' '}
-                      <a href={`/results/2022/${result.id}.pdf`} className={styles.TextLink}>
-                        {`${result.name}`}
-                      </a>
-                    </ListGroup.Item>
-                  );
-                }) }
-              </ListGroup>
-            </Card>
-          </Col>
-        </Row>
-
-        <h5>
-          2021 Tournament Results
-        </h5>
-
-        <Row>
-          <Col lg={6}>
-            <Card className='mb-2'>
-              <ListGroup variant='flush'>
-                { available.map((result, i) => {
-                  return (
-                    <ListGroup.Item key={i}>
-                      <Button variant='outline-secondary' href={`/results/2021/${result.id}.pdf`} title='Download PDF'>
-                        <i className="bi bi-file-pdf-fill" aria-hidden={true}></i>
-                      </Button>
-                      {' '}
-                      <a href={`/results/2021/${result.id}.pdf`} className={styles.TextLink}>
+                      <a href={`/results/2023/${result.id}.pdf`} className={styles.TextLink}>
                         {`${result.name}`}
                       </a>
                     </ListGroup.Item>

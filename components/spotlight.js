@@ -21,31 +21,31 @@ const spotlight = () => {
 
   const text = (
     <Card.Body>
-      <Card.Subtitle className={'mb-2'} as={'h5'}>
-        It's tournament weekend!
-      </Card.Subtitle>
-      <Card.Text>
-        Welcome to Dallas! We wish everyone good luck, high scores, and cool drinks!
-      </Card.Text>
-
-      {/*<hr/>*/}
-
       {/*<Card.Subtitle className={'mb-2'} as={'h5'}>*/}
-      {/*  That's a wrap!*/}
+      {/*  It's tournament weekend!*/}
       {/*</Card.Subtitle>*/}
       {/*<Card.Text>*/}
-      {/*  Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look forward to seeing everyone again next year.*/}
+      {/*  Welcome to Dallas! We wish everyone good luck, high scores, and cool drinks!*/}
       {/*</Card.Text>*/}
 
       {/*<hr/>*/}
 
-      {/*  <p className={'mb-0'}>*/}
-      {/*    /!*We&apos;ll post results here as soon as they're available.*!/*/}
-      {/*    <a href='/results'>*/}
-      {/*      Results*/}
-      {/*    </a>*/}
-      {/*  </p>*/}
-      {/*</Card.Text>*/}
+      <Card.Subtitle className={'mb-2'} as={'h5'}>
+        That's a wrap!
+      </Card.Subtitle>
+      <Card.Text>
+        Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look
+        forward to seeing everyone again next year.
+      </Card.Text>
+
+      <hr/>
+
+      <Card.Text>
+        {/*We&apos;ll post results here as soon as they're available.*/}
+        <a href='/results'>
+          2023 Results
+        </a>
+      </Card.Text>
 
       {/*<Card.Text>*/}
       {/*  Registration is sold out! Thank you to everyone who signed up so quickly! You can still*/}
@@ -70,10 +70,11 @@ const spotlight = () => {
       {/*  </a>*/}
       {/*</Card.Text>*/}
 
-      <hr />
+      <hr/>
 
       <Card.Text>
-        We&apos;re hosting a Match Play Trios tournament to benefit DAMIT, on September 9. Reserve your team&apos;s spot today!
+        We&apos;re hosting a Match Play Trios tournament to benefit DAMIT, on September 9. Reserve your team&apos;s spot
+        today!
       </Card.Text>
       <Card.Text>
         <a href="/images/match_play_sept_2023.jpg">
@@ -83,7 +84,7 @@ const spotlight = () => {
       <Card.Text>
         <StripeBuyButton buttonId={process.env.NEXT_PUBLIC_TRIOS_BUTTON_ID}/>
       </Card.Text>
-      
+
     </Card.Body>
   );
 
