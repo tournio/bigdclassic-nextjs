@@ -16,7 +16,7 @@ const results = () => {
     { id: 'singles', name: 'Singles Event' },
     { id: 'all_events', name: 'All Events' },
     { id: 'optional_scratch', name: 'Optional Scratch' },
-    // { id: 'prize_list', name: 'Prize List' },
+    { id: 'prize_list', name: 'Prize List' },
   ];
 
   return (
