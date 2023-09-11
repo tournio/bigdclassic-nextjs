@@ -70,20 +70,20 @@ const spotlight = () => {
       {/*  </a>*/}
       {/*</Card.Text>*/}
 
-      <hr/>
+      {/*<hr/>*/}
 
-      <Card.Text>
-        We&apos;re hosting a Match Play Trios tournament to benefit DAMIT, on September 9. Reserve your team&apos;s spot
-        today!
-      </Card.Text>
-      <Card.Text>
-        <a href="/images/match_play_sept_2023.jpg">
-          Full details
-        </a>
-      </Card.Text>
-      <Card.Text>
-        <StripeBuyButton buttonId={process.env.NEXT_PUBLIC_TRIOS_BUTTON_ID}/>
-      </Card.Text>
+      {/*<Card.Text>*/}
+      {/*  We&apos;re hosting a Match Play Trios tournament to benefit DAMIT, on September 9. Reserve your team&apos;s spot*/}
+      {/*  today!*/}
+      {/*</Card.Text>*/}
+      {/*<Card.Text>*/}
+      {/*  <a href="/images/match_play_sept_2023.jpg">*/}
+      {/*    Full details*/}
+      {/*  </a>*/}
+      {/*</Card.Text>*/}
+      {/*<Card.Text>*/}
+      {/*  <StripeBuyButton buttonId={process.env.NEXT_PUBLIC_TRIOS_BUTTON_ID}/>*/}
+      {/*</Card.Text>*/}
 
     </Card.Body>
   );
