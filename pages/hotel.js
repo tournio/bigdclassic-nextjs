@@ -13,7 +13,7 @@ const hotel = () => {
   const hotelName = 'Sheraton Dallas Hotel by the Galleria';
   const features = [
     'King or Double guest rooms',
-    'Room rate: $119/night, must book by July 14',
+    // 'Room rate: $119/night, must book by July 14',
     'Complimentary WiFi, breakfast, and parking',
     'Outdoor pool',
     'Fitness center',
@@ -89,12 +89,17 @@ const hotel = () => {
               </p>
             </Col>
             <Col>
-              <p className="text-center">
-                <Button href={hotelUrl} variant="success">
-                  Book Your Room
-                </Button>
+              <p className={'lead text-center'}>
+                2024 details TBA
               </p>
             </Col>
+            {/*<Col>*/}
+            {/*  <p className="text-center">*/}
+            {/*    <Button href={hotelUrl} variant="success">*/}
+            {/*      Book Your Room*/}
+            {/*    </Button>*/}
+            {/*  </p>*/}
+            {/*</Col>*/}
           </Row>
           <Row className="order-3 order-md-2">
             <Col>

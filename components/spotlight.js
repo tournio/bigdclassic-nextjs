@@ -30,22 +30,36 @@ const spotlight = () => {
 
       {/*<hr/>*/}
 
-      <Card.Subtitle className={'mb-2'} as={'h5'}>
-        That's a wrap!
-      </Card.Subtitle>
+      {/*<Card.Subtitle className={'mb-2'} as={'h5'}>*/}
+      {/*  That's a wrap!*/}
+      {/*</Card.Subtitle>*/}
+      {/*<Card.Text>*/}
+      {/*  Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look*/}
+      {/*  forward to seeing everyone again next year.*/}
+      {/*</Card.Text>*/}
+
       <Card.Text>
-        Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look
-        forward to seeing everyone again next year.
+        We&apos;re hosting a Match Play Trios tournament, on December 16, 2023. Reserve your team&apos;s spot
+        today!
       </Card.Text>
-
-      <hr/>
-
       <Card.Text>
-        {/*We&apos;ll post results here as soon as they're available.*/}
-        <a href='/results'>
-          2023 Results
+        <a href="/images/match_play_dec_2023.pdf">
+          Full details
         </a>
       </Card.Text>
+      <Card.Text>
+        <StripeBuyButton buttonId={process.env.NEXT_PUBLIC_TRIOS_BUTTON_ID}/>
+      </Card.Text>
+
+
+      {/*<hr/>*/}
+
+      {/*<Card.Text>*/}
+      {/*  /!*We&apos;ll post results here as soon as they're available.*!/*/}
+      {/*  <a href='/results'>*/}
+      {/*    2023 Tournament Results*/}
+      {/*  </a>*/}
+      {/*</Card.Text>*/}
 
       {/*<Card.Text>*/}
       {/*  Registration is sold out! Thank you to everyone who signed up so quickly! You can still*/}
@@ -71,19 +85,6 @@ const spotlight = () => {
       {/*</Card.Text>*/}
 
       {/*<hr/>*/}
-
-      {/*<Card.Text>*/}
-      {/*  We&apos;re hosting a Match Play Trios tournament to benefit DAMIT, on September 9. Reserve your team&apos;s spot*/}
-      {/*  today!*/}
-      {/*</Card.Text>*/}
-      {/*<Card.Text>*/}
-      {/*  <a href="/images/match_play_sept_2023.jpg">*/}
-      {/*    Full details*/}
-      {/*  </a>*/}
-      {/*</Card.Text>*/}
-      {/*<Card.Text>*/}
-      {/*  <StripeBuyButton buttonId={process.env.NEXT_PUBLIC_TRIOS_BUTTON_ID}/>*/}
-      {/*</Card.Text>*/}
 
     </Card.Body>
   );

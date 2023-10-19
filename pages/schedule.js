@@ -9,79 +9,79 @@ import styles from './schedule.module.scss';
 
 const schedule = () => {
     const days = new Map();
-    days.set('2023-08-11', [
-        {
-          type: 'register',
-          start: '18:00:00',
-          end: '20:00:00',
-          name: 'Registration (required)',
-          where: 'Plano Super Bowl',
-          additional: 'Event Room - behind lanes 1-6',
-        },
-        {
-          type: 'bowling',
-          start: '20:00:00',
-          end: '23:00:00',
-          name: 'Optional 9-pin No-Tap Event',
-          where: 'Plano Super Bowl',
-          additional: 'More details to come',
-        },
-      ]
-    );
-    days.set('2023-08-12', [
-        {
-          type: 'register',
-          start: '08:00:00',
-          end: '09:45:00',
-          name: 'Tournament Registration (required)',
-          where: 'Plano Super Bowl',
-          additional: 'Event Room - behind lanes 1-6',
-        },
-        {
-          type: 'bowling',
-          start: '10:00:00',
-          end: '16:00:00',
-          name: 'Singles and Doubles Events',
-          where: 'Plano Super Bowl',
-          additional: '30-minute break between events',
-        },
-      ]
-    );
-    days.set('2023-08-13', [
-        {
-          type: 'social',
-          start: '09:00:00',
-          end: '09:45:00',
-          name: 'Singles/Doubles Awards Breakfast',
-          where: 'Plano Super Bowl',
-          additional: 'Plus raffle giveaways!',
-        },
-        {
-          type: 'bowling',
-          start: '10:00:00',
-          end: '13:00:00',
-          name: 'Team Event',
-          where: 'Plano Super Bowl',
-          additional: null,
-        },
-        {
-          type: 'register',
-          start: '13:15:00',
-          end: '13:30:00',
-          name: 'Announcements',
-          where: 'Plano Super Bowl',
-          additional: 'Team & All Events winners, Scratch Shootout qualifiers',
-        },
-        {
-          type: 'bowling',
-          start: '13:30:00',
-          end: '16:00:00',
-          name: 'Scratch Shootout Event',
-          where: 'Plano Super Bowl',
-          additional: null,
-        },
-      ]
-    );
+    // days.set('2023-08-11', [
+    //     {
+    //       type: 'register',
+    //       start: '18:00:00',
+    //       end: '20:00:00',
+    //       name: 'Registration (required)',
+    //       where: 'Plano Super Bowl',
+    //       additional: 'Event Room - behind lanes 1-6',
+    //     },
+    //     {
+    //       type: 'bowling',
+    //       start: '20:00:00',
+    //       end: '23:00:00',
+    //       name: 'Optional 9-pin No-Tap Event',
+    //       where: 'Plano Super Bowl',
+    //       additional: 'More details to come',
+    //     },
+    //   ]
+    // );
+    // days.set('2023-08-12', [
+    //     {
+    //       type: 'register',
+    //       start: '08:00:00',
+    //       end: '09:45:00',
+    //       name: 'Tournament Registration (required)',
+    //       where: 'Plano Super Bowl',
+    //       additional: 'Event Room - behind lanes 1-6',
+    //     },
+    //     {
+    //       type: 'bowling',
+    //       start: '10:00:00',
+    //       end: '16:00:00',
+    //       name: 'Singles and Doubles Events',
+    //       where: 'Plano Super Bowl',
+    //       additional: '30-minute break between events',
+    //     },
+    //   ]
+    // );
+    // days.set('2023-08-13', [
+    //     {
+    //       type: 'social',
+    //       start: '09:00:00',
+    //       end: '09:45:00',
+    //       name: 'Singles/Doubles Awards Breakfast',
+    //       where: 'Plano Super Bowl',
+    //       additional: 'Plus raffle giveaways!',
+    //     },
+    //     {
+    //       type: 'bowling',
+    //       start: '10:00:00',
+    //       end: '13:00:00',
+    //       name: 'Team Event',
+    //       where: 'Plano Super Bowl',
+    //       additional: null,
+    //     },
+    //     {
+    //       type: 'register',
+    //       start: '13:15:00',
+    //       end: '13:30:00',
+    //       name: 'Announcements',
+    //       where: 'Plano Super Bowl',
+    //       additional: 'Team & All Events winners, Scratch Shootout qualifiers',
+    //     },
+    //     {
+    //       type: 'bowling',
+    //       start: '13:30:00',
+    //       end: '16:00:00',
+    //       name: 'Scratch Shootout Event',
+    //       where: 'Plano Super Bowl',
+    //       additional: null,
+    //     },
+    //   ]
+    // );
 
     const daysAndEvents = [...days.entries()];
     // format(parseISO(x), 'str')
@@ -92,9 +92,9 @@ const schedule = () => {
             Schedule of Events
           </h1>
 
-          {/*<h5 className="text-muted">*/}
-          {/*  To be confirmed...*/}
-          {/*</h5>*/}
+          <h5 className="text-muted">
+            To be confirmed...
+          </h5>
 
           {daysAndEvents.map((entry, d) => {
             return (
