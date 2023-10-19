@@ -52,9 +52,9 @@ const links = () => {
   const tournaments = [
     {
       headline:  'IGBO',
-      long: 'IGBO Annual 2023',
-      url: 'https://igbo2023.org/',
-      location: 'Seattle, WA',
+      long: 'IGBO Annual 2024',
+      url: 'https://igbo2024.org/',
+      location: 'Reno, NV',
     },
     // {
     //   headline:  'DC',

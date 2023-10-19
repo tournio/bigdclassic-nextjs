@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import styles from './front.module.scss';
 
 const Front = () => {
-  const tournamentDates = 'August 11-13, 2023';
+  const tournamentDates = 'August 2024';
 
   return (
     <Card className={styles.Front}>
