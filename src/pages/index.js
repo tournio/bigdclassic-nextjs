@@ -16,13 +16,15 @@ const MainPage = () => {
 
       <Hero/>
 
-      <section className={`row`}>
-        <Col xs={12} md={8}>
-          <MainText />
-        </Col>
-        <Col xs={12} md={4}>
-          <Spotlight/>
-        </Col>
+      <section>
+        <Row>
+          <Col xs={12} md={8}>
+            <MainText />
+          </Col>
+          <Col xs={12} md={4}>
+            <Spotlight/>
+          </Col>
+        </Row>
       </section>
 
       {/*<Location/>*/}

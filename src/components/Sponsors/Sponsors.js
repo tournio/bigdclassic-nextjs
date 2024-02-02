@@ -6,6 +6,8 @@ import classes from './Sponsors.module.scss';
 import igbo from '../../images/sponsors/igbo600w.png';
 import storm from '../../images/sponsors/storm-black.png';
 import usbc from '../../images/sponsors/usbc.png';
+import olba from '../../images/sponsors/olba.gif';
+import woodys from '../../images/sponsors/woodys.jpg';
 
 const Sponsors = () => {
   const sponsorDetails = [
@@ -28,6 +30,20 @@ const Sponsors = () => {
       href: 'http://www.bowl.com/',
       title: 'The United States Bowling Congress',
       src: usbc,
+      classNames: '',
+    },
+    {
+      alt: 'The Oak Lawn Bowling Association',
+      href: 'https://www.facebook.com/oaklawnbowlingassociation',
+      title: 'The Oak Lawn Bowling Association',
+      src: olba,
+      classNames: '',
+    },
+    {
+      alt: "Woody's Dallas",
+      href: 'http://dallaswoodys.com/',
+      title: "Woody's Dallas",
+      src: woodys,
       classNames: '',
     },
   ];

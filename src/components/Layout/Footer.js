@@ -1,27 +1,24 @@
-import Image from "next/image";
 import Sponsors from "../Sponsors/Sponsors";
-import logo from '../../images/logo.jpg';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const Footer = () => {
   return (
     <div>
       <Sponsors/>
       <hr />
-      <div className={`row d-flex justify-content-center flex-wrap pb-0`}>
-        <div className={`col-6 col-md-5 col-lg-4`}>
-          <Image src={logo}
-                 alt={'Tournament logo'}
-                 className={`img-fluid logo-image`}/>
-        </div>
-        <p className={`col-12 text-center pt-3`}>
+      <Row>
+        <Col>
+          <p className={'d-flex justify-content-center flex-wrap pb-0'}>
           <span>
             &copy; 2024&nbsp;
           </span>
-          <span>
+            <span>
             Big D Classic
           </span>
-        </p>
-      </div>
+          </p>
+        </Col>
+      </Row>
     </div>
   )
 }

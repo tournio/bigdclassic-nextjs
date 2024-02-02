@@ -1,12 +1,21 @@
 .MainText {
-  text-align: left;
+  .Logo {
+    width: 100%;
+    height: auto;
+  }
 
   .Dates {
-    font-size: calc(1.5rem + 2vw);
-    margin-bottom: 1rem;
   }
 
   .City {
-    margin-bottom: 1.5rem;
+  }
+
+  .BeneficiaryLogo {
+    width: 100%;
+    height: auto;
+  }
+  .FloatingLogo {
+    width: 10rem;
+    height: auto;
   }
 }
