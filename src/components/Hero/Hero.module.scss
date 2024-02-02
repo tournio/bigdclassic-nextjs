@@ -1,7 +1,6 @@
 .Hero {
   .JumbotronImage {
     padding-bottom: 0;
-    margin-bottom: 0.5rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 25%;
@@ -33,5 +32,7 @@
   .PhotoCredit {
     text-align: right;
     font-size: 90%;
+    margin-bottom: 0;
+    padding-right: 1rem;
   }
 }
