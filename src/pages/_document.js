@@ -4,6 +4,9 @@ const Document = () => (
   <Html>
     <Head>
       <link
+        href={'https://fonts.googleapis.com/css2?family=League+Spartan&display=swap'}
+        rel={'stylesheet'}/>
+      <link
         href={'https://fonts.googleapis.com/css2?family=Nunito&display=swap'}
         rel={'stylesheet'}/>
       <script

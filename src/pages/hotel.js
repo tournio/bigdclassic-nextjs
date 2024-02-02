@@ -48,7 +48,7 @@ const hotel = () => {
               <p>
                 <a href={hotelUrl} className={styles.Logo}>
                   <img className="img-fluid"
-                       src="/images/hotel/logo.jpg"
+                       src="/src/images/hotel/logo.jpg"
                        alt={hotelName + ' Logo'}/>
                 </a>
               </p>

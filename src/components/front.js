@@ -18,7 +18,7 @@ const Front = () => {
       <Card.Body>
         <div>
           <img className="float-end img-fluid col-5 col-sm-3 ps-1"
-               src="/images/logo.jpg"
+               src="/src/images/logo.jpg"
                alt="Big D Classic logo"
           />
         </div>

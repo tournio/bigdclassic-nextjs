@@ -1,0 +1,35 @@
+// Our prefix, obviously
+$prefix: bigdclassic-;
+
+// Our values that override Bootstrap's variables
+$font-size-root: 18px; // Make text a bit bigger than default
+$link-color: shade-color(#0d6efd, 30%);
+$link-color-dark: tint-color(#0d6efd, 25%);
+$carousel-dark-caption-color: white;
+$carousel-dark-indicator-active-bg:  white;
+$carousel-dark-control-icon-filter:  invert(0) grayscale(100);
+
+//
+// Our custom colors
+//
+
+// intended for light color mode
+$reseda-green: #797d62ff;
+$reseda-green-rgb: to-rgb($reseda-green);
+$moss-green: #9b9b7aff;
+$desert-sand: #d9ae94ff;
+$peach-yellow: #f1dca7ff;
+$peach-yellow-rgb: to-rgb($peach-yellow);
+$sunglow: #ffcb69ff;
+$persian-orange: #d08c60ff;
+$beaver: #997b66ff;
+$beaver-rgb: to-rgb($beaver);
+
+// intended for dark color mode (duplicated colors commented out)
+//$moss-green: #989c81ff;
+//$reseda-green: #868665ff;
+$kobicha: #6a3f25ff;
+$field-drab: #58430eff;
+$golden-brown: #946000ff;
+$raw-umber: #9d5b2fff;
+//$beaver: #997b66ff;

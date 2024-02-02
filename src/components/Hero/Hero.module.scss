@@ -1,0 +1,37 @@
+.Hero {
+  .JumbotronImage {
+    padding-bottom: 0;
+    margin-bottom: 0.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 25%;
+
+    min-height: 267px;
+    background-image: url('../../images/hero/image-400w.jpeg');
+    @media (min-width: 576px) {
+      min-height: 385px;
+      background-image: url('../../images/hero/image-576w.jpeg');
+    }
+    @media (min-width: 768px) {
+      min-height: 513px;
+      background-image: url('../../images/hero/image-768w.jpeg');
+    }
+    @media (min-width: 992px) {
+      min-height: 662px;
+      background-image: url('../../images/hero/image-992w.jpeg');
+    }
+    @media (min-width: 1200px) {
+      min-height: 801px;
+      background-image: url('../../images/hero/image-1200w.jpeg');
+    }
+    @media (min-width: 1400px) {
+      min-height: 934px;
+      background-image: url('../../images/hero/image-1400w.jpeg');
+    }
+  }
+
+  .PhotoCredit {
+    text-align: right;
+    font-size: 90%;
+  }
+}

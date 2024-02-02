@@ -1,0 +1,24 @@
+.Sponsors {
+  .Row {
+    background-color: var(--okclassic-sponsor-logo-bg);
+    margin: 0 -0.25rem;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    .ImageContainer {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+
+      @media (min-width: 768px) {
+        width: 20%;
+      }
+
+      .AdjustedBrightness {
+        [data-bs-theme='dark'] & {
+          filter: brightness(85%);
+        }
+      }
+    }
+  }
+}

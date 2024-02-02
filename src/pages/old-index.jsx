@@ -6,7 +6,7 @@ import Spotlight from '../components/spotlight';
 import styles from './index.module.scss';
 import Front from "../components/front";
 
-const index = () => {
+const oldIndex = () => {
 
   return (
     <Layout home={true}>
@@ -43,4 +43,4 @@ const index = () => {
   )
 }
 
-export default index;
+export default oldIndex;
