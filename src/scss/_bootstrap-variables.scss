@@ -2,12 +2,24 @@
 $prefix: bigdclassic-;
 
 // Our values that override Bootstrap's variables
-$font-size-root: 18px; // Make text a bit bigger than default
+$font-size-root: 20px; // Make text a bit bigger than default
 $link-color: shade-color(#0d6efd, 30%);
 $link-color-dark: tint-color(#0d6efd, 25%);
 $carousel-dark-caption-color: white;
 $carousel-dark-indicator-active-bg:  white;
 $carousel-dark-control-icon-filter:  invert(0) grayscale(100);
+$font-family-sans-serif:
+  "League Spartan",
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  "Helvetica Neue",
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol";
 
 //
 // Our custom colors

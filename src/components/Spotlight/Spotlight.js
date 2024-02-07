@@ -117,14 +117,14 @@ const Spotlight = () => {
 
   return (
     <div className={`${styles.Spotlight}`}>
-      <Card>
+      <Card className={styles.Card}>
         <Card.Header>
           <Card.Title as={'h4'}className={`${styles.Title}`}>
             Spotlight
           </Card.Title>
         </Card.Header>
 
-        <Card.Body>
+        <Card.Body className={styles.Body}>
           {text}
         </Card.Body>
       </Card>

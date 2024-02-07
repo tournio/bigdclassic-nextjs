@@ -1,7 +1,12 @@
 .Spotlight {
-  text-align: left;
+  .Card {
 
-  .Title {
-    margin-bottom: 0;
+    .Title {
+      margin-bottom: 0;
+    }
+
+    .Body {
+      padding-bottom: 0;
+    }
   }
 }
