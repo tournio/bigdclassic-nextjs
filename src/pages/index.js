@@ -5,7 +5,7 @@ import RootLayout from "../components/Layout/Layout";
 import Hero from "../components/Hero/Hero";
 import MainText from "../components/MainText/MainText";
 import Spotlight from "../components/Spotlight/Spotlight";
-// import Location from "../components/Location/Location";
+import Location from "../components/Location/Location";
 // import Hotel from "../components/Hotel/Hotel";
 // import Schedule from "../components/Schedule/Schedule";
 // import Links from "../components/Links/Links";
@@ -27,7 +27,8 @@ const MainPage = () => {
         </Row>
       </section>
 
-      {/*<Location/>*/}
+      <Location/>
+
       {/*<Schedule/>*/}
       {/*<Hotel/>*/}
       {/*<RegisterCTA/>*/}
