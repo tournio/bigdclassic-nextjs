@@ -38,7 +38,7 @@ const spotlight = () => {
       {/*</Card.Text>*/}
 
       <Card.Text>
-        We&apos;re hosting a Match Play Trios tournament, on May 1, 2024. Reserve your team&apos;s spot
+        We&apos;re hosting a Match Play Trios tournament, on May 4, 2024. Reserve your team&apos;s spot
         today!
       </Card.Text>
       <Card.Text>
