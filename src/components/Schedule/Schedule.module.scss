@@ -1,0 +1,85 @@
+.Schedule {
+  padding-bottom: 2rem;
+
+  //.BackgroundImage {
+  //  background-image: url('../../images/bg/midtown-400.jpeg');
+  //  background-size: cover;
+  //  background-position: 40% top;
+  //
+  //  @media (min-width: 768px) {
+  //    background-image: url('../../images/bg/midtown-768.jpeg');
+  //  }
+  //  @media (min-width: 992px) {
+  //    background-image: url('../../images/bg/midtown-992.jpeg');
+  //  }
+  //  @media (min-width: 1200px) {
+  //    background-image: url('../../images/bg/midtown-1200.jpeg');
+  //  }
+  //  @media (min-width: 1400px) {
+  //    background-image: url('../../images/bg/midtown-1400.jpeg');
+  //  }
+  //}
+  //.BackgroundShade {
+  //  background-color: white;
+  //  opacity: 0.8;
+  //
+  //  [data-bs-theme="dark"] & {
+  //    background-color: black;
+  //  }
+  //}
+
+  .Content {
+    margin: 0 0.5rem;
+
+    .Disclaimer {
+      text-align: center;
+      font-size: 90%;
+    }
+
+    .DayOfEvents {
+      @media(min-width: 768px) {
+        border-top: 1px solid var(--bigdclassic-dark-bg-subtle);
+        padding-top: 0.5rem;
+        margin-bottom: 0.5rem;
+
+        [data-bs-theme='dark'] & {
+          border-color: var(--bigdclassic-tertiary-color);
+        }
+      }
+    }
+
+    .Date {
+      text-align: left;
+
+      h4 {
+        padding: 0.5rem 1rem;
+        margin: 0 -1rem;
+        background-color: var(--bigdclassic-schedule-date-bg);
+
+        @media (min-width: 768px) {
+          background-color: transparent;
+        }
+      }
+    }
+
+    .Event {
+      margin-top: 0.5rem;
+
+      .Detail {
+        text-align: left;
+
+        p {
+          text-align: left;
+          margin-bottom: 0.5rem;
+        }
+        .More {
+          font-size: 95%;
+          font-style: italic;
+        }
+      }
+      .Time {
+        text-align: right;
+      }
+    }
+  }
+}

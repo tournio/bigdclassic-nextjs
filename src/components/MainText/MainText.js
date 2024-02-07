@@ -8,11 +8,11 @@ import cfaLogo from '../../images/cfa.jpg';
 import styles from './MainText.module.scss';
 
 const MainText = () => {
-  const tournamentDates = 'August 2024';
+  const tournamentDates = 'August 9-11, 2024';
 
   return (
     <div className={styles.MainText}>
-      <Row className={`${styles.MainText}`}>
+      <Row className={`${styles.MainText} d-flex align-items-center`}>
         <Col xs={5} sm={6}>
           <Image src={logo}
                  alt={'Big D Classic tournament logo'}
@@ -20,12 +20,12 @@ const MainText = () => {
           />
         </Col>
         <Col className={'text-md-center'}>
-          <h5 className={`display-5 ${styles.Dates}`}>
+          <h4 className={`${styles.Dates}`}>
             {tournamentDates}
-          </h5>
-          <h6 className={`display-6 ${styles.City}`}>
+          </h4>
+          <h5 className={`${styles.City}`}>
             Dallas, TX
-          </h6>
+          </h5>
         </Col>
       </Row>
 
