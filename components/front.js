@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import styles from './front.module.scss';
 
 const Front = () => {
-  const tournamentDates = 'August 2024';
+  const tournamentDates = 'August 9-11, 2024';
 
   return (
     <Card className={styles.Front}>
@@ -26,6 +26,9 @@ const Front = () => {
           In a tradition dating back very nearly to the 20th century, bowlers from all around the country descend
           upon north Texas in the middle of August to beat the heat and engage in a little friendly competition,
           all while raising money for a good cause.
+        </Card.Text>
+        <Card.Text>
+          We aim to open registration for this year&apos;s tournament on May 1, so keep your eyes peeled!
         </Card.Text>
         <hr />
         <div>

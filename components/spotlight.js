@@ -37,18 +37,18 @@ const spotlight = () => {
       {/*  forward to seeing everyone again next year.*/}
       {/*</Card.Text>*/}
 
-      {/*<Card.Text>*/}
-      {/*  We&apos;re hosting a Match Play Trios tournament, on December 16, 2023. Reserve your team&apos;s spot*/}
-      {/*  today!*/}
-      {/*</Card.Text>*/}
-      {/*<Card.Text>*/}
-      {/*  <a href="/images/match_play_dec_2023.pdf">*/}
-      {/*    Full details*/}
-      {/*  </a>*/}
-      {/*</Card.Text>*/}
-      {/*<Card.Text>*/}
-      {/*  <StripeBuyButton buttonId={process.env.NEXT_PUBLIC_TRIOS_BUTTON_ID}/>*/}
-      {/*</Card.Text>*/}
+      <Card.Text>
+        We&apos;re hosting a Match Play Trios tournament, on May 1, 2024. Reserve your team&apos;s spot
+        today!
+      </Card.Text>
+      <Card.Text>
+        <a href="/images/match_play_may_2024.jpg">
+          Full details
+        </a>
+      </Card.Text>
+      <Card.Text>
+        <StripeBuyButton buttonId={process.env.NEXT_PUBLIC_TRIOS_BUTTON_ID}/>
+      </Card.Text>
 
 
       {/*<hr/>*/}
@@ -85,26 +85,26 @@ const spotlight = () => {
 
       {/*<hr/>*/}
 
-      <Card.Text>
-        While we prepare for the 2024 Big D Classic, check out the other IGBO tournaments in the D/FW metroplex:
-      </Card.Text>
-      <ul>
-        <li>
-          <a href={'https://trotbowling.com/'}>
-            TROT
-          </a>
-        </li>
-        <li>
-          <a href={'https://www.shiftid.org/'}>
-            SHIFTID
-          </a>
-        </li>
-        <li>
-          <a href={'https://www.damitbowling.org/'}>
-            DAMIT
-          </a>
-        </li>
-      </ul>
+      {/*<Card.Text>*/}
+      {/*  In the meantime, check out these other IGBO tournaments in the D/FW metroplex:*/}
+      {/*</Card.Text>*/}
+      {/*<ul>*/}
+      {/*  <li>*/}
+      {/*    <a href={'https://trotbowling.com/'}>*/}
+      {/*      TROT*/}
+      {/*    </a>*/}
+      {/*  </li>*/}
+      {/*  <li>*/}
+      {/*    <a href={'https://www.shiftid.org/'}>*/}
+      {/*      SHIFTID*/}
+      {/*    </a>*/}
+      {/*  </li>*/}
+      {/*  <li>*/}
+      {/*    <a href={'https://www.damitbowling.org/'}>*/}
+      {/*      DAMIT*/}
+      {/*    </a>*/}
+      {/*  </li>*/}
+      {/*</ul>*/}
     </Card.Body>
   );
 
