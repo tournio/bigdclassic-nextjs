@@ -28,7 +28,7 @@ const Front = () => {
           all while raising money for a good cause.
         </Card.Text>
         <Card.Text>
-          We aim to open registration for this year&apos;s tournament on May 4, so keep your eyes peeled!
+          We aim to open registration for this year&apos;s tournament on May 1, so keep your eyes peeled!
         </Card.Text>
         <hr />
         <div>
