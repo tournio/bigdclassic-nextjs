@@ -7,7 +7,7 @@ import MainText from "../components/MainText/MainText";
 import Spotlight from "../components/Spotlight/Spotlight";
 import Location from "../components/Location/Location";
 import Hotel from "../components/Hotel/Hotel";
-// import Schedule from "../components/Schedule/Schedule";
+import Schedule from "../components/Schedule/Schedule";
 import Links from "../components/Links/Links";
 
 const MainPage = () => {
@@ -29,7 +29,8 @@ const MainPage = () => {
 
       <Location/>
 
-      {/*<Schedule/>*/}
+      <Schedule/>
+
       <Hotel/>
       <Links/>
     </div>

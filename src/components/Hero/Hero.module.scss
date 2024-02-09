@@ -3,7 +3,7 @@
     padding-bottom: 0;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0 25%;
+    background-position: 0 70%;
 
     min-height: 267px;
     background-image: url('../../images/hero/image-400w.jpeg');
@@ -16,15 +16,15 @@
       background-image: url('../../images/hero/image-768w.jpeg');
     }
     @media (min-width: 992px) {
-      min-height: 662px;
+      min-height: 600px;
       background-image: url('../../images/hero/image-992w.jpeg');
     }
     @media (min-width: 1200px) {
-      min-height: 801px;
+      min-height: 700px;
       background-image: url('../../images/hero/image-1200w.jpeg');
     }
     @media (min-width: 1400px) {
-      min-height: 934px;
+      min-height: 850px;
       background-image: url('../../images/hero/image-1400w.jpeg');
     }
   }
