@@ -1,0 +1,42 @@
+.Links {
+
+  .InfoRow {
+    .InfoCard {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      background-color: transparent;
+    }
+  }
+  .TournamentCard {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: transparent;
+  }
+  .CardHeader {
+    text-align: center;
+    font-weight: 100;
+    font-size: 160%;
+
+    a, a:hover, a:active, a:visited {
+      text-decoration: none;
+      //color: #3b4273;
+    }
+    a:hover {
+      font-weight: 400;
+    }
+  }
+  .CardBody {
+    text-align: center;
+
+    .Location {
+      font-size: 90%;
+      display: block;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .CardHeader {
+      font-size: 300%;
+    }
+  }
+}

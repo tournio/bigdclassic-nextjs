@@ -7,7 +7,7 @@ import Footer from "./Footer";
 export default function RootLayout({ children }) {
   return (
     <ThemeContextProvider>
-      <div className={`container-xl gx-0 gx-xl-4`}>
+      <div className={`container-xl gx-1 gx-xl-4`}>
         <Header/>
         <Navigation/>
 

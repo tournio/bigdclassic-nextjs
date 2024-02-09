@@ -8,7 +8,7 @@ import Spotlight from "../components/Spotlight/Spotlight";
 import Location from "../components/Location/Location";
 import Hotel from "../components/Hotel/Hotel";
 // import Schedule from "../components/Schedule/Schedule";
-// import Links from "../components/Links/Links";
+import Links from "../components/Links/Links";
 
 const MainPage = () => {
   return (
@@ -31,7 +31,7 @@ const MainPage = () => {
 
       {/*<Schedule/>*/}
       <Hotel/>
-      {/*<Links/>*/}
+      <Links/>
     </div>
   )
 }
