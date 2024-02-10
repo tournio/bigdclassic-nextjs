@@ -1,5 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import Link from "next/link";
+
+import StripeBuyButton from "../StripeBuyButton";
 
 import styles from './Spotlight.module.scss';
 
@@ -44,20 +47,6 @@ const Spotlight = () => {
       {/*  forward to seeing everyone again next year.*/}
       {/*</Card.Text>*/}
 
-      {/*<Card.Text>*/}
-      {/*  We&apos;re hosting a Match Play Trios tournament, on December 16, 2023. Reserve your team&apos;s spot*/}
-      {/*  today!*/}
-      {/*</Card.Text>*/}
-      {/*<Card.Text>*/}
-      {/*  <a href="/images/match_play_dec_2023.pdf">*/}
-      {/*    Full details*/}
-      {/*  </a>*/}
-      {/*</Card.Text>*/}
-      {/*<Card.Text>*/}
-      {/*  <StripeBuyButton buttonId={process.env.NEXT_PUBLIC_TRIOS_BUTTON_ID}/>*/}
-      {/*</Card.Text>*/}
-
-
       {/*<hr/>*/}
 
       {/*<Card.Text>*/}
@@ -90,28 +79,40 @@ const Spotlight = () => {
       {/*  </a>*/}
       {/*</Card.Text>*/}
 
+      <Card.Text>
+        We&apos;re hosting a Match Play Trios tournament, on May 4, 2024. Reserve your team&apos;s spot
+        today!
+      </Card.Text>
+      <Card.Text>
+        <Link href="/images/match_play_may_2024.jpg"
+              className={'d-block'}>
+          Full details
+        </Link>
+      </Card.Text>
+      <StripeBuyButton buttonId={process.env.NEXT_PUBLIC_TRIOS_BUTTON_ID}/>
+
       {/*<hr/>*/}
 
-      <Card.Text>
-        While we prepare for the 2024 Big D Classic, check out the other IGBO tournaments in the D/FW metroplex:
-      </Card.Text>
-      <ul>
-        <li>
-          <a href={'https://trotbowling.com/'}>
-            TROT
-          </a>
-        </li>
-        <li>
-          <a href={'https://www.shiftid.org/'}>
-            SHIFTID
-          </a>
-        </li>
-        <li>
-          <a href={'https://www.damitbowling.org/'}>
-            DAMIT
-          </a>
-        </li>
-      </ul>
+      {/*<Card.Text>*/}
+      {/*  While we prepare for the 2024 Big D Classic, check out the other IGBO tournaments in the D/FW metroplex:*/}
+      {/*</Card.Text>*/}
+      {/*<ul>*/}
+      {/*  <li>*/}
+      {/*    <a href={'https://trotbowling.com/'}>*/}
+      {/*      TROT*/}
+      {/*    </a>*/}
+      {/*  </li>*/}
+      {/*  <li>*/}
+      {/*    <a href={'https://www.shiftid.org/'}>*/}
+      {/*      SHIFTID*/}
+      {/*    </a>*/}
+      {/*  </li>*/}
+      {/*  <li>*/}
+      {/*    <a href={'https://www.damitbowling.org/'}>*/}
+      {/*      DAMIT*/}
+      {/*    </a>*/}
+      {/*  </li>*/}
+      {/*</ul>*/}
     </>
   );
 
@@ -119,7 +120,7 @@ const Spotlight = () => {
     <div className={`${styles.Spotlight}`}>
       <Card className={styles.Card}>
         <Card.Header>
-          <Card.Title as={'h4'}className={`${styles.Title}`}>
+          <Card.Title as={'h4'} className={`${styles.Title}`}>
             Spotlight
           </Card.Title>
         </Card.Header>
