@@ -98,7 +98,7 @@ const Navigation = () => {
                 {/*</li>*/}
 
                 {navLink({
-                  path: '/committee',
+                  path: '/contact',
                   text: 'Committee',
                 })}
 
