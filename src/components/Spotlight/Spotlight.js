@@ -9,10 +9,6 @@ import styles from './Spotlight.module.scss';
 const Spotlight = () => {
   const REGISTER_URL = 'https://www.tourn.io/tournaments/bigdclassic-2024';
 
-  // const prelimText = <p>
-  //   We&apos;re working hard putting together the OKClassic 2024, with several fun and fundraiser events happening in the meantime. Keep your eyes peeled!
-  // </p>;
-
   // const registrationOpen = (
   //   <>
   //     <p>
