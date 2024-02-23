@@ -25,7 +25,7 @@ const Navigation = () => {
   );
 
   return (
-      <nav className={`navbar navbar-expand-lg`}>
+      <nav className={`navbar navbar-expand-md`}>
         <div className={`container-fluid`}>
           <button
             type={'button'}

@@ -11,26 +11,26 @@
     background-repeat: no-repeat;
     background-position: 0 0;
 
-    min-height: 251px;
+    min-height: 10rem;
     background-image: url('../../images/hero/image-400w.jpeg');
     @media (min-width: 576px) {
-      min-height: 362px;
+      min-height: 16rem;
       background-image: url('../../images/hero/image-576w.jpeg');
     }
     @media (min-width: 768px) {
-      min-height: 482px;
+      min-height: 20rem;
       background-image: url('../../images/hero/image-768w.jpeg');
     }
     @media (min-width: 992px) {
-      min-height: 622px;
+      min-height: 26rem;
       background-image: url('../../images/hero/image-992w.jpeg');
     }
     @media (min-width: 1200px) {
-      min-height: 752px;
+      min-height: 28rem;
       background-image: url('../../images/hero/image-1200w.jpeg');
     }
     @media (min-width: 1400px) {
-      min-height: 877px;
+      min-height: 30rem;
       background-image: url('../../images/hero/image-1400w.jpeg');
     }
 
@@ -43,7 +43,7 @@
       padding-left: 5.5rem;
 
       @media (min-width: 576px) {
-        padding-left: 8.2rem;
+        padding-left: 8.5rem;
       }
       @media (min-width: 768px) {
         padding-left: 10.5rem;
