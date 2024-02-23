@@ -26,9 +26,9 @@
 
     .dropdown-menu {
       --#{$prefix}dropdown-link-color: #{$gray-900};
-      --#{$prefix}dropdown-link-hover-color: rgba(#{$french-gray}, 0.8);
-      --#{$prefix}dropdown-link-hover-bg: #{$gray-900};
-      --#{$prefix}dropdown-link-active-color: rgba(#{$french-gray}, 1);
+      --#{$prefix}dropdown-link-hover-color: #{$gray-900};
+      --#{$prefix}dropdown-link-hover-bg: #{$silver};
+      --#{$prefix}dropdown-link-active-color: #{$french-gray};
       --#{$prefix}dropdown-link-active-bg: #{$gray-900};
     }
   }
@@ -70,10 +70,10 @@
 
     .dropdown-menu {
       --#{$prefix}dropdown-link-color: #{$gray-300};
-      --#{$prefix}dropdown-link-hover-color: #{$gray-500};
-      --#{$prefix}dropdown-link-hover-bg: #{$dark-moss-green};
+      --#{$prefix}dropdown-link-hover-color: #{$gray-300};
+      --#{$prefix}dropdown-link-hover-bg: #{$gray-700};
       --#{$prefix}dropdown-link-active-color: #{$gray-200};
-      --#{$prefix}dropdown-link-active-bg: #{$dark-moss-green};
+      --#{$prefix}dropdown-link-active-bg: #{$gray-700};
     }
   }
 

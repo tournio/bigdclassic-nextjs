@@ -27,6 +27,7 @@ const ColorModeToggler = (props) => {
   }
 
   const themeClicked = (event) => {
+    console.log("Clicked...");
     event.preventDefault();
     updatePreferredTheme(event.target.name);
   }
