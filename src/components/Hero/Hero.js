@@ -1,20 +1,37 @@
 import styles from './Hero.module.scss';
 
 const Hero = () => {
+  const tournDates = 'Aug 9-11, 2024';
+  const tournamentDates = 'August 9-11, 2024';
 
   return (
-    <section className={`${styles.Hero}`}>
-      <div className={`${styles.JumbotronImage}`}/>
+    <div className={`${styles.Hero}`}>
+      <div className={`${styles.JumbotronImage} d-flex justify-content-end flex-column`}>
 
-      <div className={'row'}>
-        <p className={`${styles.PhotoCredit} col-12`}>
-          Photo credit:{' '}
-          <a href="https://www.flickr.com/photos/daxis/18378516600">
-            Daxis
-          </a>
-        </p>
+        {/* Devices larger than phones */}
+        <div className={`d-none d-sm-block ${styles.Headings}`}>
+          <h1 className={`${styles.Title} display-1`}>
+            Big D Classic
+          </h1>
+
+          <h2 className={`${styles.Dates} display-4`}>
+            {tournamentDates}
+          </h2>
+        </div>
+
+        {/* Mobile devices only */}
+        <div className={`d-sm-none ${styles.Headings}`}>
+          <h1 className={`${styles.Title}`}>
+            Big D Classic
+          </h1>
+
+          <h2 className={`${styles.Dates}`}>
+            {tournDates}
+          </h2>
+        </div>
       </div>
-    </section>
+
+    </div>
   )
 }
 

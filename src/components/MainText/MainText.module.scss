@@ -15,7 +15,14 @@
     height: auto;
   }
   .FloatingLogo {
-    width: 10rem;
+    width: 9rem;
     height: auto;
+
+    @media (min-width: 576px) {
+      width: 12rem;
+    }
+    @media (min-width: 992px) {
+      width: 16rem;
+    }
   }
 }

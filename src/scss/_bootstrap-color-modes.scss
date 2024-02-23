@@ -1,10 +1,11 @@
 :root,
 [data-bs-theme="light"] {
   --#{$prefix}body-bg: white;
-  --#{$prefix}background-shade-color: white;
-  --#{$prefix}background-shade-opacity: 0.65;
 
   --#{$prefix}link-opacity: 1;
+
+  --#{$prefix}hero-overlay-title: #{$gray-200};
+  --#{$prefix}hero-overlay-year: #{tint-color($sunglow, 20%)};
 
   --#{$prefix}section-heading-color: #{$gray-900};
   --#{$prefix}section-heading-bg-color: #{tint-color($air-superiority-blue, 15%)};
@@ -44,8 +45,9 @@
 
 [data-bs-theme="dark"] {
   --#{$prefix}body-bg: #{$black-olive};
-  --#{$prefix}background-shade-color: black;
-  --#{$prefix}background-shade-opacity: 0.45;
+
+  --#{$prefix}hero-overlay-title: #{$silver};
+  --#{$prefix}hero-overlay-year: #{$sunglow};
 
   --#{$prefix}link-opacity: 1;
 

@@ -1,46 +1,40 @@
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Image from "next/image";
 
-import logo from '../../images/logo.jpg';
 import cfaLogo from '../../images/cfa.jpg';
 
 import styles from './MainText.module.scss';
+import Spotlight from "../Spotlight/Spotlight";
 
 const MainText = () => {
-  const tournamentDates = 'August 9-11, 2024';
-
   return (
     <div className={styles.MainText}>
-      <Row className={`${styles.MainText} d-flex align-items-center`}>
-        <Col xs={5} sm={6}>
-          <Image src={logo}
-                 alt={'Big D Classic tournament logo'}
-                 className={styles.Logo}
-          />
-        </Col>
-        <Col className={'text-md-center'}>
-          <h4 className={`${styles.Dates}`}>
-            {tournamentDates}
-          </h4>
-          <h5 className={`${styles.City}`}>
-            Dallas, TX
-          </h5>
-        </Col>
-      </Row>
+      <div className={`row`}>
+        <div className={`col-12`}>
+          {/* Only show this paragraph on larger viewports. */}
+          <p className={`d-none d-md-block`}>
+            In a tradition dating back very nearly to the 20th century, bowlers from all around the country descend upon
+            north Texas in the middle of August to beat the heat and engage in a little friendly competition, all while
+            raising money for a good cause.
+          </p>
+          <p>
+            We aim to open registration for this year&apos;s tournament on May 1, so keep your eyes peeled!
+          </p>
 
-      <hr/>
+          <div className={`d-md-none col-12 mb-3`}>
+            <Spotlight/>
+          </div>
 
-      <Row>
-        <Col xs={12} md={8}>
+          <hr className={`d-none d-md-block`}/>
+
           <a href={'https://www.cfa.lgbt/'}
-             className={`${styles.FloatingLogo} float-end d-md-none`}
+             className={`${styles.FloatingLogo} float-end ms-3`}
              target={'_new'}>
             <Image className={`${styles.BeneficiaryLogo}`}
                    src={cfaLogo}
                    alt={'Coalition for Aging LGBT Logo'}
             />
           </a>
+
           <p>
             Our tournament raises funds for the{' '}
             <a href={'https://www.cfa.lgbt/'}
@@ -59,18 +53,9 @@ const MainText = () => {
               Learn more
             </a>
           </p>
-        </Col>
-        <Col>
-          <a href={'https://www.cfa.lgbt/'}
-             className={'d-none d-md-block'}
-             target={'_new'}>
-            <Image className={`${styles.BeneficiaryLogo}`}
-                   src={cfaLogo}
-                   alt={'Coalition for Aging LGBT Logo'}
-            />
-          </a>
-        </Col>
-      </Row>
+        </div>
+
+      </div>
     </div>
   )
 }

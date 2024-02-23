@@ -1,6 +1,3 @@
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-
 import RootLayout from "../components/Layout/Layout";
 import Hero from "../components/Hero/Hero";
 import MainText from "../components/MainText/MainText";
@@ -14,17 +11,19 @@ const MainPage = () => {
   return (
     <div>
 
-      <Hero/>
+      <section>
+        <Hero/>
+      </section>
 
       <section>
-        <Row>
-          <Col xs={12} md={8}>
+        <div className={`row`}>
+          <div className={`col-12 col-md-7 col-lg-8`}>
             <MainText />
-          </Col>
-          <Col xs={12} md={4}>
+          </div>
+          <div className={`d-none d-md-block col-md-5 col-lg-4`}>
             <Spotlight/>
-          </Col>
-        </Row>
+          </div>
+        </div>
       </section>
 
       <Location/>

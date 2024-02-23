@@ -4,12 +4,10 @@
 html {
   body {
     section {
-      position: relative;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
 
-      section > div {
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-      }
+      position: relative;
 
       a, a:hover {
         text-decoration: underline solid rgba(var(--bigdclassic-link-color-rgb), 50%) 1px;
@@ -37,41 +35,8 @@ html {
 
         color: var(--bigdclassic-section-heading-color);
         background-color: var(--bigdclassic-section-heading-bg-color);
-
-        @media (min-width: 576px) {
-        }
-        @media(min-width: 768px) {
-        }
-        @media (min-width: 992px) {
-        }
       }
 
-      .section-image-background {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        z-oldIndex: -50;
-        background-repeat: no-repeat;
-
-        // Each section provides its own image(s),
-        //  background positions,
-        //  and background sizes
-
-        @media (min-width: 576px) {
-        }
-        @media (min-width: 992px) {
-        }
-      }
-      .section-background-shade {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        z-oldIndex: -49;
-      }
     }
   }
 }
