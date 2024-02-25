@@ -1,10 +1,4 @@
 .Hero {
-  font-family:
-    BioRhyme,
-    "Times New Roman",
-    Times,
-    serif;
-
   .JumbotronImage {
     padding-bottom: 0;
     background-size: cover;
@@ -35,6 +29,12 @@
     }
 
     .Headings {
+      font-family:
+        BioRhyme,
+        "Times New Roman",
+        Times,
+        serif;
+
       white-space: nowrap;
       background-color: rgba(0, 0, 0, 0.55);
       background-image: url('../../images/logo.jpg');
@@ -75,8 +75,8 @@
 
   .PhotoCredit {
     text-align: right;
-    font-size: 90%;
+    font-size: 80%;
     margin-bottom: 0;
-    padding-right: 1rem;
+    padding-right: 0.5rem;
   }
 }

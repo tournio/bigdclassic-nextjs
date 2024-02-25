@@ -31,6 +31,9 @@ const Hero = () => {
         </div>
       </div>
 
+      <div className={`d-none d-md-block ${styles.PhotoCredit}`}>
+        Photo by <a href="https://unsplash.com/@gabrielrana?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Gabriel Tovar</a> on <a href="https://unsplash.com/photos/time-lapse-photography-of-city-during-night-time-Zn1nqVeTRvI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      </div>
     </div>
   )
 }
