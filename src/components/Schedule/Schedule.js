@@ -84,7 +84,7 @@ const Schedule = () => {
           <div key={`day_${i}`}
                className={`row g-0 ${styles.DayOfEvents}`}>
             <div className={`${styles.Date} col-md-4`}>
-              <h4>
+              <h4 className={'me-md-3'}>
                 {day.date}
               </h4>
             </div>

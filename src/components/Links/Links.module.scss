@@ -15,7 +15,7 @@
   .CardHeader {
     text-align: center;
     font-weight: 100;
-    font-size: 160%;
+    font-size: 150%;
 
     a, a:hover, a:active, a:visited {
       text-decoration: none;
@@ -36,7 +36,7 @@
 
   @media (min-width: 768px) {
     .CardHeader {
-      font-size: 300%;
+      font-size: 240%;
     }
   }
 }
