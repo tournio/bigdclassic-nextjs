@@ -20,11 +20,11 @@ import hotelImageRoom4 from '../../images/hotel/room4.jpeg';
 import styles from './Hotel.module.scss';
 
 const Hotel = () => {
-  const hotelUrl = 'https://www.marriott.com/events/start.mi?id=1683048222529&key=GRP';
+  const hotelUrl = 'https://www.marriott.com/events/start.mi?id=1710278630415&key=GRP';
   const hotelName = 'Sheraton Dallas Hotel by the Galleria';
   const features = [
     'King or Double guest rooms',
-    // 'Room rate: $119/night, must book by July 14',
+    'Room rate: $119/night, must book by July 26',
     'Complimentary WiFi, breakfast, and parking',
     'Outdoor pool',
     'Fitness center',
