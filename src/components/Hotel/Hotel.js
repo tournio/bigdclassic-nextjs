@@ -99,18 +99,18 @@ const Hotel = () => {
               </a>
             </p>
           </Col>
-          <Col>
-            <p className={'lead text-center'}>
-              2024 details TBA
-            </p>
-          </Col>
           {/*<Col>*/}
-          {/*  <p className="text-center">*/}
-          {/*    <Button href={hotelUrl} variant="success">*/}
-          {/*      Book Your Room*/}
-          {/*    </Button>*/}
+          {/*  <p className={'lead text-center'}>*/}
+          {/*    2024 details TBA*/}
           {/*  </p>*/}
           {/*</Col>*/}
+          <Col>
+            <p className="text-center">
+              <Button href={hotelUrl} variant="success">
+                Book Your Room
+              </Button>
+            </p>
+          </Col>
         </Row>
         <Row className="order-3 order-md-2">
           <Col>
