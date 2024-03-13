@@ -4,17 +4,17 @@ This is the informational website for the Big D Classic, an IGBO-affiliated bowl
 
 It's built as a static website using the [Next.js](https://nextjs.org/) framework and [React-Bootstrap](https://react-bootstrap.github.io/).
 
-It uses Bootstrap 4, so it's built for mobile-first.
+It uses Bootstrap 5, so it's built for mobile-first.
 
 ### Mobile
 
-<p align="center">
-  <img src="./readme_images/mobile.jpg" alt="Mobile layout" width="540"/>
+<p>
+  <img src="./readme_images/mobile.jpg" alt="Mobile layout" width="563"/>
 </p>
 
 ### Desktop
 
-<p align="center">
+<p>
   <img src="./readme_images/desktop.jpg" alt="Desktop layout" />
 </p>
 
