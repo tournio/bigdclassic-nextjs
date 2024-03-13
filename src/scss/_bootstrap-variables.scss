@@ -1,0 +1,38 @@
+// Our prefix, obviously
+$prefix: bigdclassic-;
+
+// Our values that override Bootstrap's variables
+$font-size-root: 20px; // Make text a bit bigger than default
+$grid-gutter-width: 1rem;
+$link-color: shade-color(#0d6efd, 30%);
+$link-color-dark: tint-color(#0d6efd, 25%);
+$carousel-dark-caption-color: white;
+$carousel-dark-indicator-active-bg:  white;
+$carousel-dark-control-icon-filter:  invert(0) grayscale(100);
+$font-family-sans-serif:
+  'Montserrat',
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  "Helvetica Neue",
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol";
+
+//
+// Our custom colors
+//
+
+$air-superiority-blue: #7b96afff;
+$french-gray: #b4c0c9ff;
+$silver: #c6cacdff;
+$sunglow: #fec920ff;
+$harvest-gold: #da9000ff;
+$fulvous: #ec880bff;
+$satin-sheen-gold: #ac9219ff;
+$dark-moss-green: #51572eff;
+$caf-noir: #3d301fff;
+$black-olive: #212915ff;

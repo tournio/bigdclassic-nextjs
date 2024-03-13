@@ -1,0 +1,91 @@
+:root,
+[data-bs-theme="light"] {
+  --#{$prefix}body-bg: white;
+
+  --#{$prefix}link-opacity: 1;
+
+  --#{$prefix}hero-overlay-title: #{$gray-200};
+  --#{$prefix}hero-overlay-year: #{tint-color($sunglow, 20%)};
+
+  --#{$prefix}section-heading-color: #{$gray-900};
+  --#{$prefix}section-heading-bg-color: #{tint-color($air-superiority-blue, 15%)};
+
+  .navbar {
+    --#{$prefix}navbar-color: #{$gray-900};
+    --#{$prefix}navbar-disabled-color: #{$gray-700};
+
+    --#{$prefix}navbar-hover-color: #{$gray-900};
+    --#{$prefix}navbar-active-color: #{$gray-900};
+    --#{$prefix}navbar-toggler-border-color: #{$gray-800};
+
+    --#{$prefix}navbar-toggler-focus-width: 2px;
+
+    .btn-cmt {
+      // No color overrides necessary
+    }
+
+    .dropdown-menu {
+      --#{$prefix}dropdown-link-color: #{$gray-900};
+      --#{$prefix}dropdown-link-hover-color: #{$gray-900};
+      --#{$prefix}dropdown-link-hover-bg: #{$silver};
+      --#{$prefix}dropdown-link-active-color: #{$french-gray};
+      --#{$prefix}dropdown-link-active-bg: #{$gray-900};
+    }
+  }
+  footer {
+    .logo-image {
+      //filter: brightness(100%);
+    }
+  }
+
+  --#{$prefix}location-logo-bg-gradient-start: 0.95;
+
+  --#{$prefix}schedule-date-bg: #{$satin-sheen-gold};
+}
+
+[data-bs-theme="dark"] {
+  --#{$prefix}body-bg: #{$black-olive};
+
+  --#{$prefix}hero-overlay-title: #{$silver};
+  --#{$prefix}hero-overlay-year: #{$sunglow};
+
+  --#{$prefix}link-opacity: 1;
+
+  --#{$prefix}section-heading-color: #{$gray-300};
+  --#{$prefix}section-heading-bg-color: #{shade-color($satin-sheen-gold, 25%)};
+
+  .navbar {
+    --#{$prefix}navbar-color: #{$gray-300};
+    --#{$prefix}navbar-disabled-color: #{$gray-500};
+
+    --#{$prefix}navbar-hover-color: #{$gray-100};
+    --#{$prefix}navbar-active-color: #{$gray-200};
+    --#{$prefix}navbar-toggler-border-color: #{$gray-300};
+
+    --#{$prefix}navbar-toggler-focus-width: 2px;
+
+    .btn-cmt {
+      // No color overrides necessary
+    }
+
+    .dropdown-menu {
+      --#{$prefix}dropdown-link-color: #{$gray-300};
+      --#{$prefix}dropdown-link-hover-color: #{$gray-300};
+      --#{$prefix}dropdown-link-hover-bg: #{$gray-700};
+      --#{$prefix}dropdown-link-active-color: #{$gray-200};
+      --#{$prefix}dropdown-link-active-bg: #{$gray-700};
+    }
+  }
+
+  --#{$prefix}sponsor-logo-bg: #{$silver};
+
+  footer {
+    .logo-image {
+      //filter: brightness(100%);
+    }
+  }
+
+  --#{$prefix}location-logo-bg-gradient-start: 0.7;
+
+  --#{$prefix}schedule-date-bg: #{$satin-sheen-gold};
+}

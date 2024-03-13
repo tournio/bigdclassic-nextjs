@@ -1,0 +1,16 @@
+.Location {
+  .Logo {
+    padding: 0.75rem 0;
+
+    [data-bs-theme='dark'] & {
+      background-color: var(--bigdclassic-gray-400);
+    }
+  }
+  .Map {
+    [data-bs-theme='dark'] & {
+      filter: brightness(65%);
+    }
+
+    margin-bottom: 1rem;
+  }
+}
