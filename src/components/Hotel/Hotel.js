@@ -1,6 +1,7 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import {Carousel} from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import Carousel from "react-bootstrap/Carousel";
 import Image from "next/image";
 
 import hotelLogo from '../../images/hotel/logo.jpg';
