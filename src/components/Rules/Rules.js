@@ -8,9 +8,9 @@ const Rules = () => {
         Tournament Rules
       </h3>
 
-      <p className={`text-md-center`}>
-        (Pending finalization)
-      </p>
+      {/*<p className={`text-md-center`}>*/}
+      {/*  (Pending finalization)*/}
+      {/*</p>*/}
 
       <ol>
         <li>The Big D Classic is an USBC certified tournament. The tournament is a mixed handicap competition open to
@@ -110,7 +110,7 @@ const Rules = () => {
           forfeit practice time for the shift.
         </li>
         <li>Substitutes will be allowed to participate at the Tournament Director’s discretion.</li>
-        <li>Entry fee is $105.00 per bowler. The official entry deadline is Wednesday, August 1, 2024. All registration
+        <li>Entry fee is $120.00 per bowler. The official entry deadline is Wednesday, July 31, 2024. All registration
           and payment are made online at <a href="http://www.bigdclassic.com">www.bigdclassic.com</a>. Send any
           necessary documentation via email to <a href="mailto:director@bigdclassic.com">director@bigdclassic.com</a>.
         </li>
@@ -180,8 +180,8 @@ const Rules = () => {
         <li>Tournament Dates: August 9th, 10th, and 11th 2024. All events will be held at <span className={'fw-bold'}>Plano Super Bowl, 2521 K Ave, Plano, TX 75074</span>.
           Phone: 972-881-0242.
         </li>
-        <li>Entry Fee Break Down: <span className={'fw-bold'}>$105 per bowler</span> (Prize Fund $57, Lineage $27, IGBO
-          Donation $1, Awards/Food/Expenses $20).
+        <li>Entry Fee Break Down: <span className={'fw-bold'}>$120 per bowler</span> (Prize Fund $66, Lineage $31.50, IGBO
+          Fee $2, Awards/Food/Expenses $20.50).
         </li>
         <li>Rules subject to change upon 2024 USBC sanction approval. Any rule changes will be posted at registration.
         </li>
