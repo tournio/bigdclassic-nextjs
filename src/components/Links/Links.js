@@ -56,7 +56,7 @@ const Links = () => {
     },
     {
       headline:  'SHIFTID',
-      long: 'Seniors Handicap Invitational Tournament in DFW',
+      long: 'Seniors Handicap Invitational Family Tournament in DFW',
       url: 'http://shiftid.org',
       location: 'Garland, TX',
     },
