@@ -9,20 +9,20 @@ import styles from './Spotlight.module.scss';
 const Spotlight = () => {
   const REGISTER_URL = 'https://www.tourn.io/tournaments/bigdclassic-2024';
 
-  // const registrationOpen = (
-  //   <>
-  //     <p>
-  //       Registration is open, for bowlers with and without teams!
-  //     </p>
-  //     <p>
-  //       <a href={REGISTER_URL}
-  //          className={`btn btn-lg btn-primary`}
-  //       >
-  //         Register Online
-  //       </a>
-  //     </p>
-  //   </>
-  // );
+  const registrationOpen = (
+    <>
+      <Card.Text>
+        Registration is open, for bowlers with and without teams!
+      </Card.Text>
+      <Card.Text className={`text-center mb-3`}>
+        <a href={REGISTER_URL}
+           className={`btn btn-primary`}
+        >
+          Register Online
+        </a>
+      </Card.Text>
+    </>
+  );
 
   const text = (
     <>
@@ -123,6 +123,10 @@ const Spotlight = () => {
 
         <Card.Body className={styles.Body}>
           {text}
+        </Card.Body>
+
+        <Card.Body className={styles.Body}>
+          {registrationOpen}
         </Card.Body>
       </Card>
     </div>

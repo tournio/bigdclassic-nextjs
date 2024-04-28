@@ -16,9 +16,10 @@ const MainText = () => {
             north Texas in the middle of August to beat the heat and engage in a little friendly competition, all while
             raising money for a good cause.
           </p>
-          <p>
-            We aim to open registration for this year&apos;s tournament on May 1, so keep your eyes peeled!
-          </p>
+
+          {/*<p>*/}
+          {/*  We aim to open registration for this year&apos;s tournament on May 1, so keep your eyes peeled!*/}
+          {/*</p>*/}
 
           <div className={`d-md-none col-12 mb-3`}>
             <Spotlight/>
@@ -36,7 +37,7 @@ const MainText = () => {
           </a>
 
           <p>
-            Our tournament raises funds for the{' '}
+            The Big D Classic raises funds for the{' '}
             <a href={'https://www.cfa.lgbt/'}
                target={'_new'}>
               Coalition for Aging LGBT
