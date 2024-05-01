@@ -75,17 +75,17 @@ const Spotlight = () => {
       {/*  </a>*/}
       {/*</Card.Text>*/}
 
-      <Card.Text>
-        We&apos;re hosting a Match Play Trios tournament, on May 4, 2024. Reserve your team&apos;s spot
-        today!
-      </Card.Text>
-      <Card.Text>
-        <Link href="/images/match_play_may_2024.jpg"
-              className={'d-block'}>
-          Full details
-        </Link>
-      </Card.Text>
-      <StripeBuyButton buttonId={process.env.NEXT_PUBLIC_TRIOS_BUTTON_ID}/>
+      {/*<Card.Text>*/}
+      {/*  We&apos;re hosting a Match Play Trios tournament, on May 4, 2024. Reserve your team&apos;s spot*/}
+      {/*  today!*/}
+      {/*</Card.Text>*/}
+      {/*<Card.Text>*/}
+      {/*  <Link href="/images/match_play_may_2024.jpg"*/}
+      {/*        className={'d-block'}>*/}
+      {/*    Full details*/}
+      {/*  </Link>*/}
+      {/*</Card.Text>*/}
+      {/*<StripeBuyButton buttonId={process.env.NEXT_PUBLIC_TRIOS_BUTTON_ID}/>*/}
 
       {/*<hr/>*/}
 
@@ -109,6 +109,10 @@ const Spotlight = () => {
       {/*    </a>*/}
       {/*  </li>*/}
       {/*</ul>*/}
+
+      <Card.Text>
+        Registration will be opening soon, keep your eyes peeled!
+      </Card.Text>
     </>
   );
 
