@@ -110,9 +110,9 @@ const Spotlight = () => {
       {/*  </li>*/}
       {/*</ul>*/}
 
-      <Card.Text>
-        Registration will be opening soon, keep your eyes peeled!
-      </Card.Text>
+      {/*<Card.Text>*/}
+      {/*  Registration will be opening soon, keep your eyes peeled!*/}
+      {/*</Card.Text>*/}
     </>
   );
 
@@ -125,9 +125,9 @@ const Spotlight = () => {
           </Card.Title>
         </Card.Header>
 
-        <Card.Body className={styles.Body}>
-          {text}
-        </Card.Body>
+        {/*<Card.Body className={styles.Body}>*/}
+        {/*  {text}*/}
+        {/*</Card.Body>*/}
 
         <Card.Body className={styles.Body}>
           {registrationOpen}
