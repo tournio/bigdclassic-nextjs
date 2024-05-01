@@ -7,7 +7,7 @@ import StripeBuyButton from "../StripeBuyButton";
 import styles from './Spotlight.module.scss';
 
 const Spotlight = () => {
-  const REGISTER_URL = 'https://www.tourn.io/tournaments/bigdclassic-2024';
+  const REGISTER_URL = 'https://www.tourn.io/tournaments/bigd-2024';
 
   const registrationOpen = (
     <>
