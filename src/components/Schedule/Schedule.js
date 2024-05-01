@@ -34,7 +34,7 @@ const Schedule = () => {
           name: 'Singles and Doubles Events',
           detail: 'Plano Super Bowl',
           more: '30-minute break between events',
-          time: '9am - 4pm',
+          time: '10am - 4pm',
         },
       ],
     },
