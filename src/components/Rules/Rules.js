@@ -15,7 +15,7 @@ const Rules = () => {
       <ol>
         <li>The Big D Classic is an USBC certified tournament. The tournament is a mixed handicap competition open to
           men and women by invitation only. Therefore, the Tournament Director reserves the right to refuse any
-          application. Space is limited to 46 teams/184 bowlers. Teams will consist of 4 members, any mix of men and
+          application. Space is limited to 66 teams/264 bowlers. Teams will consist of 4 members, any mix of men and
           women. Partial entries will be accepted as long as they can be accommodated.
         </li>
         <li>Bowlers will hold harmless Big D Classic and Plano Super Bowl from anything resulting from potential
