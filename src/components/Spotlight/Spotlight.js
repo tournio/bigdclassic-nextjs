@@ -11,8 +11,11 @@ const Spotlight = () => {
 
   const registrationOpen = (
     <>
+      <Card.Text as={'h5'}>
+        Shift Added!
+      </Card.Text>
       <Card.Text>
-        Registration is open, for bowlers with and without teams!
+        Due to overwhelming demand, we&apos;ve just added a second shift (B) to our tournament! If you haven&apos;t registered yet, now is your chance to get a spot for your team.
       </Card.Text>
       <Card.Text className={`text-center mb-3`}>
         <a href={REGISTER_URL}
