@@ -63,7 +63,7 @@ const Links = () => {
     {
       headline:  'HIT',
       long: 'Houston Invitational Tournament',
-      url: 'http://www.houstoninvite.com/',
+      url: 'http://www.bowlhit.com/',
       location: 'Houston, TX',
     },
     {
