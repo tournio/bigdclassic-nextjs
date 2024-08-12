@@ -1,6 +1,5 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 import Carousel from "react-bootstrap/Carousel";
 import Image from "next/image";
 
@@ -25,7 +24,7 @@ const Hotel = () => {
   const hotelName = 'Sheraton Dallas Hotel by the Galleria';
   const features = [
     'King or Double guest rooms',
-    'Room rate: $119/night, must book by July 26',
+    // 'Room rate: $119/night, must book by July 26',
     'Complimentary WiFi, breakfast, and parking',
     'Outdoor pool',
     'Fitness center',
@@ -102,16 +101,17 @@ const Hotel = () => {
           </Col>
           {/*<Col>*/}
           {/*  <p className={'lead text-center'}>*/}
-          {/*    2024 details TBA*/}
+          {/*    2025 details TBA*/}
           {/*  </p>*/}
           {/*</Col>*/}
-          <Col>
-            <p className="text-center">
-              <Button href={hotelUrl} variant="success">
-                Book Your Room
-              </Button>
-            </p>
-          </Col>
+          {/*<Col>*/}
+          {/*  <p className="text-center">*/}
+          {/*    <Button href={hotelUrl}*/}
+          {/*            variant="success">*/}
+          {/*      Book Your Room*/}
+          {/*    </Button>*/}
+          {/*  </p>*/}
+          {/*</Col>*/}
         </Row>
         <Row className="order-3 order-md-2">
           <Col>

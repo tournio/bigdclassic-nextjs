@@ -17,9 +17,9 @@ const MainText = () => {
             raising money for a good cause.
           </p>
 
-          <p>
-            Note: <strong>all</strong> rainbow raffle, tournament entry, and cash prizes will be pre-drawn and published online Saturday evening during the Shift B Team Event, so bowlers do not need to be present at any one event to win.
-          </p>
+          {/*<p>*/}
+          {/*  Note: <strong>all</strong> rainbow raffle, tournament entry, and cash prizes will be pre-drawn and published online Saturday evening during the Shift B Team Event, so bowlers do not need to be present at any one event to win.*/}
+          {/*</p>*/}
 
           <div className={`d-md-none col-12 mb-3`}>
             <Spotlight/>
