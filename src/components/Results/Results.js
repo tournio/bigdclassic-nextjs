@@ -14,7 +14,8 @@ const Results = () => {
       { id: 'singles', name: 'Singles Event' },
       { id: 'all_events', name: 'All Events' },
       { id: 'optional_scratch', name: 'Optional Scratch' },
-      { id: 'prize_list', name: 'Prize List' },
+      { id: 'big_eliminator_handicap', name: 'BIG Eliminator - Handicap' },
+      { id: 'big_eliminator_scratch', name: 'BIG Eliminator - Scratch' },
     ],
     // [
     //   { id: 'optional_scratch_a', name: 'Optional Scratch - Div A' },
@@ -28,7 +29,7 @@ const Results = () => {
   return (
     <section className={`${styles.Results}`}>
       <h3 className={`section-heading`}>
-        2023 Tournament Results
+        2024 Tournament Results
       </h3>
 
       <Row className={'px-2 px-xl-0'}>
@@ -39,12 +40,12 @@ const Results = () => {
                 { resultSet.map((result, j) => {
                   return (
                     <ListGroup.Item key={j} className={`${styles.ResultItem} d-flex justify-content-between`}>
-                      <a href={`/results/2023/${result.id}.pdf`}
+                      <a href={`/results/2024/${result.id}.pdf`}
                          className={`${styles.ResultLink} mt-2`}>
                         {`${result.name}`}
                       </a>
                       <Button variant='outline-secondary'
-                              href={`/results/2023/${result.id}.pdf`}
+                              href={`/results/2024/${result.id}.pdf`}
                               title='Download PDF'>
                         <i className="bi-download" aria-hidden={true}></i>
                       </Button>

@@ -1,31 +1,29 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Link from "next/link";
 
-import StripeBuyButton from "../StripeBuyButton";
 
 import styles from './Spotlight.module.scss';
 
 const Spotlight = () => {
   const REGISTER_URL = 'https://www.tourn.io/tournaments/bigd-2024';
 
-  const registrationOpen = (
-    <>
-      <Card.Text as={'h5'}>
-        Shift Added!
-      </Card.Text>
-      <Card.Text>
-        Due to overwhelming demand, we&apos;ve just added a second shift (B) to our tournament! If you haven&apos;t registered yet, now is your chance to get a spot for your team.
-      </Card.Text>
-      <Card.Text className={`text-center mb-3`}>
-        <a href={REGISTER_URL}
-           className={`btn btn-primary`}
-        >
-          Register Online
-        </a>
-      </Card.Text>
-    </>
-  );
+  // const registrationOpen = (
+  //   <>
+  //     <Card.Text as={'h5'}>
+  //       Shift Added!
+  //     </Card.Text>
+  //     <Card.Text>
+  //       Due to overwhelming demand, we&apos;ve just added a second shift (B) to our tournament! If you haven&apos;t registered yet, now is your chance to get a spot for your team.
+  //     </Card.Text>
+  //     <Card.Text className={`text-center mb-3`}>
+  //       <a href={REGISTER_URL}
+  //          className={`btn btn-primary`}
+  //       >
+  //         Register Online
+  //       </a>
+  //     </Card.Text>
+  //   </>
+  // );
 
   const text = (
     <>
@@ -38,13 +36,18 @@ const Spotlight = () => {
 
       {/*<hr/>*/}
 
-      {/*<Card.Subtitle className={'mb-2'} as={'h5'}>*/}
-      {/*  That's a wrap!*/}
-      {/*</Card.Subtitle>*/}
-      {/*<Card.Text>*/}
-      {/*  Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look*/}
-      {/*  forward to seeing everyone again next year.*/}
-      {/*</Card.Text>*/}
+      <Card.Subtitle className={'mb-2'} as={'h5'}>
+        That's a wrap!
+      </Card.Subtitle>
+      <Card.Text>
+        Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look
+        forward to seeing everyone again next year.
+      </Card.Text>
+      <Card.Text className={'mb-3'}>
+          <a href='/results'>
+            2024 Results
+          </a>
+      </Card.Text>
 
       {/*<hr/>*/}
 
@@ -128,13 +131,13 @@ const Spotlight = () => {
           </Card.Title>
         </Card.Header>
 
-        {/*<Card.Body className={styles.Body}>*/}
-        {/*  {text}*/}
-        {/*</Card.Body>*/}
-
         <Card.Body className={styles.Body}>
-          {registrationOpen}
+          {text}
         </Card.Body>
+
+        {/*<Card.Body className={styles.Body}>*/}
+          {/*{registrationOpen}*/}
+        {/*</Card.Body>*/}
       </Card>
     </div>
   );
