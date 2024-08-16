@@ -36,20 +36,25 @@ const Spotlight = () => {
 
       {/*<hr/>*/}
 
-      <Card.Subtitle className={'mb-2'} as={'h5'}>
-        That's a wrap!
-      </Card.Subtitle>
-      <Card.Text>
-        Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look
-        forward to seeing everyone again next year.
-      </Card.Text>
+      {/*<Card.Subtitle className={'mb-2'} as={'h5'}>*/}
+      {/*  That's a wrap!*/}
+      {/*</Card.Subtitle>*/}
+      {/*<Card.Text>*/}
+      {/*  Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look*/}
+      {/*  forward to seeing everyone again next year.*/}
+      {/*</Card.Text>*/}
+
       <Card.Text className={'mb-3'}>
           <a href='/results'>
             2024 Results
           </a>
       </Card.Text>
 
-      {/*<hr/>*/}
+      <hr/>
+
+      <Card.Text className={'mb-3'}>
+        Mark your calendars now! Our next Match Play Trios event will be in November, with signups beginning in September.
+      </Card.Text>
 
       {/*<Card.Text>*/}
       {/*  /!*We&apos;ll post results here as soon as they're available.*!/*/}
