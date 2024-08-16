@@ -14,16 +14,12 @@ const Results = () => {
       { id: 'singles', name: 'Singles Event' },
       { id: 'all_events', name: 'All Events' },
       { id: 'optional_scratch', name: 'Optional Scratch' },
+    ],
+    [
+      { id: 'prize_list', name: 'Prize List' },
       { id: 'big_eliminator_handicap', name: 'BIG Eliminator - Handicap' },
       { id: 'big_eliminator_scratch', name: 'BIG Eliminator - Scratch' },
     ],
-    // [
-    //   { id: 'optional_scratch_a', name: 'Optional Scratch - Div A' },
-    //   { id: 'optional_scratch_b', name: 'Optional Scratch - Div B' },
-    //   { id: 'optional_scratch_c', name: 'Optional Scratch - Div C' },
-    //   { id: 'optional_scratch_d', name: 'Optional Scratch - Div D' },
-    //   { id: 'optional_scratch_e', name: 'Optional Scratch - Div E' },
-    // ],
   ];
 
   return (
