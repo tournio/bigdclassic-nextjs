@@ -53,12 +53,12 @@ const Navigation = () => {
                 })}
 
                 {navLink({
-                  path: 'https://www.tourn.io/tournaments/bigd-2024',
+                  path: 'https://www.tourn.io/tournaments/bigd-3-nov-2024',
                   text: 'Register',
-                  disabled: true,
-                  title: 'Registration is not yet open',
-                  // disabled: false,
-                  // title: 'Registration is open!',
+                  // disabled: true,
+                  // title: 'Registration is not yet open',
+                  disabled: false,
+                  title: 'Register for our next Match Play Trios event!',
                 })}
 
                 {/*<li className={`nav-item`}>*/}
@@ -75,14 +75,21 @@ const Navigation = () => {
                 {/*  </Link>*/}
                 {/*</li>*/}
 
+                {/*{navLink({*/}
+                {/*  path: '/rules',*/}
+                {/*  text: 'Rules',*/}
+                {/*  // disabled: false,*/}
+                {/*  // disabled: true,*/}
+                {/*  title: '',*/}
+                {/*})}*/}
+
                 {navLink({
-                  path: '/rules',
-                  text: 'Rules',
+                  path: '/trios-rules',
+                  text: 'Match Play Trios',
                   // disabled: false,
                   // disabled: true,
                   title: '',
                 })}
-
 
                 {/*{navLink({*/}
                 {/*  path: '/dallas',*/}

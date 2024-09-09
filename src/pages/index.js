@@ -28,9 +28,9 @@ const MainPage = () => {
 
       <Location/>
 
-      <Schedule/>
+      {/*<Schedule/>*/}
 
-      <Hotel/>
+      {/*<Hotel/>*/}
       <Links/>
     </div>
   )
