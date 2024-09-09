@@ -1,8 +1,9 @@
 import styles from './Hero.module.scss';
 
 const Hero = () => {
-  const tournDates = 'Aug 9-11, 2024';
-  const tournamentDates = 'August 9-11, 2024';
+  // const tournDates = 'Aug 9-11, 2024';
+  const tournDates = 'August 2025';
+  const tournamentDates = 'August 2025';
 
   return (
     <div className={`${styles.Hero}`}>

@@ -3,9 +3,10 @@ import Card from "react-bootstrap/Card";
 
 
 import styles from './Spotlight.module.scss';
+import Link from "next/link";
 
 const Spotlight = () => {
-  const REGISTER_URL = 'https://www.tourn.io/tournaments/bigd-2024';
+  const REGISTER_URL = 'https://www.tourn.io/tournaments/bigd-3-nov-2024';
 
   // const registrationOpen = (
   //   <>
@@ -44,16 +45,30 @@ const Spotlight = () => {
       {/*  forward to seeing everyone again next year.*/}
       {/*</Card.Text>*/}
 
+      {/*<Card.Text className={'mb-3'}>*/}
+      {/*    <a href='/results'>*/}
+      {/*      2024 Results*/}
+      {/*    </a>*/}
+      {/*</Card.Text>*/}
+
+      {/*<hr/>*/}
+
       <Card.Text className={'mb-3'}>
-          <a href='/results'>
-            2024 Results
-          </a>
+        Our next Match Play Trios fundraising event takes place November 23.
       </Card.Text>
 
-      <hr/>
-
       <Card.Text className={'mb-3'}>
-        Mark your calendars now! Our next Match Play Trios event will be in November, with signups beginning in September.
+        <Link href={'/trios-rules'}>
+          Get the details.
+        </Link>
+      </Card.Text>
+
+      <Card.Text className={'text-center mb-3'}>
+        <a href={REGISTER_URL}
+           className="btn btn-primary">
+          Register Online
+          <i className="bi bi-arrow-right ps-2" aria-hidden={true} />
+        </a>
       </Card.Text>
 
       {/*<Card.Text>*/}
