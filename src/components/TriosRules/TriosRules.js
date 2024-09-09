@@ -49,7 +49,8 @@ const TriosRules = () => {
       header: 'Fees and Prizes',
       markdown: `
 1. Entry fee is $100 per bowler, $300 per team.
-1. Cash and credit cards accepted (no fee)
+1. One bowler entry fee is required upon registration to guarantee the team spot.  Remaining bowlers on the team need to pay online by the Thursday before the tournament.
+1. Cash and credit cards accepted (no fee).
 1. Pay ratio is 1 in 4.
 1. Assuming a full tournament, the total payout will be (by place):
 
