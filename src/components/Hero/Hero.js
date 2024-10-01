@@ -8,6 +8,16 @@ const Hero = () => {
   return (
     <div className={`${styles.Hero}`}>
       <div className={`${styles.JumbotronImage} d-flex justify-content-end flex-column`}>
+        {/* Mobile devices only */}
+        <div className={`d-sm-none ${styles.Headings}`}>
+          <h1 className={`${styles.Title} display-1`}>
+            Big D Classic
+          </h1>
+
+            <h2 className={`${styles.Dates} display-4`}>
+              {tournDates}
+            </h2>
+        </div>
 
         {/* Devices larger than phones */}
         <div className={`d-none d-sm-block ${styles.Headings}`}>
@@ -20,16 +30,6 @@ const Hero = () => {
           </h2>
         </div>
 
-        {/* Mobile devices only */}
-        <div className={`d-sm-none ${styles.Headings}`}>
-          <h1 className={`${styles.Title}`}>
-            Big D Classic
-          </h1>
-
-          <h2 className={`${styles.Dates}`}>
-            {tournDates}
-          </h2>
-        </div>
       </div>
 
       <div className={`d-none d-md-block ${styles.PhotoCredit}`}>

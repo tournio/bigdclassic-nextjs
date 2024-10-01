@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-export const siteTitle = 'Big D Classic 2024 - Dallas, TX';
+export const siteTitle = 'Big D Classic - Dallas, TX';
 
 const Header = () => (
   <Head>

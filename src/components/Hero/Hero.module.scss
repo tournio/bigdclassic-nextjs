@@ -30,45 +30,51 @@
 
     .Headings {
       font-family:
-        BioRhyme,
+        Platypi,
         "Times New Roman",
         Times,
         serif;
 
       white-space: nowrap;
       background-color: rgba(0, 0, 0, 0.55);
-      background-image: url('../../images/logo.jpg');
-      background-size: contain;
-      background-repeat: no-repeat;
-
-      padding-left: 5.5rem;
+      //background-image: url('../../images/logo.png');
+      //background-size: contain;
+      //background-repeat: no-repeat;
+      //
+      padding-left: 0.25rem;
 
       @media (min-width: 576px) {
-        padding-left: 8.5rem;
+        //padding-left: 8.5rem;
       }
       @media (min-width: 768px) {
-        padding-left: 10.5rem;
+        //padding-left: 10.5rem;
       }
       @media (min-width: 992px) {
-        padding-left: 12rem;
+        //padding-left: 12rem;
       }
       @media (min-width: 1200px) {
-        padding-left: 14rem;
+        //padding-left: 12rem;
       }
 
       .Title {
         font-weight: 300;
         margin-bottom: 0;
-        //text-align: right;
         color: var(--bigdclassic-hero-overlay-title);
-        text-shadow: 1px 1px 1px var(--bigdclassic-black);
+        text-shadow: var(--bigdclassic-black) 2px 2px 2px;
+
+        @media (min-width: 768px) {
+          font-size: calc(2.625rem + 4.5vw);
+        }
       }
       .Dates {
         font-weight: 300;
         margin-bottom: 0;
-        //text-align: right;
         color: var(--bigdclassic-hero-overlay-year);
-        text-shadow: 1px 1px 1px var(--bigdclassic-black);
+        text-shadow: var(--bigdclassic-black) 2px 2px 2px;
+
+        @media (min-width: 768px) {
+          font-size: calc(2.275rem + 2.7vw);
+        }
       }
     }
   }
