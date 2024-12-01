@@ -1,7 +1,6 @@
 import styles from './Hero.module.scss';
 
 const Hero = () => {
-  // const tournDates = 'Aug 9-11, 2024';
   const tournDates = 'August 2025';
   const tournamentDates = 'August 2025';
 
@@ -29,7 +28,6 @@ const Hero = () => {
             {tournamentDates}
           </h2>
         </div>
-
       </div>
 
       <div className={`d-none d-md-block ${styles.PhotoCredit}`}>

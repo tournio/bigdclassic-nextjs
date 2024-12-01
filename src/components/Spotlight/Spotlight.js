@@ -1,13 +1,10 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-
-
-import styles from './Spotlight.module.scss';
 import Link from "next/link";
 
-const Spotlight = () => {
-  const REGISTER_URL = 'https://www.tourn.io/tournaments/bigd-3-nov-2024';
+import styles from './Spotlight.module.scss';
 
+const Spotlight = () => {
   // const registrationOpen = (
   //   <>
   //     <Card.Text as={'h5'}>
@@ -53,23 +50,23 @@ const Spotlight = () => {
 
       {/*<hr/>*/}
 
-      <Card.Text className={'mb-3'}>
-        Our next Match Play Trios fundraising event takes place November 23.
-      </Card.Text>
+      {/*<Card.Text className={'mb-3'}>*/}
+      {/*  Our next Match Play Trios fundraising event takes place November 23.*/}
+      {/*</Card.Text>*/}
 
-      <Card.Text className={'mb-3'}>
-        <Link href={'/trios-rules'}>
-          Get the details.
-        </Link>
-      </Card.Text>
+      {/*<Card.Text className={'mb-3'}>*/}
+      {/*  <Link href={'/trios-rules'}>*/}
+      {/*    Get the details.*/}
+      {/*  </Link>*/}
+      {/*</Card.Text>*/}
 
-      <Card.Text className={'text-center mb-3'}>
-        <a href={REGISTER_URL}
-           className="btn btn-primary">
-          Register Online
-          <i className="bi bi-arrow-right ps-2" aria-hidden={true} />
-        </a>
-      </Card.Text>
+      {/*<Card.Text className={'text-center mb-3'}>*/}
+      {/*  <a href={REGISTER_URL}*/}
+      {/*     className="btn btn-primary">*/}
+      {/*    Register Online*/}
+      {/*    <i className="bi bi-arrow-right ps-2" aria-hidden={true} />*/}
+      {/*  </a>*/}
+      {/*</Card.Text>*/}
 
       {/*<Card.Text>*/}
       {/*  /!*We&apos;ll post results here as soon as they're available.*!/*/}
@@ -115,26 +112,26 @@ const Spotlight = () => {
 
       {/*<hr/>*/}
 
-      {/*<Card.Text>*/}
-      {/*  While we prepare for the 2024 Big D Classic, check out the other IGBO tournaments in the D/FW metroplex:*/}
-      {/*</Card.Text>*/}
-      {/*<ul>*/}
-      {/*  <li>*/}
-      {/*    <a href={'https://trotbowling.com/'}>*/}
-      {/*      TROT*/}
-      {/*    </a>*/}
-      {/*  </li>*/}
-      {/*  <li>*/}
-      {/*    <a href={'https://www.shiftid.org/'}>*/}
-      {/*      SHIFTID*/}
-      {/*    </a>*/}
-      {/*  </li>*/}
-      {/*  <li>*/}
-      {/*    <a href={'https://www.damitbowling.org/'}>*/}
-      {/*      DAMIT*/}
-      {/*    </a>*/}
-      {/*  </li>*/}
-      {/*</ul>*/}
+      <Card.Text>
+        While we prepare for the 2025 Big D Classic, check out the other IGBO tournaments in the D/FW metroplex:
+      </Card.Text>
+      <ul>
+        <li>
+          <a href={'https://trotbowling.com/'}>
+            TROT
+          </a>
+        </li>
+        <li>
+          <a href={'https://www.shiftid.org/'}>
+            SHIFTID
+          </a>
+        </li>
+        {/*<li>*/}
+        {/*  <a href={'https://www.damitbowling.org/'}>*/}
+        {/*    DAMIT*/}
+        {/*  </a>*/}
+        {/*</li>*/}
+      </ul>
 
       {/*<Card.Text>*/}
       {/*  Registration will be opening soon, keep your eyes peeled!*/}
