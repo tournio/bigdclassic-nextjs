@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Link from "next/link";
+import {REGISTER_URL} from "../../utils/misc";
 
 import styles from './Spotlight.module.scss';
 
@@ -50,23 +51,23 @@ const Spotlight = () => {
 
       {/*<hr/>*/}
 
-      {/*<Card.Text className={'mb-3'}>*/}
-      {/*  Our next Match Play Trios fundraising event takes place November 23.*/}
-      {/*</Card.Text>*/}
+      <Card.Text className={'mb-3'}>
+        Our next Match Play Trios fundraising event takes place May 10.
+      </Card.Text>
 
-      {/*<Card.Text className={'mb-3'}>*/}
-      {/*  <Link href={'/trios-rules'}>*/}
-      {/*    Get the details.*/}
-      {/*  </Link>*/}
-      {/*</Card.Text>*/}
+      <Card.Text className={'mb-3'}>
+        <Link href={'/trios-rules'}>
+          Details
+        </Link>
+      </Card.Text>
 
-      {/*<Card.Text className={'text-center mb-3'}>*/}
-      {/*  <a href={REGISTER_URL}*/}
-      {/*     className="btn btn-primary">*/}
-      {/*    Register Online*/}
-      {/*    <i className="bi bi-arrow-right ps-2" aria-hidden={true} />*/}
-      {/*  </a>*/}
-      {/*</Card.Text>*/}
+      <Card.Text className={'text-center mb-3'}>
+        <a href={REGISTER_URL}
+           className="btn btn-primary btn-sm">
+          Register Your Team
+          <i className="bi bi-arrow-right ps-2" aria-hidden={true} />
+        </a>
+      </Card.Text>
 
       {/*<Card.Text>*/}
       {/*  /!*We&apos;ll post results here as soon as they're available.*!/*/}
@@ -99,7 +100,7 @@ const Spotlight = () => {
       {/*</Card.Text>*/}
 
       {/*<Card.Text>*/}
-      {/*  We&apos;re hosting a Match Play Trios tournament, on May 4, 2024. Reserve your team&apos;s spot*/}
+      {/*  We&apos;re hosting a Match Play Trios tournament, on May 10, 2025. Reserve your team&apos;s spot*/}
       {/*  today!*/}
       {/*</Card.Text>*/}
       {/*<Card.Text>*/}
@@ -108,30 +109,30 @@ const Spotlight = () => {
       {/*    Full details*/}
       {/*  </Link>*/}
       {/*</Card.Text>*/}
-      {/*<StripeBuyButton buttonId={process.env.NEXT_PUBLIC_TRIOS_BUTTON_ID}/>*/}
+      {/*/!*<StripeBuyButton buttonId={process.env.NEXT_PUBLIC_TRIOS_BUTTON_ID}/>*!/*/}
 
       {/*<hr/>*/}
 
-      <Card.Text>
-        While we prepare for the 2025 Big D Classic, check out the other IGBO tournaments in the D/FW metroplex:
-      </Card.Text>
-      <ul>
-        <li>
-          <a href={'https://trotbowling.com/'}>
-            TROT
-          </a>
-        </li>
-        <li>
-          <a href={'https://www.shiftid.org/'}>
-            SHIFTID
-          </a>
-        </li>
-        {/*<li>*/}
-        {/*  <a href={'https://www.damitbowling.org/'}>*/}
-        {/*    DAMIT*/}
-        {/*  </a>*/}
-        {/*</li>*/}
-      </ul>
+      {/*<Card.Text>*/}
+      {/*  While we prepare for the 2025 Big D Classic, check out the other IGBO tournaments in the D/FW metroplex:*/}
+      {/*</Card.Text>*/}
+      {/*<ul>*/}
+      {/*  <li>*/}
+      {/*    <a href={'https://trotbowling.com/'}>*/}
+      {/*      TROT*/}
+      {/*    </a>*/}
+      {/*  </li>*/}
+      {/*  <li>*/}
+      {/*    <a href={'https://www.shiftid.org/'}>*/}
+      {/*      SHIFTID*/}
+      {/*    </a>*/}
+      {/*  </li>*/}
+      {/*  /!*<li>*!/*/}
+      {/*  /!*  <a href={'https://www.damitbowling.org/'}>*!/*/}
+      {/*  /!*    DAMIT*!/*/}
+      {/*  /!*  </a>*!/*/}
+      {/*  /!*</li>*!/*/}
+      {/*</ul>*/}
 
       {/*<Card.Text>*/}
       {/*  Registration will be opening soon, keep your eyes peeled!*/}

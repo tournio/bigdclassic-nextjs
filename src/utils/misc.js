@@ -7,3 +7,5 @@ export const useClientReady = () => {
   }, []);
   return ready;
 }
+
+export const REGISTER_URL = 'https://www.tourn.io/tournaments/bigd-trios-may-2025';

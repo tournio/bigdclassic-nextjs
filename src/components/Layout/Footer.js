@@ -20,7 +20,7 @@ const Footer = () => {
 
         <p className={'col-4 align-self-center pb-md-0'}>
             <span>
-              &copy; 2024&nbsp;
+              &copy; 2025&nbsp;
             </span>
           <span>
               Big D Classic
