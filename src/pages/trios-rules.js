@@ -5,6 +5,7 @@ import TriosRules from "../components/TriosRules/TriosRules";
 import flyer from '../images/trios-flyer.jpg';
 import Image from "next/image";
 import Link from "next/link";
+import {REGISTER_URL} from "../utils/misc";
 
 const Page = () => {
   return (
@@ -14,11 +15,18 @@ const Page = () => {
                alt={'Flyer with event information'}
                className={'img-fluid'}
         />
+        <div className={'text-center mb-3'}>
+          <Link className={'btn btn-sm btn-primary'}
+                href={REGISTER_URL}>
+            Register Your Team
+            <i className="bi bi-arrow-right ps-2" aria-hidden={true}/>
+          </Link>
+        </div>
       </div>
       <TriosRules/>
       <div className={'text-center mb-3'}>
         <Link className={'btn btn-lg btn-primary'}
-              href={'https://www.tourn.io/tournaments/bigd-3-nov-2024'}>
+              href={REGISTER_URL}>
           Register Your Team
           <i className="bi bi-arrow-right ps-2" aria-hidden={true}/>
         </Link>
