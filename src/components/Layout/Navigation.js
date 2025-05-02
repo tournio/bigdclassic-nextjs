@@ -1,6 +1,7 @@
 import Link from "next/link";
 import ColorModeToggler from "../ColorModeToggler/ColorModeToggler";
 import {useRouter} from "next/router";
+import {REGISTER_URL} from "../../utils/misc";
 
 const Navigation = () => {
   const router = useRouter();
@@ -52,14 +53,14 @@ const Navigation = () => {
                   text: 'Home',
                 })}
 
-                {/*{navLink({*/}
-                {/*  path: 'https://www.tourn.io/tournaments/bigd-3-nov-2024',*/}
-                {/*  text: 'Register',*/}
-                {/*  // disabled: true,*/}
-                {/*  // title: 'Registration is not yet open',*/}
-                {/*  disabled: false,*/}
-                {/*  title: 'Register for our next Match Play Trios event!',*/}
-                {/*})}*/}
+                {navLink({
+                  path: REGISTER_URL,
+                  text: 'Register',
+                  // disabled: true,
+                  // title: 'Registration is not yet open',
+                  disabled: false,
+                  title: 'Register for the tournament',
+                })}
 
                 {/*<li className={`nav-item`}>*/}
                 {/*  <Link className={`nav-link`} href={'/#section-location'}>*/}
@@ -75,13 +76,13 @@ const Navigation = () => {
                 {/*  </Link>*/}
                 {/*</li>*/}
 
-                {/*{navLink({*/}
-                {/*  path: '/rules',*/}
-                {/*  text: 'Rules',*/}
-                {/*  // disabled: false,*/}
-                {/*  // disabled: true,*/}
-                {/*  title: '',*/}
-                {/*})}*/}
+                {navLink({
+                  path: '/rules',
+                  text: 'Rules',
+                  // disabled: false,
+                  // disabled: true,
+                  title: '',
+                })}
 
                 {/*{navLink({*/}
                 {/*  path: '/trios-rules',*/}

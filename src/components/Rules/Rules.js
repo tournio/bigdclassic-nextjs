@@ -1,5 +1,5 @@
-import styles from './Rules.module.scss';
 import React from "react";
+import styles from './Rules.module.scss';
 
 const Rules = () => {
   return (
@@ -15,7 +15,7 @@ const Rules = () => {
       <ol>
         <li>The Big D Classic is an USBC certified tournament. The tournament is a mixed handicap competition open to
           men and women by invitation only. Therefore, the Tournament Director reserves the right to refuse any
-          application. Space is limited to 66 teams/264 bowlers. Teams will consist of 4 members, any mix of men and
+          application. Space is limited to 46 teams/184 bowlers. Teams will consist of 4 members, any mix of men and
           women. Partial entries will be accepted as long as they can be accommodated.
         </li>
         <li>Bowlers will hold harmless Big D Classic and Plano Super Bowl from anything resulting from potential
@@ -24,7 +24,7 @@ const Rules = () => {
         </li>
         <li>Averages, Handicap, &amp; Scores:
           <ol>
-            <li>Handicap for the Tournament shall be based on 90% of the difference between the bowler’s scratch average
+            <li>Handicap for the Tournament shall be based on 90% of the difference between the bowler&apos;s scratch average
               and 230. Negative handicap will not apply.
             </li>
             <li>Only 10-pin averages can be used.</li>
@@ -34,7 +34,7 @@ const Rules = () => {
           applicable rule below to determine the entering average:
           <ol>
             <li>
-              Bowlers with both a USBC sanctioned 2023-24 Standard Composite book average (minimum 21 games) and a
+              Bowlers with both a USBC sanctioned 2024-25 Standard Composite book average (minimum 21 games) and a
               current one year rolling IGBO Tournament Database (TAD) average (minimum 9 games) will enter with a
               composite of these two averages. For example, USBC Standard Composite Average is 185 with 99 games, TAD
               average is 180 with 36 games, the composite average is calculated as follows: [(185x99)+(180x36)] /
@@ -44,12 +44,13 @@ const Rules = () => {
               All other bowlers must submit the following averages if available. The highest of these will be used.
               <ol>
                 <li>IGBO TAD average (minimum 27 games for current one year rolling period).</li>
+                <li>USBC sanctioned 2024-25 Standard Composite book average (minimum of 21 games).</li>
                 <li>USBC sanctioned 2023-24 Standard Composite book average (minimum of 21 games).</li>
-                <li>USBC sanctioned 2022-23 Standard Composite book average (minimum of 21 games).</li>
-                <li>If none of these averages are available, a USBC sanctioned summer 2024 league average will be
-                  considered; number of games must be submitted. Bowlers with an average from a non-sanctioned league
+                <li>If none of these averages are available, a USBC sanctioned summer 2025 league average will be
+                  considered; number of games must be submitted.</li>
+                <li>Bowlers with an average from a non-sanctioned league
                   must submit a complete average list from all leagues bowled, including number of games, and a
-                  secretary signed letter or league sheet from the league with the bowler’s highest average. In
+                  secretary signed letter or league sheet from the league with the bowler&apos;s highest average. In
                   addition, all tournament scores (IGBO and non-IGBO) may be requested for bowlers using average rule
                   3.B.
                 </li>
@@ -84,7 +85,7 @@ const Rules = () => {
             </li>
             <li>
               USBC permits the tournament manager to assign an average higher than minimum average prior to
-              participation (USBC Rule 319b). A bowler’s average may be adjusted upward before the entrant bowls. If the
+              participation (USBC Rule 319b). A bowler&apos;s average may be adjusted upward before the entrant bowls. If the
               bowler, upon registering, does not accept the assigned average, he/she is entitled to a refund of the
               entry fee.
             </li>
@@ -92,8 +93,8 @@ const Rules = () => {
         </li>
         <li>
           <p>
-            <span className={'fw-bold'}>Each entrant must be a member of USBC</span> and provide proof of membership and certification number on the entry form. Proof of membership in the 2023-24 season (sanction card or renewal receipt) should be made available during tournament registration. Non-members shall pay a Participation Fee of $5.00 (USBC Rule 301b).</p>
-          <p><span className={'fw-bold'}>Each entrant must be an IGBO member</span> for the 2023-24 season, which
+            <span className={'fw-bold'}>Each entrant must be a member of USBC</span> and provide proof of membership and certification number on the entry form. Proof of membership in the 2024-25 season (sanction card or renewal receipt) should be made available during tournament registration. Non-members shall pay a Participation Fee of $5.00 (USBC Rule 301b).</p>
+          <p><span className={'fw-bold'}>Each entrant must be an IGBO member</span> for the 2024-25 season, which
             includes anyone who has bowled in an IGBO-sanctioned league. Otherwise, entrant must be a <span
               className={'fw-bold'}>current IGBO Associate member or pay the IGBO Associate Membership Fee of $25 to join.</span>
           </p>
@@ -110,7 +111,7 @@ const Rules = () => {
           forfeit practice time for the shift.
         </li>
         <li>Substitutes will be allowed to participate at the Tournament Director’s discretion.</li>
-        <li>Entry fee is $120.00 per bowler. The official entry deadline is Wednesday, July 31, 2024. All registration
+        <li>Entry fee is $120.00 per bowler. The official entry deadline is Wednesday, July 30, 2025. All registration
           and payment are made online at <a href="http://www.bigdclassic.com">www.bigdclassic.com</a>. Send any
           necessary documentation via email to <a href="mailto:director@bigdclassic.com">director@bigdclassic.com</a>.
         </li>
@@ -134,8 +135,14 @@ const Rules = () => {
               are considered to determine winners. Payout will be 100% per Division.
             </li>
             <li>
-              <p>Scratch Shoot Out. The entry fee for this optional event is based on Division as follows: Division A -
-                $50, Division B - $40, Division C - $40, Division D - $30, Division E - $30.</p>
+              <p>Scratch Shoot Out. The entry fee for this optional event is based on Division as follows:</p>
+                <ul className={styles.Divisions}>
+                  <li>Division A - $50</li>
+                  <li>Division B - $40</li>
+                  <li>Division C - $40</li>
+                  <li>Division D - $30</li>
+                  <li>Division E - $30</li>
+                </ul>
               <p>Scratch Shoot Out qualifiers are determined based on the 9-game scratch total pins bowled in singles,
                 doubles, and team. With a minimum of 20 entries in the division, the top 8 bowlers in each Division will
                 advance to the Scratch Shoot Out competition on Sunday after team event. If there is a tie for the last
@@ -177,13 +184,13 @@ const Rules = () => {
           advertised prizes guaranteed or otherwise, to be pro-rated in accordance with the number of entrants who have
           bowled in each of the respective events up to the time of such termination.
         </li>
-        <li>Tournament Dates: August 9th, 10th, and 11th 2024. All events will be held at <span className={'fw-bold'}>Plano Super Bowl, 2521 K Ave, Plano, TX 75074</span>.
+        <li>Tournament Dates: August 8th, 9th, and 10th 2025. All events will be held at <span className={'fw-bold'}>Plano Super Bowl, 2521 K Ave, Plano, TX 75074</span>.
           Phone: 972-881-0242.
         </li>
         <li>Entry Fee Break Down: <span className={'fw-bold'}>$120 per bowler</span> (Prize Fund $66, Lineage $31.50, IGBO
           Fee $2, Awards/Food/Expenses $20.50).
         </li>
-        <li>Rules subject to change upon 2024 USBC sanction approval. Any rule changes will be posted at registration.
+        <li>Rules subject to change upon 2025 USBC sanction approval. Any rule changes will be posted at registration.
         </li>
         <li>Equipment Rule: Bowling balls must be USBC approved and drilled meeting all USBC requirements. Any bowling
           balls banned by USBC from National events, but are still sanctioned/approved for league and other tournaments,
