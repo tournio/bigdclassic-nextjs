@@ -1,31 +1,76 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Link from "next/link";
 import {REGISTER_URL} from "../../utils/misc";
 
 import styles from './Spotlight.module.scss';
 
 const Spotlight = () => {
-  // const registrationOpen = (
-  //   <>
-  //     <Card.Text as={'h5'}>
-  //       Shift Added!
-  //     </Card.Text>
-  //     <Card.Text>
-  //       Due to overwhelming demand, we&apos;ve just added a second shift (B) to our tournament! If you haven&apos;t registered yet, now is your chance to get a spot for your team.
-  //     </Card.Text>
-  //     <Card.Text className={`text-center mb-3`}>
-  //       <a href={REGISTER_URL}
-  //          className={`btn btn-primary`}
-  //       >
-  //         Register Online
-  //       </a>
-  //     </Card.Text>
-  //   </>
-  // );
-
   const text = (
     <>
+      {/*<Card.Text>*/}
+      {/*  While we prepare for the 2025 Big D Classic, check out the other IGBO tournaments in the D/FW metroplex:*/}
+      {/*</Card.Text>*/}
+      {/*<ul>*/}
+      {/*  <li>*/}
+      {/*    <a href={'https://trotbowling.com/'}>*/}
+      {/*      TROT*/}
+      {/*    </a>*/}
+      {/*  </li>*/}
+      {/*  <li>*/}
+      {/*    <a href={'https://www.shiftid.org/'}>*/}
+      {/*      SHIFTID*/}
+      {/*    </a>*/}
+      {/*  </li>*/}
+      {/*</ul>*/}
+
+      {/*<Card.Text>*/}
+      {/*  Registration will be opening soon, keep your eyes peeled!*/}
+      {/*</Card.Text>*/}
+
+      <Card.Text as={'h5'}>
+        Registration is now open!
+      </Card.Text>
+      <Card.Text>
+        Be sure to get your team&apos;s registration submitted and paid in order to guarantee your spot.
+      </Card.Text>
+      <Card.Text className={`text-center mb-3`}>
+        <a href={REGISTER_URL}
+           className={`btn btn-primary`}
+        >
+          Register Now
+        </a>
+      </Card.Text>
+
+      {/*<Card.Text as={'h5'}>*/}
+      {/*  Shift Added!*/}
+      {/*</Card.Text>*/}
+      {/*<Card.Text>*/}
+      {/*  Due to overwhelming demand, we&apos;ve just added a second shift (B) to our tournament! If you haven&apos;t registered yet, now is your chance to get a spot for your team.*/}
+      {/*</Card.Text>*/}
+
+      {/*<Card.Text>*/}
+      {/*  Registration is open and spots are filling up fast! The deadline is August 2, so what are you waiting for?*/}
+      {/*</Card.Text>*/}
+      {/*<Card.Text className={'text-center'}>*/}
+      {/*  <a href="https://www.tourn.io/tournaments/big-d-2023"*/}
+      {/*     className="btn btn-primary">*/}
+      {/*    Register Online*/}
+      {/*    {' '}<i className="bi bi-arrow-right" aria-hidden={true} />*/}
+      {/*  </a>*/}
+      {/*</Card.Text>*/}
+
+      {/*<Card.Text>*/}
+      {/*  Registration is sold out! Thank you to everyone who signed up so quickly! You can still*/}
+      {/*  use it to pay your fees, though.*/}
+      {/*</Card.Text>*/}
+      {/*<Card.Text className={'text-center'}>*/}
+      {/*  <a href="https://www.tourn.io/tournaments/big-d-2023"*/}
+      {/*     className="btn btn-success">*/}
+      {/*    Pay Fees*/}
+      {/*    {' '}<i className="bi bi-arrow-right" aria-hidden={true}/>*/}
+      {/*  </a>*/}
+      {/*</Card.Text>*/}
+
       {/*<Card.Subtitle className={'mb-2'} as={'h5'}>*/}
       {/*  It's tournament weekend!*/}
       {/*</Card.Subtitle>*/}
@@ -51,91 +96,29 @@ const Spotlight = () => {
 
       {/*<hr/>*/}
 
-      <Card.Text className={'mb-3'}>
-        Our next Match Play Trios fundraising event takes place May 10.
-      </Card.Text>
+      {/*<Card.Text className={'mb-3'}>*/}
+      {/*  Our next Match Play Trios fundraising event takes place May 10.*/}
+      {/*</Card.Text>*/}
 
-      <Card.Text className={'mb-3'}>
-        <Link href={'/trios-rules'}>
-          Details
-        </Link>
-      </Card.Text>
+      {/*<Card.Text className={'mb-3'}>*/}
+      {/*  <Link href={'/trios-rules'}>*/}
+      {/*    Details*/}
+      {/*  </Link>*/}
+      {/*</Card.Text>*/}
 
-      <Card.Text className={'text-center mb-3'}>
-        <a href={REGISTER_URL}
-           className="btn btn-primary btn-sm">
-          Register Your Team
-          <i className="bi bi-arrow-right ps-2" aria-hidden={true} />
-        </a>
-      </Card.Text>
+      {/*<Card.Text className={'text-center mb-3'}>*/}
+      {/*  <a href={REGISTER_URL}*/}
+      {/*     className="btn btn-primary btn-sm">*/}
+      {/*    Register Your Team*/}
+      {/*    <i className="bi bi-arrow-right ps-2" aria-hidden={true} />*/}
+      {/*  </a>*/}
+      {/*</Card.Text>*/}
 
       {/*<Card.Text>*/}
       {/*  /!*We&apos;ll post results here as soon as they're available.*!/*/}
       {/*  <a href='/results'>*/}
-      {/*    2023 Tournament Results*/}
+      {/*    2025 Tournament Results*/}
       {/*  </a>*/}
-      {/*</Card.Text>*/}
-
-      {/*<Card.Text>*/}
-      {/*  Registration is sold out! Thank you to everyone who signed up so quickly! You can still*/}
-      {/*  use it to pay your fees, though.*/}
-      {/*</Card.Text>*/}
-      {/*<Card.Text className={'text-center'}>*/}
-      {/*  <a href="https://www.tourn.io/tournaments/big-d-2023"*/}
-      {/*     className="btn btn-success">*/}
-      {/*    Pay Fees*/}
-      {/*    {' '}<i className="bi bi-arrow-right" aria-hidden={true}/>*/}
-      {/*  </a>*/}
-      {/*</Card.Text>*/}
-
-      {/*<Card.Text>*/}
-      {/*  Registration is open and spots are filling up fast! The deadline is August 2, so what are you waiting for?*/}
-      {/*</Card.Text>*/}
-      {/*<Card.Text className={'text-center'}>*/}
-      {/*  <a href="https://www.tourn.io/tournaments/big-d-2023"*/}
-      {/*     className="btn btn-primary">*/}
-      {/*    Register Online*/}
-      {/*    {' '}<i className="bi bi-arrow-right" aria-hidden={true} />*/}
-      {/*  </a>*/}
-      {/*</Card.Text>*/}
-
-      {/*<Card.Text>*/}
-      {/*  We&apos;re hosting a Match Play Trios tournament, on May 10, 2025. Reserve your team&apos;s spot*/}
-      {/*  today!*/}
-      {/*</Card.Text>*/}
-      {/*<Card.Text>*/}
-      {/*  <Link href="/images/match_play_may_2024.jpg"*/}
-      {/*        className={'d-block'}>*/}
-      {/*    Full details*/}
-      {/*  </Link>*/}
-      {/*</Card.Text>*/}
-      {/*/!*<StripeBuyButton buttonId={process.env.NEXT_PUBLIC_TRIOS_BUTTON_ID}/>*!/*/}
-
-      {/*<hr/>*/}
-
-      {/*<Card.Text>*/}
-      {/*  While we prepare for the 2025 Big D Classic, check out the other IGBO tournaments in the D/FW metroplex:*/}
-      {/*</Card.Text>*/}
-      {/*<ul>*/}
-      {/*  <li>*/}
-      {/*    <a href={'https://trotbowling.com/'}>*/}
-      {/*      TROT*/}
-      {/*    </a>*/}
-      {/*  </li>*/}
-      {/*  <li>*/}
-      {/*    <a href={'https://www.shiftid.org/'}>*/}
-      {/*      SHIFTID*/}
-      {/*    </a>*/}
-      {/*  </li>*/}
-      {/*  /!*<li>*!/*/}
-      {/*  /!*  <a href={'https://www.damitbowling.org/'}>*!/*/}
-      {/*  /!*    DAMIT*!/*/}
-      {/*  /!*  </a>*!/*/}
-      {/*  /!*</li>*!/*/}
-      {/*</ul>*/}
-
-      {/*<Card.Text>*/}
-      {/*  Registration will be opening soon, keep your eyes peeled!*/}
       {/*</Card.Text>*/}
     </>
   );
@@ -152,10 +135,6 @@ const Spotlight = () => {
         <Card.Body className={styles.Body}>
           {text}
         </Card.Body>
-
-        {/*<Card.Body className={styles.Body}>*/}
-          {/*{registrationOpen}*/}
-        {/*</Card.Body>*/}
       </Card>
     </div>
   );

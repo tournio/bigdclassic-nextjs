@@ -8,16 +8,16 @@ const Schedule = () => {
       date: 'Friday, August 8',
       events: [
         {
-          name: 'Tournament Check-in',
-          detail: 'Plano Super Bowl',
-          more: 'Bowlers from Shift B prioritized from 5-7pm',
-          time: '5pm - 9pm',
-        },
-        {
-          name: 'Singles & Doubles Events (Shift B)',
+          name: 'Tournament Registration',
           detail: 'Plano Super Bowl',
           more: '',
-          time: '7pm - 11:30pm',
+          time: '6pm - 9pm',
+        },
+        {
+          name: 'Optional Bowling Event TBD',
+          detail: 'Plano Super Bowl',
+          more: '',
+          time: '',
         },
       ],
     },
@@ -27,20 +27,14 @@ const Schedule = () => {
         {
           name: 'Tournament Registration',
           detail: 'Plano Super Bowl',
-          more: 'Event room, behind lanes 1-6',
-          time: '10am - 11:30am',
+          more: 'Registration closes promptly at 11:45!',
+          time: '10am - 11:45am',
         },
         {
-          name: 'Singles & Doubles Events (Shift A)',
+          name: 'Singles & Doubles Events',
           detail: 'Plano Super Bowl',
           more: '30-minute break between events',
           time: '12pm - 6pm',
-        },
-        {
-          name: 'Team Event (Shift B)',
-          detail: 'Plano Super Bowl',
-          more: '',
-          time: '7pm - 10:00pm',
         },
       ],
     },
@@ -48,13 +42,13 @@ const Schedule = () => {
       date: 'Sunday, August 10',
       events: [
         {
-          name: 'Singles/Doubles Awards Breakfast',
+          name: 'Bowler Breakfast',
           detail: 'Plano Super Bowl',
-          more: 'Bowlers from both shifts are welcome!',
+          more: 'Includes awards and raffles!',
           time: '9am - 10:00am',
         },
         {
-          name: 'Team Event (Shift A)',
+          name: 'Team Event',
           detail: 'Plano Super Bowl',
           more: '',
           time: '10am - 1pm',
@@ -62,14 +56,14 @@ const Schedule = () => {
         {
           name: 'Announcements',
           detail: 'Plano Super Bowl',
-          more: 'Team & All Events winners, special awards, Scratch Shootout qualifiers',
-          time: '1:15pm - 1:30pm',
+          more: 'Team & All Events awards, Scratch Shootout qualifiers',
+          time: '1:30pm - 1:45pm',
         },
         {
           name: 'Scratch Shootout',
           detail: 'Plano Super Bowl',
           more: '',
-          time: '1:30pm - 4pm',
+          time: '1:45pm - 4pm',
         },
       ]
     },
