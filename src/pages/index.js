@@ -28,7 +28,7 @@ const MainPage = () => {
 
       <Location/>
 
-      {/*<Schedule/>*/}
+      <Schedule/>
 
       {/*<Hotel/>*/}
       <Links/>
