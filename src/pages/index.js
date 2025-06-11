@@ -30,7 +30,7 @@ const MainPage = () => {
 
       <Schedule/>
 
-      {/*<Hotel/>*/}
+      <Hotel/>
       <Links/>
     </div>
   )
