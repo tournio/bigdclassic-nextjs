@@ -1,6 +1,7 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Carousel from "react-bootstrap/Carousel";
+import Button from "react-bootstrap/Button";
 import Image from "next/image";
 
 import hotelLogo from '../../images/hotel/logo.jpg';
@@ -17,14 +18,15 @@ import hotelImageRoom2 from '../../images/hotel/room2.jpeg';
 import hotelImageRoom3 from '../../images/hotel/room3.jpeg';
 import hotelImageRoom4 from '../../images/hotel/room4.jpeg';
 
+import {HOTEL_URL} from "../../utils/misc";
+
 import styles from './Hotel.module.scss';
 
 const Hotel = () => {
-  const hotelUrl = 'https://www.marriott.com/events/start.mi?id=1710278630415&key=GRP';
   const hotelName = 'Sheraton Dallas Hotel by the Galleria';
   const features = [
     'King or Double guest rooms',
-    // 'Room rate: $119/night, must book by July 26',
+    'Room rate: $125/night, must book by July 7',
     'Complimentary WiFi, breakfast, and parking',
     'Outdoor pool',
     'Fitness center',
@@ -57,7 +59,7 @@ const Hotel = () => {
         <Row className="justify-content-center">
           <Col xs={6} sm={5} md={4}>
             <p>
-              <a href={hotelUrl} className={styles.Logo}>
+              <a href={HOTEL_URL} className={styles.Logo}>
                 <Image className="img-fluid"
                        src={hotelLogo}
                        alt={hotelName + ' Logo'}/>
@@ -69,7 +71,7 @@ const Hotel = () => {
           <Col xs={12}>
             <p className={styles.Lead + " lead"}>
               The{' '}
-              <a href={hotelUrl}>{hotelName}</a>
+              <a href={HOTEL_URL}>{hotelName}</a>
               {' '}is proud to host the Big D Classic, with special rates for tournament bowlers.
             </p>
           </Col>
@@ -104,14 +106,14 @@ const Hotel = () => {
           {/*    2025 details TBA*/}
           {/*  </p>*/}
           {/*</Col>*/}
-          {/*<Col>*/}
-          {/*  <p className="text-center">*/}
-          {/*    <Button href={hotelUrl}*/}
-          {/*            variant="success">*/}
-          {/*      Book Your Room*/}
-          {/*    </Button>*/}
-          {/*  </p>*/}
-          {/*</Col>*/}
+          <Col>
+            <p className="text-center">
+              <Button href={HOTEL_URL}
+                      variant="success">
+                Book Your Room
+              </Button>
+            </p>
+          </Col>
         </Row>
         <Row className="order-3 order-md-2">
           <Col>

@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import {REGISTER_URL} from "../../utils/misc";
+import {REGISTER_URL, HOTEL_URL} from "../../utils/misc";
 
 import styles from './Spotlight.module.scss';
 
@@ -27,19 +27,19 @@ const Spotlight = () => {
       {/*  Registration will be opening soon, keep your eyes peeled!*/}
       {/*</Card.Text>*/}
 
-      <Card.Text as={'h5'}>
-        Registration is now open!
-      </Card.Text>
-      <Card.Text>
-        Be sure to get your team&apos;s registration submitted and paid in order to guarantee your spot.
-      </Card.Text>
-      <Card.Text className={`text-center mb-3`}>
-        <a href={REGISTER_URL}
-           className={`btn btn-primary`}
-        >
-          Register Now
-        </a>
-      </Card.Text>
+      {/*<Card.Text as={'h5'}>*/}
+      {/*  Registration is now open!*/}
+      {/*</Card.Text>*/}
+      {/*<Card.Text>*/}
+      {/*  Be sure to get your team&apos;s registration submitted and paid in order to guarantee your spot.*/}
+      {/*</Card.Text>*/}
+      {/*<Card.Text className={`text-center mb-3`}>*/}
+      {/*  <a href={REGISTER_URL}*/}
+      {/*     className={`btn btn-primary`}*/}
+      {/*  >*/}
+      {/*    Register Now*/}
+      {/*  </a>*/}
+      {/*</Card.Text>*/}
 
       {/*<Card.Text as={'h5'}>*/}
       {/*  Shift Added!*/}
@@ -59,17 +59,25 @@ const Spotlight = () => {
       {/*  </a>*/}
       {/*</Card.Text>*/}
 
-      {/*<Card.Text>*/}
-      {/*  Registration is sold out! Thank you to everyone who signed up so quickly! You can still*/}
-      {/*  use it to pay your fees, though.*/}
-      {/*</Card.Text>*/}
-      {/*<Card.Text className={'text-center'}>*/}
-      {/*  <a href="https://www.tourn.io/tournaments/big-d-2023"*/}
-      {/*     className="btn btn-success">*/}
-      {/*    Pay Fees*/}
-      {/*    {' '}<i className="bi bi-arrow-right" aria-hidden={true}/>*/}
-      {/*  </a>*/}
-      {/*</Card.Text>*/}
+      <Card.Text>
+        Registration is sold out! Thank you to everyone who signed up so quickly! You can still
+        use it to pay your fees, though.
+      </Card.Text>
+      <Card.Text className={'text-center mb-3'}>
+        <a href={REGISTER_URL}
+           className="btn btn-success">
+          Pay Fees
+          {' '}<i className="bi bi-arrow-right" aria-hidden={true}/>
+        </a>
+      </Card.Text>
+      <hr />
+      <Card.Text className={'text-center mb-3'}>
+        <a href={HOTEL_URL}
+           className="btn btn-primary">
+          Book Your Hotel Room
+          {' '}<i className="bi bi-arrow-right" aria-hidden={true} />
+        </a>
+      </Card.Text>
 
       {/*<Card.Subtitle className={'mb-2'} as={'h5'}>*/}
       {/*  It's tournament weekend!*/}
