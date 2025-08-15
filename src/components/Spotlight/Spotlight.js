@@ -59,25 +59,25 @@ const Spotlight = () => {
       {/*  </a>*/}
       {/*</Card.Text>*/}
 
-      <Card.Text>
-        Registration is sold out! Thank you to everyone who signed up so quickly! You can still
-        use it to pay your fees, though.
-      </Card.Text>
-      <Card.Text className={'text-center mb-3'}>
-        <a href={REGISTER_URL}
-           className="btn btn-success">
-          Pay Fees
-          {' '}<i className="bi bi-arrow-right" aria-hidden={true}/>
-        </a>
-      </Card.Text>
-      <hr />
-      <Card.Text className={'text-center mb-3'}>
-        <a href={HOTEL_URL}
-           className="btn btn-primary">
-          Book Your Hotel Room
-          {' '}<i className="bi bi-arrow-right" aria-hidden={true} />
-        </a>
-      </Card.Text>
+      {/*<Card.Text>*/}
+      {/*  Registration is sold out! Thank you to everyone who signed up so quickly! You can still*/}
+      {/*  use it to pay your fees, though.*/}
+      {/*</Card.Text>*/}
+      {/*<Card.Text className={'text-center mb-3'}>*/}
+      {/*  <a href={REGISTER_URL}*/}
+      {/*     className="btn btn-success">*/}
+      {/*    Pay Fees*/}
+      {/*    {' '}<i className="bi bi-arrow-right" aria-hidden={true}/>*/}
+      {/*  </a>*/}
+      {/*</Card.Text>*/}
+      {/*<hr />*/}
+      {/*<Card.Text className={'text-center mb-3'}>*/}
+      {/*  <a href={HOTEL_URL}*/}
+      {/*     className="btn btn-primary">*/}
+      {/*    Book Your Hotel Room*/}
+      {/*    {' '}<i className="bi bi-arrow-right" aria-hidden={true} />*/}
+      {/*  </a>*/}
+      {/*</Card.Text>*/}
 
       {/*<Card.Subtitle className={'mb-2'} as={'h5'}>*/}
       {/*  It's tournament weekend!*/}
@@ -88,14 +88,17 @@ const Spotlight = () => {
 
       {/*<hr/>*/}
 
-      {/*<Card.Subtitle className={'mb-2'} as={'h5'}>*/}
-      {/*  That's a wrap!*/}
-      {/*</Card.Subtitle>*/}
-      {/*<Card.Text>*/}
-      {/*  Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look*/}
-      {/*  forward to seeing everyone again next year.*/}
-      {/*</Card.Text>*/}
+      <Card.Subtitle className={'mb-2'} as={'h5'}>
+        That's a wrap!
+      </Card.Subtitle>
+      <Card.Text>
+        Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look
+        forward to seeing everyone again next year.
+      </Card.Text>
 
+      <Card.Text className={'mb-3'}>
+        Results will be posted here as soon as they are available.
+      </Card.Text>
       {/*<Card.Text className={'mb-3'}>*/}
       {/*    <a href='/results'>*/}
       {/*      2024 Results*/}

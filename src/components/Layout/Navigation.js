@@ -56,10 +56,10 @@ const Navigation = () => {
                 {navLink({
                   path: REGISTER_URL,
                   text: 'Register',
-                  // disabled: true,
-                  // title: 'Registration is not yet open',
-                  disabled: false,
-                  title: 'Register for the tournament',
+                  disabled: true,
+                  title: 'Registration is not yet open',
+                  // disabled: false,
+                  // title: 'Register for the tournament',
                 })}
 
                 {/*<li className={`nav-item`}>*/}
