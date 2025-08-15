@@ -8,9 +8,9 @@ const Rules = () => {
         Tournament Rules
       </h3>
 
-      {/*<p className={`text-md-center`}>*/}
-      {/*  (Pending finalization)*/}
-      {/*</p>*/}
+      <p className={`text-md-center`}>
+        (These rules were for the 2025 tournament. 2026 rules may be modified.)
+      </p>
 
       <ol>
         <li>The Big D Classic is an USBC certified tournament. The tournament is a mixed handicap competition open to
