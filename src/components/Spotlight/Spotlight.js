@@ -96,14 +96,14 @@ const Spotlight = () => {
         forward to seeing everyone again next year.
       </Card.Text>
 
-      <Card.Text className={'mb-3'}>
-        Results will be posted here as soon as they are available.
-      </Card.Text>
       {/*<Card.Text className={'mb-3'}>*/}
-      {/*    <a href='/results'>*/}
-      {/*      2024 Results*/}
-      {/*    </a>*/}
+      {/*  Results will be posted here as soon as they are available.*/}
       {/*</Card.Text>*/}
+      <Card.Text className={'mb-3'}>
+          <a href='/results'>
+            2025 Results
+          </a>
+      </Card.Text>
 
       {/*<hr/>*/}
 
