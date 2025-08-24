@@ -14,6 +14,8 @@ const Results = () => {
       { id: 'singles', name: 'Singles Event' },
       { id: 'all_events', name: 'All Events' },
       { id: 'special_awards', name: 'Special Awards' },
+      { id: 'big_eliminator_hdcp', name: 'Big Eliminator - Handicap' },
+      { id: 'big_eliminator_scr', name: 'Big Eliminator - Scratch' },
     ],
     [
       { id: 'prize_list', name: 'Prize List, including scratch side events'},
