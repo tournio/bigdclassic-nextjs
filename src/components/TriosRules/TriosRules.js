@@ -7,7 +7,7 @@ const TriosRules = () => {
     {
       header: 'Basics',
       markdown: `
-1. Tournament takes place on Saturday, 10 May, 2025.
+1. Tournament takes place on Saturday, 6 December, 2025.
 1. Location is Plano Super Bowl, 2521 K Ave, Plano, TX 75074, 972-881-0242
 1. Check-in begins at 11am, bowling begins at 12pm.
       `,
@@ -23,7 +23,7 @@ const TriosRules = () => {
     {
       header: 'Averages and Handicap',
       markdown: `
-1. Handicap 85% of 225, average based on 2023/24 Standard Composite Book, PSB tournament average, current average, or prior book averages.
+1. Handicap 85% of 225, average based on 2024/25 Standard Composite Book, PSB tournament average, current average, or prior book averages.
 1. **Director reserves the right to re-rate a bowler prior to start of the event.**
 1. The top 4 teams will bowl a Baker Style, single game, stepladder final.
 1. Handicap will be 85% of the difference in team averages.
@@ -33,7 +33,7 @@ const TriosRules = () => {
     {
       header: 'Logistics',
       markdown: `
-1. Tournament is on a recreational/house pattern.
+1. Tournament is on a recreational/house pattern, to be published on our Facebook page Thursday, December 4.
 1. Team order will be low to high average.
 1. Tournament consists of 6 games of team match play.
 1. Teams will draw for lane assignments for game 1. 
