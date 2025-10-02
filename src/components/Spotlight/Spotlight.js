@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import Link from "next/link";
 import {REGISTER_URL, HOTEL_URL} from "../../utils/misc";
 
 import styles from './Spotlight.module.scss';
@@ -88,42 +89,43 @@ const Spotlight = () => {
 
       {/*<hr/>*/}
 
-      <Card.Subtitle className={'mb-2'} as={'h5'}>
-        That's a wrap!
-      </Card.Subtitle>
-      <Card.Text>
-        Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look
-        forward to seeing everyone again next year.
-      </Card.Text>
+      {/*<Card.Subtitle className={'mb-2'} as={'h5'}>*/}
+      {/*  That's a wrap!*/}
+      {/*</Card.Subtitle>*/}
+      {/*<Card.Text>*/}
+      {/*  Thank you to everyone who joined us for the tournament! We hope you had a lot of fun, we sure did! We look*/}
+      {/*  forward to seeing everyone again next year.*/}
+      {/*</Card.Text>*/}
 
       {/*<Card.Text className={'mb-3'}>*/}
       {/*  Results will be posted here as soon as they are available.*/}
       {/*</Card.Text>*/}
-      <Card.Text className={'mb-3'}>
-          <a href='/results'>
-            2025 Results
-          </a>
-      </Card.Text>
+
+      {/*<Card.Text className={'mb-3'}>*/}
+      {/*    <a href='/results'>*/}
+      {/*      2025 Results*/}
+      {/*    </a>*/}
+      {/*</Card.Text>*/}
 
       {/*<hr/>*/}
 
-      {/*<Card.Text className={'mb-3'}>*/}
-      {/*  Our next Match Play Trios fundraising event takes place May 10.*/}
-      {/*</Card.Text>*/}
+      <Card.Text className={'mb-3'}>
+        Our next Match Play Trios fundraising event takes place December 6.
+      </Card.Text>
 
-      {/*<Card.Text className={'mb-3'}>*/}
-      {/*  <Link href={'/trios-rules'}>*/}
-      {/*    Details*/}
-      {/*  </Link>*/}
-      {/*</Card.Text>*/}
+      <Card.Text className={'mb-3'}>
+        <Link href={'/trios-rules'}>
+          Details
+        </Link>
+      </Card.Text>
 
-      {/*<Card.Text className={'text-center mb-3'}>*/}
-      {/*  <a href={REGISTER_URL}*/}
-      {/*     className="btn btn-primary btn-sm">*/}
-      {/*    Register Your Team*/}
-      {/*    <i className="bi bi-arrow-right ps-2" aria-hidden={true} />*/}
-      {/*  </a>*/}
-      {/*</Card.Text>*/}
+      <Card.Text className={'text-center mb-3'}>
+        <a href={REGISTER_URL}
+           className="btn btn-primary btn-sm">
+          Register Your Team
+          <i className="bi bi-arrow-right ps-2" aria-hidden={true} />
+        </a>
+      </Card.Text>
 
       {/*<Card.Text>*/}
       {/*  /!*We&apos;ll post results here as soon as they're available.*!/*/}

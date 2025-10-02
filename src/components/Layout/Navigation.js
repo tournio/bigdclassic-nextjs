@@ -53,14 +53,14 @@ const Navigation = () => {
                   text: 'Home',
                 })}
 
-                {navLink({
-                  path: REGISTER_URL,
-                  text: 'Register',
-                  disabled: true,
-                  title: 'Registration is not yet open',
-                  // disabled: false,
-                  // title: 'Register for the tournament',
-                })}
+                {/*{navLink({*/}
+                {/*  path: REGISTER_URL,*/}
+                {/*  text: 'Register',*/}
+                {/*  disabled: true,*/}
+                {/*  title: 'Registration is not yet open',*/}
+                {/*  // disabled: false,*/}
+                {/*  // title: 'Register for the tournament',*/}
+                {/*})}*/}
 
                 {/*<li className={`nav-item`}>*/}
                 {/*  <Link className={`nav-link`} href={'/#section-location'}>*/}
@@ -76,21 +76,21 @@ const Navigation = () => {
                 {/*  </Link>*/}
                 {/*</li>*/}
 
-                {navLink({
-                  path: '/rules',
-                  text: 'Rules',
-                  // disabled: false,
-                  // disabled: true,
-                  title: '',
-                })}
-
                 {/*{navLink({*/}
-                {/*  path: '/trios-rules',*/}
-                {/*  text: 'Match Play Trios',*/}
+                {/*  path: '/rules',*/}
+                {/*  text: 'Rules',*/}
                 {/*  // disabled: false,*/}
                 {/*  // disabled: true,*/}
                 {/*  title: '',*/}
                 {/*})}*/}
+
+                {navLink({
+                  path: '/trios-rules',
+                  text: 'Match Play Trios',
+                  // disabled: false,
+                  // disabled: true,
+                  title: '',
+                })}
 
                 {/*{navLink({*/}
                 {/*  path: '/dallas',*/}

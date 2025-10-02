@@ -8,5 +8,5 @@ export const useClientReady = () => {
   return ready;
 }
 
-export const REGISTER_URL = 'https://www.tourn.io';
+export const REGISTER_URL = 'https://www.tourn.io/tournaments/bigd-trios-2025';
 export const HOTEL_URL = 'https://www.marriott.com/event-reservations/reservation-link.mi?id=1749577100283&key=GRP&app=resvlink';
